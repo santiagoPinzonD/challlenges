@@ -52,14 +52,6 @@ nlu:
     - Sí buenos días
     - Tardes buenas tardes.
 
-- intent: 1_WELCOME
-  examples: |
-    - WELCOME
-
-- intent: 1_WELCOME_FALLBACK
-  examples: |
-    - *
-
 - intent: 1_WELCOME_REPEAT
   examples: |
     - allo
@@ -2481,21 +2473,6 @@ nlu:
 
 - intent: 3_FAQ_A
   examples: |
-    - 0
-    - 1
-    - 2
-    - 4
-    - 5
-    - 6
-    - 7
-    - 9
-    - 21
-    - 98
-    - 100
-    - 120
-    - 8320
-    - 11111111
-    - 333333333
     - 1 Juan
     - 10 Bueno gracias
     - 100 semanas
@@ -5339,10 +5316,6 @@ nlu:
     - nox
     - y no
 
-- intent: 4_CONFIRMATION_NO_FALLBACK
-  examples: |
-    - love
-
 - intent: 4_CONFIRMATION_YES
   examples: |
     - asi
@@ -5363,10 +5336,6 @@ nlu:
     - si correcto
     - Sí señora, no, señora no señora.
     - Sí señora, yo yo creo que está dentro del casco urbano casco urbano no es final ya nosotros Yo estoy en Pereira le estoy hablando de Pereira
-
-- intent: 4_CONFIRMATION_YES_FALLBACK
-  examples: |
-    - Para reportar el siniestro ya que no no, no, no me encuentro con la oportunidad de poder mandar virtualmente.
 
 - intent: 4_CONFIRMATION_YES_REPEAT
   examples: |
@@ -5413,7 +5382,6 @@ nlu:
   examples: |
     - Es correcto, es correcto.
     - correcto
-    - Es correcto, es correcto.
     - sí
 
 - intent: 5_CERTIFICATION_CONFIRMATIONNO
@@ -5456,10 +5424,6 @@ nlu:
     - por daño en mi carro
     - Por daño en mi vehículo.
     - por lesión.
-
-- intent: 5_QUOTES_CONFIRMATIONNO
-  examples: |
-    - no
 
 - intent: 5_QUOTES_CONFIRMATIONYES
   examples: |
