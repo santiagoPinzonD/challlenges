@@ -870,8 +870,6 @@ nlu:
     - Y puede recortar el un suceso una camioneta?
     - Y también.
     - Yo tengo un seguro de un vehículo de placas Dora María kilo 132
-    
-     
 
 - intent: 2_INFORMACION
   examples: |
