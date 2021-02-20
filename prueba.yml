@@ -182,19 +182,13 @@ nlu:
     - con una gente humanos
     - con una gente manos
     - Con una gente más, por favor.
-    - Con una gente más.
     - con una gente y mano
-    - Con una gente, por favor.
-    - con una mano
     - Corona gente humana
     - Corona gente humano
     - cuando la gente humana
     - cuando una gente humanos
-    - deseo comunicarme con la gente humana
     - Deseo comunicarme con la gente mal.
     - deseo comunicarme con la persona Gracias
-    - deseo comunicarme con un agente
-    - deseo comunicarme con un agente humano
     - deseo comunicarme con un asesor humano
     - deseo hablar con un agente humano
     - deseo hablar con un asesor
@@ -1130,7 +1124,6 @@ nlu:
     - Comunícame con una gente, porfa
     - Comunícame con una lente humano, por favor
     - Comunícame, por favor con la gente humano.
-    - comunicar agente humano
     - comunicar con la gente humano
     - comunicar con la gente mano
     - comunicar con un agente
@@ -1160,7 +1153,6 @@ nlu:
     - comunicarme con movimiento humano
     - comunicarme con servicio al cliente
     - comunicarme con un agente enano
-    - comunicarme con un agente humana
     - comunicarme con un agente humano, por favor
     - comunicarme con un agente humanos y estar a mano
     - comunicarme con un agente maná gracias
@@ -1230,18 +1222,14 @@ nlu:
     - con una en tu mano
     - con una enzima
     - con una fuente humano
-    - con una gente
     - Con una gente humana me quiero comunicar.
     - Con una gente humana para preguntarle cómo están desarrollando actualmente sus estrategias digitales.
-    - con una gente humana por favor
     - Con una gente humana, gracias.
     - con una gente humana, por favor
-    - con una gente humanos
     - con una gente humanos issste
     - con una gente humanos y
     - con una gente mano
     - con una gente mano, por favor
-    - Con una gente más, por favor.
     - Con una gente más.
     - con una gente masa con Ecuador
     - Con una gente me voy a comunicar.
@@ -1257,9 +1245,6 @@ nlu:
     - Con una gestión más mejor.
     - con una hoja en tu mano
     - con una lety malo por favor
-    - con una mano
-    - con una mano
-    - con una mano
     - con una mano por favor
     - Con una mano, gracias.
     - con una mano, por favor
@@ -1283,8 +1268,6 @@ nlu:
     - contacta con un asesor humano por favor
     - Coraline en tu mano, por favor
     - Corona en Tijuana
-    - Corona gente humana
-    - Corona gente humano
     - corona gt humano por favor
     - coronas en tu mano
     - coronas en tus manos me hace el favor
@@ -1438,7 +1421,6 @@ nlu:
     - la gente
     - la gente en mano por favor
     - la gente guano
-    - la gente humana
     - la gente humana gente humana
     - la gente humana, por favor
     - la gente mala, por favor
@@ -1891,7 +1873,6 @@ nlu:
     - Sí cuando la gente humana
     - Sí cuando un agente humano
     - si deseo comunicarme con acento humanos
-    - si deseo comunicarme con un agente humano
     - si deseo comunicarme con un agente humano
     - si deseo comunicarme con una diente humano
     - si en comunicarme con la gente humana
@@ -3346,7 +3327,6 @@ nlu:
     - arte humano
     - artera
     - asesor porfavor asesor
-    - asesoría
     - asesoría de seguros
     - asesoría de shopkins
     - asesoría en llantas
@@ -3363,7 +3343,6 @@ nlu:
     - asesoría sobre la póliza
     - asesoría sobre política
     - asesoría sobre reclamación de póliza
-    - asesorías
     - Así es que me han llamado para como yo tengo la casa asegurada, entonces me arreglaran un daño que tenía en mi contador.
     - autómata
     - autorización
@@ -3434,10 +3413,7 @@ nlu:
     - Comunícame con el agente humano Y le cuento
     - Comunícame con la canción
     - comunicar un agente humano
-    - comunicarme con la gente
-    - comunicarme con la gente humano
     - comunicarme con la gente max
-    - comunicarme con un agente humano
     - con un agente Manatí
     - Condesa nosotros cruz para una reclamación
     - confirmación de cuenta
@@ -3482,7 +3458,6 @@ nlu:
     - desembolso
     - deseo asesoría
     - deseo comunicarme con antemano
-    - deseo comunicarme con un agente
     - deseo comunicarme con YouTube
     - deseo conocer el correo electrónico de la empresa
     - desistimiento de siniestro
@@ -3632,7 +3607,6 @@ nlu:
     - la computadora imágenes
     - la consulta
     - la cuestión mecánica del carro del clutch
-    - la gente humana
     - la guía para hacer el pago de un salvamento
     - La necesito lo que va a saber que yo solicité una grúa, pero no ha llegado Entonces ya ya tengo rato.
     - La necesito para que me confirmes porque seguro del Estado no ha realizado el pago y desembolso que yo hice del arreglo del vehículo.
@@ -5014,7 +4988,6 @@ nlu:
   examples: |
     - agente humano para cartera
     - amiga
-    - asesoría
     - automóvil automóvil
     - Ay
     - Chevrolet 44444
@@ -5071,9 +5044,7 @@ nlu:
     - agente monte
     - asesor un asesor
     - como sea registrar Argentina
-    - deseo comunicarme con la gente humana
     - deseo comunicarme con la gente manos
-    - deseo comunicarme con un agente
     - Dígame ahorita, me hace favor señorita.
     - Face
     - GTA
