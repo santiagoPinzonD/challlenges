@@ -21,14 +21,10 @@ nlu:
     - buenas
     - Buenas noches.
     - buenas tarde
-    - buenas tardes mi
     - Buenas tardes Necesito por favor
-    - Buenas tardes, Necesito
     - Buenas tardes.
     - buenas, necesito
-    - bueno
     - Bueno me gustaría
-    - Buenos día
     - Buenos días
     - Aló buenas noches
     - buenos días
@@ -48,7 +44,6 @@ nlu:
     - los días
     - Sí buenas
     - Sí buenas tardes
-    - sí buenas tardes
     - Sí buenos días
     - Tardes buenas tardes.
 
