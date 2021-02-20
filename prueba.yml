@@ -521,7 +521,7 @@ nlu:
     - Estoy varado.
     - no asistencia en venta
     - Si necesito solicitar inspección
-    - el me gustaría que hiciera un abogado aquí y ahorita para hacer el transbordo para una grúa para llevarle un taller autorizado Armenia
+    - el me gustaría que hiciera un abogado aquí y ahorita para hacer el transbordo para una grúa para llevarle un taller autorizado [Armenia](city)
     - sin asistencia
 
 - intent: 2_CANCELACIONPOLIZA_TRANSFER
@@ -616,7 +616,7 @@ nlu:
     - el Gracias para reclamar la indemnización de mi vehículo
     - el patito comunicarme con un agente de servicios
     - elena me puedes comunicar con un asesor porfavor
-    - En la Ciudad de Cali hacen retención de ica?
+    - En la Ciudad de [Cali](city) hacen retención de ica?
     - es para averiguar sobre una incapacidad florida
     - Es que tengo una invitación a reclamar Pero entonces entre las cosas que me solicita me piden un certificado extrajuicio.
     - estado de mi póliza [jjj444](pid)
@@ -646,7 +646,7 @@ nlu:
     - Hola Me están cobrando dos seguros de mi moto.
     - Hola Muy buenos días, Quiero saber si está bien asegurar motos
     - Hola Necesito una carta de no reclamación
-    - í buenas tardes Elena Cómo ésta habla con la administradora del conjunto Residencial Balcones del de lo que pasa es que tengo problemas un apartamento de agua de filtración de agua y parece que fue el bajarse de áreas comunes entonces necesito, porfa.
+    - í buenas tardes [Elena](name) Cómo ésta habla con la administradora del conjunto Residencial Balcones del de lo que pasa es que tengo problemas un apartamento de agua de filtración de agua y parece que fue el bajarse de áreas comunes entonces necesito, porfa.
     - iaca germania portería
     - indicaciones
     - información de placa de un vehículo nuevo
@@ -721,7 +721,7 @@ nlu:
     - precio Comunícame con en tucumán
     - Prefiero comunicarme con las personas.
     - Prefiero comunicarme con una de tu mano.
-    - Puedo estar ahorita del banco sudameris?
+    - Puedo estar ahorita del banco [sudameris?](bank)
     - Que alguien me conteste, gracias.
     - quejas
     - Quién tomó los seguros de generali?
@@ -741,12 +741,12 @@ nlu:
     - si estoy a la espera de una devolución del pago de un siniestro
     - Sí muchas gracias Quisiera pedir un favor Yo soy cliente de RQT
     - slack online
-    - solicitar correo electrónico de J
+    - solicitar correo electrónico de [J](name)
     - Solicitó una renovación que no me ha llegado.
-    - Soy H necesito pagar una una factura y me la reciben en el banco que puedo hacer.
+    - Soy [H](name) necesito pagar una una factura y me la reciben en el banco que puedo hacer.
     - tarjeta buenos días
     - Tengo el seguro con ustedes, quiero validar las pólizas.
-    - tengo factura de falabella y RQT y para pagar el seguro de mi auto
+    - tengo factura de [falabella](bank) y RQT y para pagar el seguro de mi auto
     - Tengo una factura enviada por ustedes y no sé a qué póliza corresponde.
     - Tengo una inquietud
     - trámite vehicular
@@ -1290,7 +1290,7 @@ nlu:
     - De cuánta gente por favor?
     - de tu mano
     - Debiendo un agente humano, por favor.
-    - decorada con un agente humano San Martín
+    - decorada con un agente humano [San Martín](name)
     - Define una agente humano por favor Gracias
     - deja que la gente
     - deseo comunicarme con 1 en tu mano
@@ -1482,7 +1482,7 @@ nlu:
     - me quiero comunicar con un agente humana
     - Me quiero comunicar con una ex.
     - me quiero comunicarme con un agente humano
-    - Me tocó de Cali con un agente humano.
+    - Me tocó de [Cali](name) con un agente humano.
     - Me tomo una gente por favor
     - médico un agente humano agente humano
     - medio comunicarme con animal
@@ -2282,7 +2282,7 @@ nlu:
     - asentí mal
     - asiento humano
     - asignación de taller
-    - asistencia médica de seguros generali en Medellín
+    - asistencia médica de seguros generali en [Medellín](city)
     - Asistente virtual Elena o ingresando al link correspondiente que encontrarás en la página web.
     - atención personalizada
     - Atiendan a ver cómo sigue cómo va el proceso?
@@ -2301,7 +2301,7 @@ nlu:
     - baladas un poquito para montarlo ahora
     - batería descargada
     - Buenas tardes al entre barriga
-    - Buenas tardes, Habla con los cacaos Caicedo
+    - Buenas tardes, Habla con los cacaos [Caicedo](name)
     - bueno
     - bueno buenas noches por favor me puedes me puedes recargar un
     - Bueno gracias
@@ -2311,7 +2311,7 @@ nlu:
     - bueno yo hablo con él para que vehículo
     - bueno, como cómo como averiguó por un reembolso invencible de un de un
     - bueno, él es que no iban a tragar ahorita y el carro lo golpearon en la puerta delantera de la parte donde va el chofer y le hicieron unos Rayones
-    - bueno, específicamente la la que me coje el seguro si se llama omaira, Herrera
+    - bueno, específicamente la la que me coje el seguro si se llama [omaira, Herrera](name)
     - Bueno, seguro de RQT.
     - Buenos días Buenos días, señor, que tengo un accidente con mi vehículo me golpearon en la parte de atrás aquí con la vida turbaco.
     - Buenos días es para solicitar el proceso para una desafectación de póliza.
@@ -2400,7 +2400,7 @@ nlu:
     - copa
     - coronación tu mami, por favor
     - coronavirus
-    - correo es [2980 180 arroba hotmail.com](e_mail)
+    - correo es 2980 180 arroba hotmail.com
     - cosas
     - cosas íntimas
     - cotizar todo riesgo
@@ -2474,8 +2474,8 @@ nlu:
     - Eres el conductor.
     - es
     - Es de acá de germania, germania, Conjunto armonía.
-    - Es el banco sudameris.
-    - Es la información que le envió Sí pues sí, sí llegó el radicado número [69 244](number_doc).
+    - Es el banco [sudameris.](bank)
+    - Es la información que le envió Sí pues sí, sí llegó el radicado número [69 244](pid).
     - Es para llevar el carro que está por siniestro de [anzoátegui](city) tolima a [ibagué](city) en grúa.
     - Es para reclamar el obsequio por la compra del seguro.
     - Es para reportar el daño a un vehículo.
@@ -2493,13 +2493,13 @@ nlu:
     - estado de
     - estado de cartera
     - estalló, la llanta del vehículo
-    - estando mal enfermarme el correo electrónico de h
+    - estando mal enfermarme el correo electrónico de [h](name)
     - Estás frío?
     - estimado
     - estimado por
     - estoico
     - Estoy averiguando Cómo va uno está un trámite de una incapacidad.
-    - Estoy en Bogotá y voy para Madrid con Dinamarca el picure.
+    - Estoy en [Bogotá](city) y voy para [Madrid](city) con Dinamarca el picure.
     - Estoy por favor.
     - Estoy solicitando copia del número de la póliza, por favor.
     - ex
@@ -2732,7 +2732,7 @@ nlu:
     - Neomicina
     - neta necesito 3 comunicándome sistema humano
     - Nicky
-    - Nicole neumann
+    - [Nicole neumann](name)
     - Nike
     - niña Buenos días
     - No aparece el número de cuenta.
@@ -2978,7 +2978,7 @@ nlu:
     - quiero hacer
     - Quiero hacer la cotización sobre para un vehículo.
     - Quiero lastimar
-    - Quiero pagar a través del Banco de Bogotá o de tarjeta de crédito.
+    - Quiero pagar a través del [Banco de Bogotá](bank) o de tarjeta de crédito.
     - Quiero que me diga que que necesito para que me solucione un problema de una incapacidad
     - Quiero renovar la póliza y quiero saber el valor.
     - Quiero saber detalladamente la póliza que tengo con ustedes.
@@ -3056,7 +3056,7 @@ nlu:
     - Si estoy mal.
     - si lo haces
     - si me sirve el [Renault 2015](model_car)
-    - si necesita consultar una póliza de con humberto ortiz yo soy anto
+    - si necesita consultar una póliza de con [humberto ortiz](name) yo soy anto
     - Si necesito comunicarme con alguien que me escuche.
     - Sí pero cómo hago para solicitar los
     - Si por favor con una persona que puede hablar.
@@ -3110,7 +3110,7 @@ nlu:
     - Te recordamos que ahora puedes coordinar tu citas médicas con especialistas a través de nuestra asistente virtual Elena o ingresando al link correspondiente que encontrarás en la página web.
     - Team
     - Teddy
-    - Tegucigalpa
+    - [Tegucigalpa](city)
     - tengo
     - Tengo doble facturación falabela y RQT y para el de las 2 Debo pagar
     - Tengo póliza con ustedes.
@@ -3328,7 +3328,7 @@ nlu:
     - asesoría de shopkins
     - asesoría en llantas
     - asesoría en los seguros de H
-    - asesoría fuera de Bogotá
+    - asesoría fuera de [Bogotá](city)
     - asesoría general
     - asesoría jurídica
     - asesoría para reclamación
@@ -3641,7 +3641,7 @@ nlu:
     - maino maya gracias
     - manicure
     - márgenes solución problema
-    - Mariana yazbek
+    - [Mariana yazbek](name)
     - mascotas
     - Me acabó de despertar.
     - Me acabo de estrellar.
@@ -3672,7 +3672,7 @@ nlu:
     - necesito algo igual si un vehículo estacionado el día
     - Necesito asesoría sobre cobro de seguro de vida.
     - Necesito asesoría.
-    - Necesito asistencias para una para una audiencia El lunes.
+    - Necesito asistencias para una para una audiencia El [lunes](date).
     - Necesito averiguame un algunos corr
     - Necesito averiguar A nombre de quién se gira un cheque para pago de una póliza.
     - Necesito averiguar Cómo va mi crédito de libranzas.
@@ -3900,7 +3900,7 @@ nlu:
     - para averiguar sobre un pago
     - para averiguar sobre un seguro
     - para averiguar sobre un siniestro
-    - para averiguar sobre un vehículo que está en la ciudad de Barranquilla
+    - para averiguar sobre un vehículo que está en la ciudad de [Barranquilla](city)
     - Para averiguar sobre un vehículo que están transportando y no me ha llegado al sitio.
     - para averiguar sobre una autorización de un imprevisto de mi vehículo
     - para averiguar sobre una consignación de un pago de un incidente
@@ -3981,7 +3981,7 @@ nlu:
     - para dedicar unas preguntas respecto al traspaso de un vehículo
     - para descargar certificados de Retrica
     - para detectar un problema sobre la póliza
-    - para el abogado para que mire el caso que se puede hacer y todo eso y la y la grúa para llevar el carro hacia Armenia
+    - para el abogado para que mire el caso que se puede hacer y todo eso y la y la grúa para llevar el carro hacia [Armenia](city)
     - para el caso de un siniestro
     - Para el cobro de mi seguro.
     - Para el pago de incapacidad.
@@ -4089,7 +4089,7 @@ nlu:
     - Para llegar como de proceso de un cambio de llaves.
     - para llevar el carro
     - Para lo del seguro todo riesgo del auto.
-    - Para lo siguiente aquí a mi correo me está llegando una serie de mensajes de una de un señor Salamanca de unos carros que yo no tengo ni idea, qué será eso me conozco y es de duitama.
+    - Para lo siguiente aquí a mi correo me está llegando una serie de mensajes de una de un señor [Salamanca](name) de unos carros que yo no tengo ni idea, qué será eso me conozco y es de [duitama](city).
     - para mayor información sobre mí mi solicitud de siniestro
     - Para me comunicaron para que me solucionen algo respecto al taller para un arreglo de un carro.
     - Para meterme lo por el culo arriba.
@@ -4217,7 +4217,7 @@ nlu:
     - Para que me digas en qué va mi proceso de un carro.
     - Para qué me digas formación sobre el vehículo?
     - Para que me digas si estoy asegurada con ustedes.
-    - para que me dijo ormación si con la aseguradora puedo realizar un peritaje al vehículo en la ciudad de Medellín
+    - para que me dijo ormación si con la aseguradora puedo realizar un peritaje al vehículo en la ciudad de [Medellín](city)
     - para que me el número de radicación de una reclamación
     - Para que me emitan, por favor, el estado de cuenta que tengo cita ahora de control y me exigen el estado de cuenta actual del todas.
     - Para que me entienda.
@@ -4255,7 +4255,7 @@ nlu:
     - Para que me orienten a que se entrena Hoy para una revisión del vehículo para viaje.
     - Para que me paguen las bolitas.
     - Para que me preguntó.
-    - Para que me presten el servicio de traslado de un vehículo de aguachica aquí a Bogotá por daño el motor.
+    - Para que me presten el servicio de traslado de un vehículo de [aguachica](city) aquí a [Bogotá](city) por daño el motor.
     - para que me pueda
     - Para que me recordarás Araceli las preguntas.
     - Para que me resuelva el tema de una facturación.
@@ -4267,7 +4267,7 @@ nlu:
     - para que me solucione un problema de una reclamación a terceros
     - Para que me un dato sobre una un taller que me arreglo el vehículo porque no me dan garantías de algo.
     - Para que me verifiquen que va el proceso de una solicitud que realice el [8 de diciembre](date).
-    - Para que mi formación sobre el seguro que tengo con por medio sin comercio con h.
+    - Para que mi formación sobre el seguro que tengo con por medio sin comercio con [h](name).
     - para que mi información de un siniestro
     - para que mi respuesta de un reclamación planea tercero
     - Para que mi respuesta una reclamación Ya me mandaron el fin retirar la plata y el filo está desactivado.
@@ -4302,7 +4302,7 @@ nlu:
     - para reclamación
     - para reclamar el obsequio de kit de carretera
     - para reclamar la devolución de un deducible
-    - Para recoger una mula de una empresa que llama cargo frío aquí en Santa Rosa claro por motos.
+    - Para recoger una mula de una empresa que llama cargo frío aquí en [Santa Rosa](city) claro por motos.
     - para reconsiderar un seguro
     - para reemplazo de carro
     - para renovación de la póliza de seguros
@@ -4367,7 +4367,7 @@ nlu:
     - Para saber si tenemos cubrimiento de grúa.
     - Para saber si tengo mi servicio de seguro todo riesgo activo.
     - Para saber si un número de cédula tiene póliza vigente de autos.
-    - Para saber si ya está el carro que traían de Bogotá al taller.
+    - Para saber si ya está el carro que traían de [Bogotá](city) al taller.
     - Para saber si ya está en el sistema el vehículo de placas [D.F 789](plate_car).
     - Para saber si ya llegaron unos locos de un carro.
     - para sacar el permiso
@@ -4435,7 +4435,7 @@ nlu:
     - para tener información sobre mi vehículo
     - Para tener una respuesta tonta de mi solicitud porque me comunicaba por varios medios y no he tenido respuesta.
     - para tonificar una cotización
-    - Para traer el carro de filandia, acá la casa porque yo soy adulta mayor.
+    - Para traer el carro de [filandia](city), acá la casa porque yo soy adulta mayor.
     - para tramitar un seguro por colisión
     - para tutoría
     - Para un carro que tú sigues todo un accidente un carro mío, con otro carro de que está asegurado haya.
@@ -4487,7 +4487,7 @@ nlu:
     - para una indemnización
     - para una indemnización que estar pendiente
     - para una información
-    - Para una información de un seguro que debe haber sido ya cancelado al banco finandina, mami por la accidente acción de un auto que yo adquirir en finandina.
+    - Para una información de un seguro que debe haber sido ya cancelado al banco [finandina](name), mami por la accidente acción de un auto que yo adquirir en [finandina](bank).
     - para una información de una póliza de asistencia en casa
     - para una inquietud de unas primas
     - Para una inquietud que tengo de una póliza de un seguro Acá está regalando la ciudad de manizales.
@@ -4774,7 +4774,7 @@ nlu:
     - solicitó
     - solicitó certificado de pago del deducible
     - solicitó indemnización
-    - solicitó la dirección de la oficina principal en Bogotá
+    - solicitó la dirección de la oficina principal en [Bogotá](city)
     - Solicitó saber sobre el trámite de una limitación.
     - solicitud
     - solicitud certificaciones tributarias
@@ -4920,7 +4920,7 @@ nlu:
     - si gracias
     - si correcto
     - Sí señora, no, señora no señora.
-    - Sí señora, yo yo creo que está dentro del casco urbano casco urbano no es final ya nosotros Yo estoy en Pereira le estoy hablando de Pereira
+    - Sí señora, yo yo creo que está dentro del casco urbano casco urbano no es final ya nosotros Yo estoy en [Pereira](city) le estoy hablando de [Pereira](city)
 
 - intent: 4_CONFIRMATION_YES_REPEAT
   examples: |
@@ -5004,7 +5004,7 @@ nlu:
     - con un asesor personal
     - coraje tu mano, por favor
     - Es que necesito que por favor me colabora entrenamiento.
-    - Ian Lucas
+    - [Ian Lucas](name)
     - Me enviaste el mensaje a donde un mensaje de texto?
     - Necesito hablar con alguien más
     - Necesito saber la fecha exacta de una consignación que me van a hacer
