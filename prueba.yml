@@ -123,8 +123,6 @@ nlu:
     - asesoría asesorías
     - asesoría con una persona
     - asesorías
-    - atención al cliente
-    - cie
     - coma gente
     - Cómo hablar con un asesor humano
     - Como la gente mala.
@@ -198,9 +196,6 @@ nlu:
     - deseo comunicarme con un agente
     - deseo comunicarme con un agente humano
     - deseo comunicarme con un asesor humano
-    - Deseo comunicarme con un asesor.
-    - deseo comunicarme con una gente humana
-    - deseo hablar con un agente
     - deseo hablar con un agente humano
     - deseo hablar con un asesor
     - deseo un humano
@@ -220,23 +215,19 @@ nlu:
     - Gracias Necesito un agente humano por favor
     - Gracias Necesito un asesor
     - Gracias Quiero comunicarme con un agente humano
+    - hablar con un humano
     - hablar con asesor humana
     - hablar con asesor humano
     - hablar con asesor mano
     - Hablar con asesor.
     - hablar con gente
     - hablar con la gente humana
-    - Hablar con la gente.
-    - hablar con un agente
     - hablar con un agente humano
     - hablar con un agente humano humano
     - Hablar con un agente mal.
     - hablar con un agente umán
     - hablar con un asesor humano
-    - Hablar con un asesor.
-    - hablar con un humano
     - hablar con un representante
-    - hermano
     - hermanos
     - Hola con una gente
     - Hola gente humana
@@ -248,7 +239,6 @@ nlu:
     - humano
     - humanos
     - imagen tu mano
-    - imagen tu mano, por favor
     - imágenes de humano
     - la asesoría
     - la comunicarme con la gente humano
@@ -256,7 +246,6 @@ nlu:
     - la gente humana
     - la gente humano
     - la gente mala
-    - la gente por favor
     - la hablar con asesor
     - la Quiero comunicarme con una gente mala
     - la séptima
@@ -273,7 +262,6 @@ nlu:
     - Me pueden comunicar con un asesor humano, gracias.
     - Me puedes comunicar con un agente humano, gracias.
     - Me puedes comunicar con un agente humano, por favor?
-    - Me puedes comunicar con un agente humano?
     - Me puedes comunicar con un asesor humano, por favor?
     - Me puedes comunicar con un asesor humano?
     - Me quiero comunicar con un asesor humano.
@@ -282,7 +270,6 @@ nlu:
     - Necesito asesor humano.
     - Necesito asesor humanos.
     - Necesito asesoría con un asesor humanos.
-    - Necesito asesoría.
     - Necesito comunicarme con agente humano.
     - Necesito comunicarme con el agente humano.
     - Necesito comunicarme con imagen tu mano.
@@ -359,7 +346,6 @@ nlu:
     - por favor comunicar con un asesor humano
     - por favor comunicarme con un agente humanos
     - por favor comunicarse con agente humano
-    - por favor con un agente humano
     - por favor con una gente humana
     - por favor me comunicas con un agente humano
     - por favor me comunicas con un agente humano gracias
@@ -384,7 +370,6 @@ nlu:
     - prefiero comunicarme con agente humano
     - Prefiero comunicarme con Ángel humano.
     - prefiero comunicarme con Argentina
-    - prefiero comunicarme con argentina
     - Prefiero comunicarme con el agente humano.
     - Prefiero comunicarme con el agente mano.
     - prefiero comunicarme con la gente
@@ -575,7 +560,6 @@ nlu:
     - ningún otro el certificado
     - Necesito averiguar un pago de una indemnización.
     - CURP
-    - hablar con un agente humano
     - Necesito copia de la de una póliza.
     - Necesito copia de la póliza.
     - si necesito copia de mi póliza de seguro
@@ -911,7 +895,6 @@ nlu:
     - el sobrado insignias
     - etario
     - fiyi
-    - hablar con un humano
     - kahlo
     - logo para películas
     - mazda 6
@@ -957,1287 +940,1243 @@ nlu:
 
 - intent: 3_CALLTRANSFER
   examples: |
-      - 30 comunicarme con él en tu mano
-      - 30 comunicarme con un agente humano
-      - 30 con un agente humano
-      - 5 lunas en tu mano
-      - A un favor Para comunicarme con un asesor de hs burós.
-      - A ver tus manos.
-      - A ver, necesito comunicarme con la gente.
-      - aceite humano
-      - activo humano
-      - Además en tu mano, porfa.
-      - adjetivo mano
-      - agencia humano
-      - agencia humanos
-      - agencia mano
-      - agencia manos
-      - agente 1
-      - agente a mano, por favor
-      - agente agente humano
-      - agente bueno
-      - agente comal
-      - agente Homero
-      - agente humana
-      - agente humano
-      - agente humano comunicar con agente humano
-      - agente humano comunicarme siente mal
-      - agente humano con la gente mano Muchas gracias
-      - Agente humano gracias.
-      - agente humano llega covid
-      - agente humano mejor servicio para un mejor servicio
-      - agente humano por favor acento humano
-      - agente humano por favor agente humano
-      - agente humano por favor comunicarme
-      - agente humano prefiere la gente humano
-      - Agente humano sí.
-      - agente humano, porfa
-      - agente humanos y tan amable
-      - agente iguano
-      - Agente Juan
-      - agente Juana
-      - agente Kidman
-      - agente maga
-      - agente mano, por favor
-      - agente más
-      - agente Max
-      - agente morado
-      - agente o varón
-      - agente omán
-      - agente Omar
-      - agente Vargas
-      - agente varón
-      - agente Venom
-      - agente virtual
-      - agente y bueno
-      - agente, por favor
-      - agente, porfa agente
-      - agentes mano, por favor
-      - agenting prefiero comunicarme con un agente humanos
-      - agradecería con agente humano
-      - agradezco más en tu mano
-      - Ah bueno con una gente humano Entonces es tan amable
-      - algún agente cubano
-      - alguna gente humana
-      - Alguna gente más buenos días, Por favor, a ver si me colabora el chiste es que no he podido comunicarme a ver que me informan.
-      - ambiente humano
-      - americana con una gente, por favor
-      - Amor colaboren, es que estoy haciendo aquí en el río combeima.
-      - andas en tu mano
-      - Ángel
-      - Ángel humano
-      - Ángel humano
-      - Ángel plano
-      - Ángel quemain
-      - Ángel queman
-      - Ángel sumano
-      - Ángel tomarlo
-      - Ángel tu mano, por favor
-      - aprender a comunicarnos con un agente humano Muchas gracias
-      - Argentina 2
-      - argentina sistemas
-      - argentino manos
-      - argentino, por favor
-      - argento mano
-      - argentum mano
-      - Ariel de humano
-      - Ariel tu mano
-      - armé con un agente humano
-      - ascensor humano
-      - asentí humano
-      - asesoría
-      - así tu mano
-      - aspentech humano
-      - atención al cliente
-      - ay por favor comunicarme con un agente humano
-      - bodas en tu mano, por favor
-      - brasero comunicarme con la gente humana
-      - bueno con un agente humano
-      - Bueno con una gente humana mejor.
-      - bueno con una gente humana porfavor
-      - Bueno con una gente porque es que aquí no entiendo O sea yo hablo y usted no me contesta nada.
-      - Bueno les comunica con acento humano
-      - Bueno me quisiera comunicarme con la gente
-      - Bueno para comunicarme con agente humano.
-      - Bueno si no te hagas el favor y se comunica con una gente más
-      - bueno si sería tan amable me informa con alguien
-      - Bueno un agente humano
-      - bueno, necesito comunicarme con un asesor que me pueda confirmar si estoy vinculada un seguro que tome con RQT
-      - Buenos días con una gente humana, porfa
-      - Buscar con la gente humano
-      - Buscar gente
-      - Buscar un agente humano en El Salvador
-      - caminar de mano, por favor
-      - carmen por favor con un consultor
-      - carne con un agente humano
-      - casero comunicarme con un asesor
-      - cédula va a comunicar la corona de Tijuana
-      - chica de la gente mala
-      - chica para comunicarme con un agente humano
-      - chicle quiero comunicarme con un agente humano
-      - chico la gente humano
-      - chicos nadie tu mano
-      - chikuru la gente, por favor
-      - chinito un agente humano, por favor
-      - cinco más en tu mano, por favor
-      - ciprobac un agente humano
-      - coco 1 entonces con una gente
-      - colegio humane
-      - colegio humano
-      - Colgando en tus manos
-      - Colón argentinos
-      - colorante humano por favor
-      - columna gente por favor
-      - columna gentium mano por favor
-      - comandante humano por favor
-      - comercial cine argentino, por favor
-      - comida con un agente Juan
-      - Como agente humano, por favor.
-      - Cómo comunicarse con un agente
-      - Cómo es en tu mano, por favor.
-      - Cómo hacer que humano
-      - Cómo hacer un asesor, por favor
-      - como la gente por favor
-      - cómo más en tu mano por favor
-      - Cómo nace en tu mano
-      - cómo puedes comunicar con una gente humana
-      - Cómo puedo comunicarme con un agente humano
-      - Cómo se casa con la gente mano, por favor.
-      - Cómo sentir humano
-      - como un agente humano
-      - como una de tu mano por favor
-      - como una gente buena
-      - Cómo van en tu mano
-      - Cómo vas en tu mano, porfa?
-      - Cómo vas en tu mano?
-      - comuna Comunícame con un agente humano
-      - comunicación con funcionario
-      - comunicación con la gente humana
-      - comunicación con la gente humano
-      - comunicación copa Argentina
-      - comunicado con una
-      - comunicado con una gente
-      - Comunícame con
-      - Comunícame con 21
-      - Comunícame con acento mal
-      - Comunícame con agente humano
-      - Comunícame con Ángel tu mano
-      - Comunícame con asesor
-      - Comunícame con el agente
-      - Comunícame con el agente humano
-      - Comunícame con Enrique Guzmán
-      - Comunícame con imagen tu mami
-      - Comunícame con imagen tu mano
-      - Comunícame con la gente
-      - Comunícame con la gente humana
-      - Comunícame con la gente humano
-      - Comunícame con la gente humanos
-      - Comunícame con la gente y manos
-      - Comunícame con la gente, por favor
-      - Comunícame con las dos
-      - Comunícame con majito humano
-      - Comunícame con Messenger
-      - Comunícame con tu mano
-      - comunícame con un agente humano
-      - Comunícame con un agente humano
-      - Comunícame con un agente humano, por favor
-      - Comunícame con un agente mano
-      - comunícame con un agente poco
-      - comunícame con un argentino por favor
-      - Comunícame con una Gema
-      - Comunícame con una gente
-      - comunícame con una gente humana más bien
-      - Comunícame con una gente, porfa
-      - Comunícame con una lente humano, por favor
-      - Comunícame, por favor con la gente humano.
-      - comunicar agente humano
-      - comunicar con la gente humano
-      - comunicar con la gente mano
-      - comunicar con un agente
-      - comunicar con un agente humano
-      - comunicar con un asesor comercial
-      - comunicar con una gente más
-      - comunicar con una n
-      - comunicarme
-      - comunicarme 1 gen
-      - comunicarme comunicarme con un agente humano por favor
-      - comunicarme con
-      - comunicarme con aceite humano
-      - comunicarme con adjetivos
-      - comunicarme con agente humano
-      - comunicarme con Ángel de humano
-      - comunicarme con Argentina
-      - comunicarme con derecho humano
-      - comunicarme con don ángel piumato
-      - comunicarme con gente humanos
-      - comunicarme con la gente
-      - comunicarme con la gente humana
-      - Comunicarme con la gente humana que se puede cortos.
-      - comunicarme con la gente humano
-      - Comunicarme con la gente humano, por favor con la información importante.
-      - comunicarme con la gente humans
-      - Comunicarme con la gente igual.
-      - comunicarme con la gente mano, por favor
-      - comunicarme con la gente vommaro
-      - comunicarme con la gente y más
-      - comunicarme con la mente humana comunicarme
-      - comunicarme con lento
-      - comunicarme con lg optimus
-      - comunicarme con maggie tu mano
-      - comunicarme con movimiento humano
-      - comunicarme con servicio al cliente
-      - comunicarme con un agente
-      - comunicarme con un agente enano
-      - comunicarme con un agente humana
-      - comunicarme con un agente humano
-      - comunicarme con un agente humano, por favor
-      - comunicarme con un agente humanos y estar a mano
-      - comunicarme con un agente maná gracias
-      - comunicarme con un agente mano por favor
-      - comunicarme con un agente mano
-      - comunicarme con un agente mano por favor
-      - comunicarme con un agente más
-      - comunicarme con un agente un álbum
-      - comunicarme con un agente y mami
-      - comunicarme con un asesor
-      - comunicarme con un asesor humano
-      - comunicarme con un asesor humano, por favor
-      - comunicarme con un entorno
-      - comunicarme con una agencia humano
-      - comunicarme con una en tu mano, por favor
-      - comunicarme con una estoma
-      - comunicarme con una gente buena
-      - comunicarme con una gente humana
-      - comunicarme con una gente humana por favor
-      - comunicarme con una gente muere
-      - comunicarme con una gestión
-      - comunicarme con una humano, gracias
-      - comunicarme con una última
-      - comunicarnos con un agente humano
-      - comunicarse con un angelito humano
-      - comunicarse con una entidad
-      - con agente humano
-      - con ánimo por favor
-      - con argentinos
-      - con Diana
-      - con el agente humano
-      - Con el agente humano
-      - Con el agente humano por favor
-      - Con el agente virtual
-      - con exactitud
-      - con heladito humano
-      - con imagen tío mano por favor
-      - con la gente
-      - con la gente humana
-      - Con la gente humana prefiero comunicarme con una gente humana, pero Quiero comunicarme con la gente humana.
-      - con la gente humano
-      - con la tesorera con la tesorera aires
-      - con los últimos años
-      - con magia de humanos
-      - con malla ser humano
-      - con otra gente más porfa, Gracias
-      - Con quien habló Perdón es que necesito un asesor Tuve un accidente en el carro que tengo afiliado a esa empresa y necesito que venga un asesor acá donde estoy.
-      - con un acento humano
-      - con un agente
-      - con un agente +
-      - Con un agente cubano, gracias.
-      - con un agente humano
-      - Con un agente humano a ver qué me dice.
-      - con un agente humano cartera
-      - con un agente humano con una persona, por favor
-      - Con un agente humano me bajó yo.
-      - con un agente humano por favor necesito información urgente
-      - Con un agente humano Por favor, muchas gracias.
-      - con un agente humano porfavor
-      - con un agente humano probador
-      - con un agente humano ti
-      - con un agente humano un agente humano un agente humano
-      - Con un agente humano, gracias.
-      - Con un agente humano, por favor.
-      - con un agente mano por favor
-      - con un agente Omar
-      - con un agente romano por favor
-      - con un agente urbano
-      - con un Altima
-      - con un ambiente humano
-      - Con un ángel cemen.
-      - con un ángel Tijuana
-      - con un ángel tu mano
-      - con un animal
-      - con un asesor
-      - con un asesor humano de una polla
-      - con un con un asesor porfavor
-      - con un humano
-      - Con una agencia humano me gozo.
-      - con una comunico como una gente humana
-      - con una con un asesor
-      - con una en tu mano
-      - con una enzima
-      - con una fuente humano
-      - con una gente
-      - con una gente humana
-      - Con una gente humana me quiero comunicar.
-      - Con una gente humana para preguntarle cómo están desarrollando actualmente sus estrategias digitales.
-      - con una gente humana por favor
-      - Con una gente humana, gracias.
-      - con una gente humana, por favor
-      - con una gente humanos
-      - con una gente humanos issste
-      - con una gente humanos y
-      - con una gente mano
-      - con una gente mano, por favor
-      - Con una gente más, por favor.
-      - Con una gente más.
-      - con una gente masa con Ecuador
-      - Con una gente me voy a comunicar.
-      - Con una gente necesito comunicarme.
-      - con una gente popo
-      - con una gente por
-      - con una gente por voz
-      - con una gente umano gracias
-      - Con una gente una no me hace el favor.
-      - Con una gente, por favor.
-      - Con una gente, porfa.
-      - con una gestión
-      - Con una gestión más mejor.
-      - con una hoja en tu mano
-      - con una lety malo por favor
-      - con una mano
-      - con una mano
-      - con una mano
-      - con una mano por favor
-      - Con una mano, gracias.
-      - con una mano, por favor
-      - con una mente humana
-      - con una persona
-      - con una simple humano por favor
-      - con una simple manos
-      - con unas en Tijuana por favor
-      - conacyt humano
-      - conagen tu mano
-      - conectarme con Argentina
-      - conejito humano
-      - conjunto humano
-      - conlagente humano por favor
-      - conlagente humanos por favor
-      - conoce tus manos
-      - Conocen su mano, por favor?
-      - conocer a comunicar con un agente
-      - conocer gente
-      - conragen tu mano, por favor
-      - contacta con un asesor humano por favor
-      - Coraline en tu mano, por favor
-      - Corona en Tijuana
-      - Corona gente humana
-      - Corona gente humano
-      - corona gt humano por favor
-      - coronas en tu mano
-      - coronas en tus manos me hace el favor
-      - coronavirus humano
-      - Correcto comunicarme con la gente humano.
-      - correcto con la gente humana
-      - Correcto con un asesor de ustedes.
-      - corriente humano
-      - cosas de humanos desde con un agente humano
-      - crear un agente humano
-      - cristiano hablar con una en tu mano
-      - cuando la gente humanos
-      - cuando la gente, por favor
-      - cuando un agente humano
-      - cuando un agente humano por favor
-      - cuando una gente más
-      - Cuándo?
-      - cuento de comunicar comunicarme con una gente, por favor
-      - cuna de tu mano, por favor
-      - cunas en tu mano es tan amable
-      - dale tu mano
-      - de comunicarme con un agente humano
-      - De cuánta gente por favor?
-      - de tu mano
-      - Debiendo un agente humano, por favor.
-      - decorada con un agente humano San Martín
-      - Define una agente humano por favor Gracias
-      - deja que la gente
-      - deseo comunicarme con 1 en tu mano
-      - deseo comunicarme con Altima
-      - deseo comunicarme con el agente humano
-      - deseo comunicarme con la gente humana
-      - Deseo comunicarme con la gente más.
-      - deseo comunicarme con la gente o mano
-      - deseo comunicarme con un agente
-      - deseo comunicarme con un agente humano
-      - deseo comunicarme con un agente humano Sin dar más vueltas
-      - Deseo comunicarme con un asesor.
-      - deseo comunicarme con un humano
-      - deseo comunicarme con una
-      - Deseo comunicarme con una enzima.
-      - deseo comunicarme con una gente humana
-      - Deseo comunicarme con una gente, por favor.
-      - Deseo comunicarme con una persona para que me informé el estado del seguro.
-      - deseo hablar con un agente
-      - deseo que un asesor de hacienda
-      - deseo un agente humano
-      - Diseñara prefiero una gente o mano, gracias.
-      - dzipona gente humana, por favor
-      - educatina comunica con la gente humano por favor
-      - ejemplo mano
-      - el agente humano
-      - el cielo comunicarme con un agente humano
-      - el conocimiento humano, porfa
-      - el favor comunicarme con un agente humano
-      - el fiero comunicarme con una persona
-      - el médico un agente humano
-      - el mejor comunicarme con la gente humano
-      - el mejor con una gente, por favor
-      - el mejor un agente humano
-      - el perico donde comunicarme con la gente
-      - él quería comunicarte con una prefiero comunicarme con un agente humano
-      - el ser humano
-      - el ser humano cuál es el corán
-      - el tío mano
-      - Elsa comunicarme con una gente humana
-      - empero Comunícame con una gente Muchas gracias
-      - empleo quiero comunicar con una gente humana
-      - En qué mano
-      - en sus manos
-      - en tu mano
-      - en tu mano en tu mano
-      - en un agente humano
-      - en un agente humano porfavor
-      - En un agente humano, gracias.
-      - en una gente humanos
-      - entonces como la gente humanos es tan amable
-      - Es mejor que me comuniqué con un agente humano.
-      - es mejor que me comuniqué con un agente y monografías
-      - es posible comunicarme con un agente humano
-      - Es posible hablar con un agente humano, gracias.
-      - Es tan amable Me comunica con un agente humano.
-      - Es tan amable Me puede comunicar con un agente humano?
-      - es un agente romano por favor
-      - este humano
-      - este mano
-      - Estoy comunicando con la gente mala.
-      - Estoy con la gente el favor.
-      - estúpido Comunícame con antímano
-      - Exactamente traerá comunicarme con Nacho manos, por favor.
-      - favor por con un agente humano
-      - feriado comunicarme con un humano
-      - fotos mejor regalo un agente humano
-      - frases tu mano por favor
-      - fruta gente humana
-      - Fue un agente humano, por favor.
-      - Gary tú no vas en tu mano
-      - gente
-      - gente humana
-      - gente humano por favor
-      - gente mal
-      - gente más
-      - goku mecánico un asesor
-      - Google Quiero comunicarme con un agente humano
-      - gp en argentina
-      - grúas agente humano
-      - grupos americanos en Argentina
-      - Hablar con la gente.
-      - hablar con un agente
-      - Hablar con un asesor.
-      - Haceme una gente o mal, por favor?
-      - Hacen su mano.
-      - hacer un agente humano
-      - haciendo la gente humanos
-      - Hágame un favor Pon un agente humanos y porque si no caemos mal.
-      - Hay de humano?
-      - Hay una gente mano, por favor.
-      - hermana mejor
-      - hermano
-      - hiciera hablar con un asesor
-      - hicieron agente humano
-      - Hola gente
-      - hola gente falsa
-      - Hola gente humana
-      - Hola gente humano mejor
-      - Hola gente humano, por favor
-      - Hola gente mala, por favor
-      - Hola gente o malo, por favor
-      - Hola gente, mami
-      - Hola Jesi humano por favor
-      - hola mi comunicas por favor con un asesor humano
-      - human
-      - humana
-      - humanamente
-      - humano
-      - humano con un agente humano
-      - humano de una gente humana ganador
-      - humano por favor
-      - humanos
-      - i con acento
-      - I con acento
-      - imagen de humano
-      - imagen de humano coco
-      - imagen de humano gracias
-      - imagen de mano
-      - imagen de una persona
-      - imagen que humano
-      - imagen tu Mac
-      - imagen tu mano
-      - imagen tu mano agente humano
-      - imagen tu mano Comunícame con un agente humano, por favor
-      - imagen tu mano, por favor
-      - imágenes de humano
-      - imágenes de humanos
-      - indemnizaciones agente humano
-      - Ir Me quiero comunicar con un agente humano.
-      - Isi Comunícame con una gente Gracias
-      - Ivana soy tu mano
-      - konaki manos por favor
-      - la en tu mano
-      - la gente
-      - la gente en mano por favor
-      - la gente guano
-      - la gente humana
-      - la gente humana gente humana
-      - la gente humana, por favor
-      - la gente humano
-      - la gente mala, por favor
-      - la gente Maldonado
-      - la gente mano
-      - la gente más, por favor
-      - la gente me comunicó con una gente
-      - la gente por favor
-      - la hecho mano
-      - la primera comunicar con la gente humana
-      - la quiero comunicarme con una continua
-      - La quiero hablar con un agente humano.
-      - las en tu mano
-      - las quiero comunicarme con un agente humano
-      - le dieron comunicarme con la gente umán
-      - le quiero comunicarme con un agente humano
-      - leña comunicarme con un agente humano
-      - Leo con agente humana se oscurezca mes
-      - leonas en tu mano
-      - Libra Quiero comunicarme con lágrimas
-      - libro comunicarme con una gente humana
-      - ligando con una gente
-      - lili prefiero comunicarme con un agente humanos
-      - línea de comunicarme con un agente humano
-      - llegado comunicarme con un agente humano
-      - Llegó la gente humano.
-      - llora gestión humana, por favor
-      - Lo quiero como un ángel su mano porque es especial.
-      - lo quiero comunicarme con un agente humano
-      - logré comunicarme con un agente humano
-      - logró comunicarme con Dante humano
-      - logró comunicarme con un agente humano
-      - Mándame una Mándame una gente con una gente.
-      - mano
-      - manos que papá
-      - mari carmen con agente humano por favor
-      - Me como yo con la gente humana, por favor.
-      - Me comunica con la gente humano.
-      - Me comunica con un agente humano.
-      - Me comunicas a un agente humano por favor
-      - me comunicas con ajito mano por favor
-      - me comunicas con un agente humano gracias
-      - me comunicas con un agente humano por favor
-      - me comunicas por favor con un agente humano
-      - Me comunicas por favor con una gente
-      - me comunicas por favor con una gente muchas gracias
-      - Me comunicó con un agente humano.
-      - Me comuniqué con la gente humano, gracias.
-      - Me es tan amable para comunicarme con la gente humano.
-      - Me gustaría comunicarme con un agente humano, gracias.
-      - Me hubiera comunicarme con una gente humana.
-      - Me podría comunicar con un agente humano
-      - Me podría comunicar con un agente humano, por favor
-      - me podrías comunicar con un agente omán
-      - Me pongo en tu mano por favor
-      - Me prefiero comunicar con un agente humano, por favor.
-      - Me puede comunicar con otro agente?
-      - Me puede remitir a un agente humano, por favor?
-      - Me puedes comunicar con Mari humano?
-      - Me puedes comunicar con un agente humano?
-      - Me puedes comunicar con un asesor humano?
-      - Me puedes escribir gente
-      - Me puedo comunicar con un agente humano en el favor?
-      - me quiero comunicar con un agente humana
-      - Me quiero comunicar con una ex.
-      - me quiero comunicarme con un agente humano
-      - Me tocó de Cali con un agente humano.
-      - Me tomo una gente por favor
-      - médico un agente humano agente humano
-      - medio comunicarme con animal
-      - mejor Comunícame con un agente humano
-      - mejor con un agente humano porfavor
-      - mejor con una gente humana
-      - mejor hablaría con la gente humana
-      - Mejor me comunicó con un agente humano.
-      - mejor que una gente humana
-      - mi argentina
-      - mi atienda un agente humano
-      - mi propiedad comunicarme con un agente humano
-      - micro comunicar con otra gente
-      - Mira Quiero comunicarme con la gente
-      - mis manos
-      - Mónica mecon con la gente quién?
-      - música para sanar tu mano
-      - Nada, en tu mano estoy en accidente.
-      - Nadie tus manos, por favor.
-      - Necesito comunicarme con alguien que me explique una duda que tengo.
-      - Necesito comunicarme con Ángel tu mano.
-      - Necesito comunicarme con el estómago.
-      - Necesito comunicarme con indemnizaciones.
-      - necesito comunicarme con la gente Gracias
-      - necesito comunicarme con la gente humano
-      - Necesito comunicarme con otra gente más.
-      - Necesito comunicarme con servicio al cliente.
-      - Necesito comunicarme con servicio al cliente.
-      - necesito comunicarme con un agente humano
-      - necesito comunicarme con un agente juan
-      - necesito comunicarme con un agente max
-      - necesito comunicarme con un agente max
-      - necesito comunicarme con un agente umán
-      - necesito comunicarme con un asesor de Tigo
-      - Necesito comunicarme con una gente más gracias.
-      - Necesito comunicarme con una gente, por favor.
-      - Necesito comunicarme con una pesa.
-      - Necesito con un agente mano, por favor.
-      - necesito contactarme con un asesor porfavor
-      - necesito hablar con un agente más por favor
-      - Necesito hablar con un asesor humano
-      - Necesito solucionar con la gente humano porque no me han solucionado nada del seguro de mi carro.
-      - Necesito un agente humano para que me digas si mi carro ya
-      - Necesito un agente un asesor humanos
-      - Necesito un asesor humano prefiero
-      - Necesito un asesor por colisión de autos
-      - Necesito un servicio de emergencia
-      - Necesito urgente humano comunicarme con un agente humano.
-      - nefero comunicarme con un agente humano
-      - negrito comunicarme con la gente humano
-      - nenito comunicado con gas entubado
-      - no con un agente entonces
-      - no entonces por favor con un agente humano
-      - No es de humano para asesoría.
-      - No hay con quién estoy comunicada.
-      - No mejor con una gente humana
-      - No necesito hablar con un asesor a clientes.
-      - No necesito hablar directamente con el agente humano.
-      - No necesito un asesor humano.
-      - No prefiero comunicarme con un ángel
-      - No, en tu mano mi asesor.
-      - No, no necesito la gente humana señorita.
-      - No, señora, necesito comunicarme con la gente.
-      - No, un agente humano.
-      - nola resolví necesito hablar con un agente humano
-      - O con un agente humano Mejor dicho para comunicarme con un agente humano, hágame el favor.
-      - o en tu mano
-      - O Me comunicas con esa en tu mano toda quitarle lo que necesito.
-      - objetivo mano
-      - Obvio Sí pero yo comunicarme con la gente humano.
-      - ojos de humano
-      - oración agente personal humano
-      - origen tu mano, por favor
-      - ornamento humano por favor
-      - para asesoría
-      - para atención al cliente
-      - para comunicarme con agentes humanos
-      - para comunicarme con la gente mano
-      - para comunicarme con un agente +
-      - para comunicarme con un agente humano para para hacer una diligencia sobre un accidente
-      - para comunicarme con un agente humanos
-      - para comunicarme con una semana
-      - para comunicarme porque fue negada única fastidiarte Registrada
-      - Para la gente mano, por favor.
-      - pedera comunicarles buena gente lápiz
-      - pedir un agente humano
-      - pedro comunicarme con la gente humana
-      - Pedro comunicarme con un agente humano
-      - pedro comunicarme con una gente humana
-      - pepero comunicarme con la gente humana
-      - perder o comunicarte con la gente
-      - periodo comunicarme con Adam shulman
-      - perjudicarme con agente humano
-      - Permíteme comunicarme con un agente humano.
-      - Pero conocen tu mano y tenía el favor.
-      - Pero déjame comunicarme con la gente humano.
-      - pero por favor comunicarme con agente omar
-      - Pero Quiero comunicarme con agente humano.
-      - Pero Quiero comunicarme con un agente humano.
-      - Pero si tú la gente humano
-      - personajes humano
-      - picona gente humano
-      - playera comunicarme con un agente humano
-      - podido comunicarme con un agente humanos
-      - poetas con la gente humano
-      - pon otra gente por favor
-      - Pon un agente humano
-      - Pon una gente más
-      - pon una gente por favor
-      - poner la gente humana
-      - Ponme la pregunta mía, que Quiero comunicarme con un agente humano.
-      - Por eso insisto con una gente humana.
-      - por favor comunicar con agente humano
-      - por favor comunicar con una gente
-      - por favor comunicarme con Argentina
-      - por favor comunicarme con un agente de mal
-      - por favor comunicarme con un agente humano
-      - por favor con agente bueno
-      - por favor con un agente humano
-      - por favor con una gente
-      - Por favor Deseo comunicarme con un agente mano, gracias.
-      - por favor deseo comunicarme con un agente romano
-      - por favor Me comunicas con una gente
-      - por favor me comunicas con una persona
-      - por favor me puede comunicar con una gente Gracias
-      - por favor que me comuniquen con una gente Gracias
-      - por favor soy un agente de financiar gmail
-      - por favor una gente
-      - por favor, agente humano
-      - Por favor, comunica camión con la gente humana.
-      - Por favor, comunícame con un agente humano.
-      - Por favor, comunícame con una gente humana.
-      - Por favor, comunícame con una gente.
-      - Por favor, comunicarme con la gente humano.
-      - Por favor, comunicarme con una gente.
-      - Por favor, comunícate con un agente humano.
-      - Por favor, con la gente humana comuníqueme con la gente humana, gracias.
-      - Por favor, hacen tus manos.
-      - por favor, me comunica con
-      - Por favor, me comunica con un asesor.
-      - por favor, me pasas por una gente con la gente porque Qué es verdad necesito esa persona Gracias
-      - Por favor, No sé en tu mano, gracias.
-      - Por favor, Para comunicarme con un agente humano.
-      - Por favor, ponga gente humano.
-      - Por favor, que no la gente humana.
-      - Por favor, Quiero comunicarme con agente humano.
-      - Por favor, quiero con un agente humano.
-      - por favor, un agente humano
-      - por favor, una gente
-      - por favor, una gente humana
-      - por favor, una gente humanos
-      - Por favor, uno con un agente humano, gracias.
-      - por un agente humano
-      - porfa me comunica con un agente humano
-      - Porfa me comunican con la gente humanos
-      - porfavor con un asesor
-      - porfavor hablar con un asesor
-      - Preciado Comunícame con Ángel prima
-      - precio argentino
-      - precio comunícame con ángel tu mano
-      - precio Comunícame con un agente humano
-      - precio de comunicarme con la gente
-      - precio de comunicarme con un agente humano
-      - precio de comunicarme con un agente humano
-      - prédicas de cómo la gente mamá
-      - prefería comunicarme con la gente humano
-      - preferible con un con una con un humano no con no con nadie virtual
-      - Prefiere Comunícame con la gente humano, por favor.
-      - Prefiere comunicarme con un agente humano.
-      - prefiere un agente humano
-      - Prefiero a comunicarme con un agente humano.
-      - Prefiero a comunicarme con una gente.
-      - Prefiero comunicadas en tu mano.
-      - prefiero Comunícame con Ángel
-      - Prefiero Comunícame con imagen de humano.
-      - Prefiero Comunícame con un agente humano.
-      - Prefiero comunicarme con agente humano.
-      - Prefiero comunicarme con aje.
-      - Prefiero comunicarme con Ángel tu mano, gracias.
-      - Prefiero comunicarme con Ángel tu mano.
-      - Prefiero comunicarme con Ángel tu mano.
-      - prefiero comunicarme con Argentina
-      - Prefiero comunicarme con gente humano.
-      - Prefiero comunicarme con la gente 4.
-      - prefiero comunicarme con la gente humana
-      - prefiero comunicarme con la gente humano
-      - Prefiero comunicarme con la gente humano si es tan amable, gracias.
-      - Prefiero comunicarme con la gente humanos.
-      - prefiero comunicarme con la gente juan
-      - Prefiero comunicarme con la gente malo.
-      - Prefiero comunicarme con masajes tu mano.
-      - Prefiero comunicarme con nadie más.
-      - Prefiero comunicarme con otra.
-      - prefiero comunicarme con un agente +
-      - prefiero comunicarme con un agente de cumaná gracias
-      - prefiero comunicarme con un agente humana
-      - Prefiero comunicarme con un agente humano, gracias.
-      - Prefiero comunicarme con un agente humano, por favor.
-      - Prefiero comunicarme con un agente imán.
-      - prefiero comunicarme con un agente más
-      - prefiero comunicarme con un agente omar
-      - Prefiero comunicarme con un agente umami.
-      - prefiero comunicarme con un agente Umán
-      - Prefiero comunicarme con un ángel yumanos.
-      - Prefiero comunicarme con un angelito humano, gracias.
-      - prefiero comunicarme con un asesor gratis
-      - Prefiero comunicarme con un asesor.
-      - Prefiero comunicarme con un gente.
-      - prefiero comunicarme con una agencia humano
-      - prefiero comunicarme con una estufa
-      - prefiero comunicarme con una g
-      - Prefiero comunicarme con una genio malo.
-      - Prefiero comunicarme con una gente humana.
-      - Prefiero comunicarme con una gente.
-      - Prefiero comunicarme con una persona.
-      - Prefiero comunicarme con unas en tu mano.
-      - prefiero comunicarme por favor con un agente umán
-      - Prefiero comunicarme.
-      - Prefiero comunicarse con una persona.
-      - prefiero comunicarte con prefiero comunicarme con un agente humano
-      - prefiero con la gente por favor
-      - Prefiero con manos.
-      - Prefiero con un agente humano.
-      - prefiero contactarme con un agente malo
-      - Prefiero el humano.
-      - Prefiero entonces cuando la gente, por favor.
-      - Prefiero juntarme con una gente.
-      - Prefiero la gente humana.
-      - Prefiero por favor, comunicarme con una gente, por favor.
-      - Prefiero ubicarme con agente humano.
-      - Prefiero un agente humano.
-      - Prefiero una gente humanos.
-      - prefiero una gente mala que sos
-      - prefiero una gente man
-      - presionados comunicarme con una gente, por favor
-      - prever comunicarme con un agente humano
-      - previendo comunicar
-      - primero comunicarme con una gente humana
-      - primero comunicarnos con un agente humano, por favor
-      - primero con un agente humano
-      - procura comunicarme con una gente humana
-      - prohibieron agente humano
-      - psicóloga gente humano por favor
-      - psiconanas en tu mano gracias
-      - Puedo comunicar con él?
-      - puedo comunicarme con un agente humano
-      - Pues sí me escucha o no güey, Es una grabación.
-      - Pulgarcito la gente, por favor
-      - pura gente humanos
-      - Qué celular es tu mano, gracias.
-      - Que con un agente humano para que me haga el favor.
-      - que con una ser humano
-      - que dieron con la gente humana
-      - Qué es mejor con un agente humano me hace el favor.
-      - Qué hay de bueno si agente humano.
-      - Qué prefiero comunicarme con la gente humano?
-      - Qué quiere comunicarse con un agente humano?
-      - que si con un agente humano
-      - Quedó re comunicado con una gente.
-      - quería comunicarme con la gente humana
-      - Quería comunicarme con la gente humano
-      - Quería comunicarme con Osito malo
-      - Quién es mejor con un agente mano, por favor.
-      - Quiero comunicar con la gente humano.
-      - Quiero comunicarme con acento mano
-      - Quiero comunicarme con acentúan
-      - quiero comunicarme con agente humano
-      - quiero comunicarme con alexis
-      - Quiero comunicarme con alguien
-      - Quiero comunicarme con alguien humano
-      - Quiero comunicarme con Argentina
-      - Quiero comunicarme con Ari tu mano
-      - quiero comunicarme con el agente humano
-      - Quiero comunicarme con el agente imán
-      - quiero comunicarme con el antimonio
-      - Quiero comunicarme con el estómago
-      - Quiero comunicarme con el tema
-      - Quiero comunicarme con imagen
-      - quiero comunicarme con la agencia humano
-      - Quiero comunicarme con la gente humana, por favor
-      - quiero comunicarme con la gente mala
-      - quiero comunicarme con la gente mano
-      - Quiero comunicarme con la gente mano, por favor
-      - Quiero comunicarme con más encima
-      - Quiero comunicarme con nadie
-      - Quiero comunicarme con tu vato
-      - quiero comunicarme con un agente
-      - quiero comunicarme con un agente comercial
-      - Quiero comunicarme con un agente directo
-      - Quiero comunicarme con un agente humano humano del abogado
-      - quiero comunicarme con un agente humano por favor
-      - Quiero comunicarme con un agente humano, gracias.
-      - Quiero comunicarme con un agente imán
-      - Quiero comunicarme con un agente mano
-      - Quiero comunicarme con un angelito
-      - Quiero comunicarme con un animal
-      - Quiero comunicarme con un argentino
-      - Quiero comunicarme con un asesor
-      - Quiero comunicarme con un asesor humano
-      - Quiero comunicarme con un asesor para obtener respuesta de una solicitud de un trámite
-      - Quiero comunicarme con un asistente humana
-      - quiero comunicarme con un estimado
-      - Quiero comunicarme con un humano
-      - Quiero comunicarme con una agencia
-      - Quiero comunicarme con una gente humana
-      - quiero comunicarme con una gente mala
-      - Quiero comunicarme con una gente muerta
-      - Quiero comunicarme con una mano
-      - Quiero comunicarme con una mano para aclarar una duda
-      - quiero comunicarme con una persona
-      - Quiero comunicarme con vos en tu mano
-      - Quiero hablar con un agente Omar
-      - quiero hablar con un asesor
-      - Quiero ser injusta.
-      - quisiera comunicarme con Argentina
-      - Quisiera comunicarme con un agente humano.
-      - Quisiera comunicarme con un asesor.
-      - Quisiera comunicarme con una centena.
-      - Quisiera hablar con un agente manos.
-      - Quisiera si es tan amable Con una gente es tan amable.
-      - rapero comunícame con una gente más
-      - recreo comunicarme con gas en tu mano
-      - refiero comunicarme con un agente humano
-      - refiero con un agente
-      - refiero con un agente humano
-      - refiero con una gente humana comunicarme
-      - regalar con un humano
-      - regresa con la gente Bueno gracias
-      - regresarme con Ángel Iván
-      - requiero comunicarme con agente humano
-      - requiero comunicarme con un asesor humanos
-      - requiero comunicarme con una gente y manos
-      - requiero con una gente mal
-      - Requiero que me comuniqué con una gente.
-      - requiero un agente mano
-      - respiro comunicarme comunicarme con una gente
-      - retiró comunicarme con un agente humano
-      - retiros comunicarnos con la gente humana
-      - ricardo con un asesor
-      - rojo agente
-      - Salvador para comunicarme con una gente humana
-      - se Me comunicas con Nancy humano, por favor
-      - Se puede comunicar con un asesor de cartera, por favor?
-      - Se quedó con mi casa con un agente humano.
-      - se una gente mala por favor
-      - seconline tu mano, por favor
-      - según agente
-      - señora con un agente humano
-      - señorita Necesito hablar con un agente humano
-      - señorita yo deseo comunicarme con agente humano para saber sobre mi seguro que tengo con ustedes, Gracias
-      - ser humano
-      - ser un agente agente fumar
-      - Sería mejor comunicarme con un agente humano.
-      - Sería preferible comunicarme con un agente humano.
-      - servicio al cliente
-      - sí agente humano
-      - si coma en tu mano
-      - si comes en tu mano, por favor
-      - sí comunicar con la gente ivana
-      - sí comunicarme con el chema
-      - si comunicarme con un asesor humano porfavor
-      - Sí con acento humana, por favor, para que me expliquen bien, Qué va a hacer.
-      - sí con acento mano por favor
-      - Sí con acento y mano, por favor
-      - Sí con la gente
-      - sí con la gente buena por favor
-      - sí con la gente humano mejor
-      - Sí con la gente humano, por favor
-      - Sí con otra gente por favor humano
-      - Sí con un agente en el trabajo
-      - Sí con un agente hermano, hágame el favor.
-      - Sí con un agente humano, gracias.
-      - Sí con un agente humano, por favor
-      - Sí con un asesor humano
-      - Sí con un asesor mito comunicarme
-      - Sí con un asesor se
-      - Si con una con el agente Erika Nieto es la persona que me atiende me para renovar el seguro del carro.
-      - si con una gente humana
-      - si con una gente mal
-      - sí con una gente mala por favor
-      - Si con una gente mala, gracias.
-      - si con una gente más
-      - si con una gente mejor
-      - si con una gente se
-      - si con una mano
-      - Sí con unas en tu mano
-      - si correcto la gente humano
-      - Sí cuando la gente humana
-      - Sí cuando un agente humano
-      - si deseo comunicarme con acento humanos
-      - si deseo comunicarme con un agente humano
-      - si deseo comunicarme con un agente humano
-      - si deseo comunicarme con una diente humano
-      - si en comunicarme con la gente humana
-      - si es tan amable Con un humano
-      - Si es un agente mano, por favor, es tan amable Muchas gracias, si estoy esperando.
-      - Si eso comunicarle que no la gente humana
-      - sí hágame el favor y me comunica con una persona
-      - si hay gente humana
-      - Si la gente humana
-      - Si me comunica como un agente mano, por favor.
-      - Si me dijo ahora y me comuniqué con una gente humana Muchas gracias.
-      - Si me puede comunicar con una esté mejor.
-      - si me quiero comunicar con un agente humano
-      - Si mejor con un asesor.
-      - Si mejor lo agente por favor
-      - si mejor me comunicó con un agente umán
-      - si mejor que una gente humana
-      - Si mejoro me pueden comunicar con unas encima no si es tan amable.
-      - si necesitan gente con mano
-      - Si necesito comunicarme con alguien más.
-      - Si necesito comunicarme con la gente humano Muchas gracias
-      - Si necesito comunicarme con un agente de contratos
-      - Si necesito comunicarme con un agente humano
-      - Si necesito persona humana
-      - si necesito un agente humano
-      - Si necesito un agente humano por favor un funcionario
-      - si necesito un asesor en tu mano
-      - Si para comunicarme con las manos.
-      - Si para comunicarme con un agente humano.
-      - sí pero comunicarme con la gente humana
-      - Sí pero comunicarme con nadie tío Man
-      - Sí pero neta hablar con un asesor
-      - Sí pero Quiero comunicarme con Argentina no
-      - Sí pero Quiero comunicarme con el agente humano
-      - sí pero quiero comunicarme con la gente humana
-      - sí pero quiero comunicarme con un agente
-      - Sí pero Quiero comunicarme con un agente humano
-      - si por favor 1 agente humano
-      - si por favor a un agente humano
-      - Si por favor comunicarías con un agente humano.
-      - si por favor con agente humano porfavor
-      - Si por favor con la gente humana.
-      - sí por favor con un agente humano
-      - sí por favor con un agente humano gracias
-      - Si por favor hablar con un agente humano.
-      - si por favor imágenes humanos
-      - Si por favor la gente no manos por favor
-      - Si por favor Me comunicas con un agente humano, por favor.
-      - si por favor me comunicas más bien con un agente humano
-      - si por favor para confirmar una póliza comunicarme con una gente humana
-      - si por favor que una gente humano
-      - Si por favor una gente que que que me pueda colaborar.
-      - Si por favor, comunícame con agente humano.
-      - Si por favor, comunícame con una gente humanos.
-      - Si por favor, Quiero comunicarme con un asesor.
-      - Si por favor, un agente humano, gracias.
-      - Si por favor, un agente humano, por favor, si es tan amable, gracias.
-      - Si prefiero comunicarme con la gente humana.
-      - Si prefiero comunicarme con la gente humano.
-      - si prefiero comunicarme con la gente uma
-      - Si prefiero comunicarme con la gente.
-      - si prefiero comunicarme con un agente humanas
-      - si prefiero comunicarme con un agente humano
-      - si prefiero comunicarme con un agente humano por favor
-      - si prefiero comunicarme con un agente humanos
-      - Si prefiero comunicarme con un agente un mal.
-      - si prefiero comunicarme con una gente humana, por favor, Gracias
-      - Si prefiero comunicarme con una gente o mano, gracias.
-      - Si prefiero comunicarme con una víctima.
-      - Si prefiero la comunicación con un agente humano, por favor.
-      - Si prefiero un agente humano, por favor.
-      - Si prefiero un agente mano.
-      - Si prefiero un agente un asesor humano mejor.
-      - Sí primero Comunícame con gente
-      - Sí pues porque me quemé con la gente humana
-      - Sí que me gustaron agente humanos.
-      - si Quiero comunicarme con imagen
-      - si Quiero comunicarme con la gente humana
-      - si Quiero comunicarme con un agente humano
-      - Si quiero un agente humano
-      - si quisiera comunicarme con una gente humana
-      - Sí señora con un agente humano, por favor
-      - sí señora prefiero comunicarme con un agente mac
-      - Sí señora, Por favor, necesito comunicarme con tu mano.
-      - sí sí llegué a comunicarme con una gente humanos
-      - Sí sí tú Maná
-      - Sí sí una gente humana.
-      - Si tan amable Con una gente humana
-      - Sí te creo Comunícame con un agente humano
-      - Si te espero comunicarme con un agente humano.
-      - si te espero comunicarme con un águila
-      - Si te quiero comunicarme con la gente mala.
-      - Si te quiero comunicarme con un asesor.
-      - si tengo con una gente mano por favor
-      - Si traté de comunicarme con una gente más.
-      - Si tu mano, por favor.
-      - Sí tuve Quiero comunicarme con un agente humano
-      - si un adulto humano
-      - si un agente humano a lo mejor
-      - Si un agente humano comunícame.
-      - Si un agente humano está bien.
-      - si un asesor de Tigo
-      - si un asesor, por favor
-      - si una gente
-      - si una gente humanos
-      - si una gente mal
-      - si una gente mala, por favor
-      - si una gente más
-      - si una mano por favor
-      - si una vez tu mano
-      - si unas antimano
-      - Sí, agente humano, por favor ti.
-      - sí, Argentina
-      - Sí, argentino manos.
-      - Sí, como una agente Ahumada humano.
-      - Sí, comunica Comunícame con un agente humano, por favor.
-      - Sí, comunicarme con agente humano.
-      - Sí, comunicarme con la gente humano.
-      - Sí, comunicarme con una gente mala.
-      - Sí, necesito como agente humano.
-      - Sí, necesito un agente humano.
-      - sia gente manos
-      - siempre humano
-      - siempre prefiero
-      - Significa un antímano?
-      - silla gente humana
-      - sin ser humano
-      - Siri Comunícame con alguien
-      - sise quiero comunicarme con un humano
-      - solicitar una gente normal
-      - Solicito comunicarme con Maggie tucumán
-      - solicito comunicarme con una gente
-      - Son un agente mano.
-      - Sonora gente con la gente mejor un humano
-      - soy el tercero comunicarme con un consultor humano
-      - soy tomarla se puede comunicar con argentina
-      - soy una gente humana
-      - talento humano
-      - tan amable un agente humano
-      - Te conocí tus manos.
-      - te deseo comunicarme con la gente y Maná
-      - Te dieron un agente humano?
-      - Te espero comunicarme con la gente humana.
-      - Te prefiero comunicarme con el agente humano, gracias.
-      - Te quiero comunicarme con el agente.
-      - Te quiero comunicarme con la gente.
-      - Te quiero comunicarme con makiman.
-      - Te quiero comunicarme con un agente humano.
-      - te quiero comunicarme con un agente mano
-      - te quiero comunicarme con un agente umán
-      - Te quiero con una codiendo humano para saber qué pasó.
-      - te viera comunicarme con un agente humanos
-      - tejido comunicarme con la gente más
-      - telares de mano
-      - telecomunicaciones en tu mano
-      - temas aquí con una gente mala
-      - Tengo cliente.
-      - tercero comunicarme con un agente humano
-      - Tevez comunicarme con un agente de chimba
-      - Thor humano
-      - tigres-américa gente humana
-      - tira cómica con un agente
-      - toda gente mala
-      - toda la gente
-      - toda la gente humana
-      - Todavía no comunicarme con un agente humano.
-      - tomar en tu mano
-      - trajes de Maná
-      - transferir agente humano, por favor
-      - triple cero con un agente humano
-      - tu mano
-      - tu mano, por favor
-      - Ubicarme con aceite.
-      - ubicarme con detergente mano
-      - ubicarme con un agente personal
-      - Umán
-      - un aceite humana
-      - un agente comunicarme con un agente
-      - un agente en mano humano
-      - un agente hermanos
-      - un agente humano agente humano
-      - Un agente humano gracias.
-      - un agente humano gratis
-      - un agente humano necesito
-      - un agente humano por fa
-      - un agente humano que por favor
-      - un agente humano quisiera comunicarme
-      - un agente humano un agente humano un agente humano una gente humana
-      - un agente humanos tan amable
-      - un agente mano, por favor
-      - un agente manos
-      - un agente más corto
-      - un agente mis ojos hacienda
-      - un agente un perrero comunicarme con una gente y manos
-      - un agente Vans
-      - un agente Vial
-      - un ambiente humano, por favor
-      - un ángel tu mano un agente humano
-      - un anuncio mano
-      - un asesor sin alcohol
-      - un ejemplo, por favor
-      - un humano
-      - un humano por favor
-      - un mano con un agente humano
-      - un mesecito comunicarme con un agente humano
-      - una agencia humano
-      - una de tu mano, por favor
-      - una en tu mano requiero comunicarme con un agente humano
-      - una esfera con
-      - una genio mano
-      - una gente de mano gracias
-      - una gente humana por el bruta
-      - una gente más una gente más
-      - una gente más, por favor
-      - una humana
-      - una imagen de humano
-      - una IP Man
-      - una junta humano por favor
-      - una mano
-      - una mente humana
-      - una mente humana porfa
-      - una vez tu mano, por favor
-      - unagi tu mano
-      - UNAM en tu mano, por favor
-      - uñas de humano
-      - unas dudas el agente humano un agente humano
-      - unas en tu mano
-      - única mano
-      - únicamente humano
-      - unicar agente humano
-      - unite humana
-      - urgente humano
-      - usar la comunicas con una gente humana
-      - Usted no entiende.
-      - Valente Man
-      - Vegeta comunicarme con la gente humanos
-      - vehículos del camino agente mano
-      - verificar mi con acento humano
-      - vestido comunes en tu mano
-      - vestido comunicando con una gente en persona
-      - vestido comunicarme con la gente
-      - vestido comunicarme con la gente humana
-      - vestido comunicarme con un animal
-      - Vicente humano
-      - video comunicarme con la gente igual
-      - video comunicarme con un agente humano
-      - video con una gente
-      - y agente
-      - y agente humano
-      - y cómo la gente se activan comunicación gracias
-      - y con agente humano
-      - y con la gente humano mejores
-      - y con un agente humano
-      - Y con una con una gente tan amable.
-      - y el hijo agente humano
-      - Y es mejor con una sentí humano, porfa.
-      - Y no me puedo comunicar con un agente humano.
-      - Y por favor, la gente mal.
-      - y por favor, un agente humano
-      - Y por favor, una gente.
-      - Y prefiero comunicarme con alguien tu mano.
-      - Y prefiero comunicarme con antihumano.
-      - Y prefiero comunicarme con gancho mano.
-      - Y prefiero comunicarme con más gente humano.
-      - Y prefiero comunicarme con un agente humano, por favor.
-      - Y prefiero comunicarme con un agente humano.
-      - Y prefiero con un agente humano
-      - Y qué pedo Por favor comunicarme con la gente humana, por favor
-      - Y Sí sería bueno por un agente humano, por favor.
-      - y te quiero comunicarme con una Argentina
-      - y un agente humano
-      - Ya acabé de accidentar con una moto, necesito asesoría, por favor, en el en el punto derecho y accidente.
-      - Ya le dije que un humano o quiere que cuelgue.
-      - Ya puedes comunicar, por favor con un agente humano.
-      - yo creo que es mejor comunicarme con un agente humano
-      - Yo creo que es mejor un agente humano
-      - Yo prefiero comunicarme con un agente humano.
-      - yo quiero comer muy tarde con el agente
-      - Yo quiero comunicarme con el aceite humano
-      - Yo quiero comunicarme con el agente humano
-      - Yo quiero comunicarme con una gente cubana
-      - Yo quiero con una persona.
-      - zona en tu mano
-      - Zona Gente humano
-      - Zona Gente más dulces
+    - 30 comunicarme con él en tu mano
+    - 30 comunicarme con un agente humano
+    - 30 con un agente humano
+    - 5 lunas en tu mano
+    - A un favor Para comunicarme con un asesor de hs burós.
+    - A ver tus manos.
+    - A ver, necesito comunicarme con la gente.
+    - aceite humano
+    - activo humano
+    - Además en tu mano, porfa.
+    - adjetivo mano
+    - agencia humano
+    - agencia humanos
+    - agencia mano
+    - agencia manos
+    - agente 1
+    - agente a mano, por favor
+    - agente agente humano
+    - agente bueno
+    - agente comal
+    - agente Homero
+    - agente humana
+    - agente humano
+    - agente humano comunicar con agente humano
+    - agente humano comunicarme siente mal
+    - agente humano con la gente mano Muchas gracias
+    - Agente humano gracias.
+    - agente humano llega covid
+    - agente humano mejor servicio para un mejor servicio
+    - agente humano por favor acento humano
+    - agente humano por favor agente humano
+    - agente humano por favor comunicarme
+    - agente humano prefiere la gente humano
+    - Agente humano sí.
+    - agente humano, porfa
+    - agente humanos y tan amable
+    - agente iguano
+    - Agente Juan
+    - agente Juana
+    - agente Kidman
+    - agente maga
+    - agente más
+    - agente Max
+    - agente morado
+    - agente o varón
+    - agente omán
+    - agente Omar
+    - agente Vargas
+    - agente varón
+    - agente Venom
+    - agente virtual
+    - agente y bueno
+    - agente, por favor
+    - agente, porfa agente
+    - agentes mano, por favor
+    - agenting prefiero comunicarme con un agente humanos
+    - agradecería con agente humano
+    - agradezco más en tu mano
+    - Ah bueno con una gente humano Entonces es tan amable
+    - algún agente cubano
+    - alguna gente humana
+    - Alguna gente más buenos días, Por favor, a ver si me colabora el chiste es que no he podido comunicarme a ver que me informan.
+    - ambiente humano
+    - americana con una gente, por favor
+    - Amor colaboren, es que estoy haciendo aquí en el río combeima.
+    - andas en tu mano
+    - Ángel
+    - Ángel humano
+    - Ángel humano
+    - Ángel plano
+    - Ángel quemain
+    - Ángel queman
+    - Ángel sumano
+    - Ángel tomarlo
+    - Ángel tu mano, por favor
+    - aprender a comunicarnos con un agente humano Muchas gracias
+    - Argentina 2
+    - argentina sistemas
+    - argentino manos
+    - argentino, por favor
+    - argento mano
+    - argentum mano
+    - Ariel de humano
+    - Ariel tu mano
+    - armé con un agente humano
+    - ascensor humano
+    - asentí humano
+    - así tu mano
+    - aspentech humano
+    - atención al cliente
+    - ay por favor comunicarme con un agente humano
+    - bodas en tu mano, por favor
+    - brasero comunicarme con la gente humana
+    - bueno con un agente humano
+    - Bueno con una gente humana mejor.
+    - bueno con una gente humana porfavor
+    - Bueno con una gente porque es que aquí no entiendo O sea yo hablo y usted no me contesta nada.
+    - Bueno les comunica con acento humano
+    - Bueno me quisiera comunicarme con la gente
+    - Bueno para comunicarme con agente humano.
+    - Bueno si no te hagas el favor y se comunica con una gente más
+    - bueno si sería tan amable me informa con alguien
+    - Bueno un agente humano
+    - bueno, necesito comunicarme con un asesor que me pueda confirmar si estoy vinculada un seguro que tome con RQT
+    - Buenos días con una gente humana, porfa
+    - Buscar con la gente humano
+    - Buscar gente
+    - Buscar un agente humano en El Salvador
+    - caminar de mano, por favor
+    - carmen por favor con un consultor
+    - carne con un agente humano
+    - casero comunicarme con un asesor
+    - cédula va a comunicar la corona de Tijuana
+    - chica de la gente mala
+    - chica para comunicarme con un agente humano
+    - chicle quiero comunicarme con un agente humano
+    - chico la gente humano
+    - chicos nadie tu mano
+    - chikuru la gente, por favor
+    - chinito un agente humano, por favor
+    - cinco más en tu mano, por favor
+    - ciprobac un agente humano
+    - coco 1 entonces con una gente
+    - colegio humane
+    - colegio humano
+    - Colgando en tus manos
+    - Colón argentinos
+    - colorante humano por favor
+    - columna gente por favor
+    - columna gentium mano por favor
+    - comandante humano por favor
+    - comercial cine argentino, por favor
+    - comida con un agente Juan
+    - Como agente humano, por favor.
+    - Cómo es en tu mano, por favor.
+    - Cómo hacer que humano
+    - Cómo hacer un asesor, por favor
+    - como la gente por favor
+    - cómo más en tu mano por favor
+    - Cómo nace en tu mano
+    - cómo puedes comunicar con una gente humana
+    - Cómo puedo comunicarme con un agente humano
+    - Cómo se casa con la gente mano, por favor.
+    - Cómo sentir humano
+    - como un agente humano
+    - como una de tu mano por favor
+    - como una gente buena
+    - Cómo van en tu mano
+    - Cómo vas en tu mano, porfa?
+    - Cómo vas en tu mano?
+    - comuna Comunícame con un agente humano
+    - comunicación con funcionario
+    - comunicación con la gente humana
+    - comunicación con la gente humano
+    - comunicación copa Argentina
+    - comunicado con una
+    - comunicado con una gente
+    - Comunícame con
+    - Comunícame con 21
+    - Comunícame con acento mal
+    - Comunícame con agente humano
+    - Comunícame con Ángel tu mano
+    - Comunícame con asesor
+    - Comunícame con el agente
+    - Comunícame con el agente humano
+    - Comunícame con Enrique Guzmán
+    - Comunícame con imagen tu mami
+    - Comunícame con imagen tu mano
+    - Comunícame con la gente
+    - Comunícame con la gente humana
+    - Comunícame con la gente humano
+    - Comunícame con la gente humanos
+    - Comunícame con la gente y manos
+    - Comunícame con la gente, por favor
+    - Comunícame con las dos
+    - Comunícame con majito humano
+    - Comunícame con Messenger
+    - Comunícame con tu mano
+    - comunícame con un agente humano
+    - Comunícame con un agente humano
+    - Comunícame con un agente humano, por favor
+    - Comunícame con un agente mano
+    - comunícame con un agente poco
+    - comunícame con un argentino por favor
+    - Comunícame con una Gema
+    - Comunícame con una gente
+    - comunícame con una gente humana más bien
+    - Comunícame con una gente, porfa
+    - Comunícame con una lente humano, por favor
+    - Comunícame, por favor con la gente humano.
+    - comunicar agente humano
+    - comunicar con la gente humano
+    - comunicar con la gente mano
+    - comunicar con un agente
+    - comunicar con un agente humano
+    - comunicar con un asesor comercial
+    - comunicar con una gente más
+    - comunicarme
+    - comunicarme 1 gen
+    - comunicarme comunicarme con un agente humano por favor
+    - comunicarme con adjetivos
+    - comunicarme con Ángel de humano
+    - comunicarme con Argentina
+    - comunicarme con derecho humano
+    - comunicarme con don ángel piumato
+    - comunicarme con gente humanos
+    - Comunicarme con la gente humana que se puede cortos.
+    - Comunicarme con la gente humano, por favor con la información importante.
+    - comunicarme con la gente humans
+    - Comunicarme con la gente igual.
+    - comunicarme con la gente mano, por favor
+    - comunicarme con la gente vommaro
+    - comunicarme con la gente y más
+    - comunicarme con la mente humana comunicarme
+    - comunicarme con lento
+    - comunicarme con lg optimus
+    - comunicarme con maggie tu mano
+    - comunicarme con movimiento humano
+    - comunicarme con servicio al cliente
+    - comunicarme con un agente enano
+    - comunicarme con un agente humana
+    - comunicarme con un agente humano, por favor
+    - comunicarme con un agente humanos y estar a mano
+    - comunicarme con un agente maná gracias
+    - comunicarme con un agente mano por favor
+    - comunicarme con un agente mano por favor
+    - comunicarme con un agente más
+    - comunicarme con un agente un álbum
+    - comunicarme con un agente y mami
+    - comunicarme con un entorno
+    - comunicarme con una agencia humano
+    - comunicarme con una en tu mano, por favor
+    - comunicarme con una estoma
+    - comunicarme con una gente buena
+    - comunicarme con una gente humana por favor
+    - comunicarme con una gente muere
+    - comunicarme con una gestión
+    - comunicarme con una humano, gracias
+    - comunicarme con una última
+    - comunicarnos con un agente humano
+    - comunicarse con un angelito humano
+    - comunicarse con una entidad
+    - con agente humano
+    - con ánimo por favor
+    - con argentinos
+    - con Diana
+    - con el agente humano
+    - Con el agente humano
+    - Con el agente humano por favor
+    - Con el agente virtual
+    - con exactitud
+    - con heladito humano
+    - con imagen tío mano por favor
+    - Con la gente humana prefiero comunicarme con una gente humana, pero Quiero comunicarme con la gente humana.
+    - con la tesorera con la tesorera aires
+    - con los últimos años
+    - con magia de humanos
+    - con malla ser humano
+    - con otra gente más porfa, Gracias
+    - Con quien habló Perdón es que necesito un asesor Tuve un accidente en el carro que tengo afiliado a esa empresa y necesito que venga un asesor acá donde estoy.
+    - con un acento humano
+    - con un agente +
+    - Con un agente cubano, gracias.
+    - Con un agente humano a ver qué me dice.
+    - con un agente humano cartera
+    - con un agente humano con una persona, por favor
+    - Con un agente humano me bajó yo.
+    - con un agente humano por favor necesito información urgente
+    - Con un agente humano Por favor, muchas gracias.
+    - con un agente humano probador
+    - con un agente humano ti
+    - con un agente humano un agente humano un agente humano
+    - con un agente mano por favor
+    - con un agente Omar
+    - con un agente romano por favor
+    - con un agente urbano
+    - con un Altima
+    - con un ambiente humano
+    - Con un ángel cemen.
+    - con un ángel Tijuana
+    - con un ángel tu mano
+    - con un animal
+    - con un asesor humano de una polla
+    - con un con un asesor porfavor
+    - Con una agencia humano me gozo.
+    - con una comunico como una gente humana
+    - con una con un asesor
+    - con una en tu mano
+    - con una enzima
+    - con una fuente humano
+    - con una gente
+    - Con una gente humana me quiero comunicar.
+    - Con una gente humana para preguntarle cómo están desarrollando actualmente sus estrategias digitales.
+    - con una gente humana por favor
+    - Con una gente humana, gracias.
+    - con una gente humana, por favor
+    - con una gente humanos
+    - con una gente humanos issste
+    - con una gente humanos y
+    - con una gente mano
+    - con una gente mano, por favor
+    - Con una gente más, por favor.
+    - Con una gente más.
+    - con una gente masa con Ecuador
+    - Con una gente me voy a comunicar.
+    - Con una gente necesito comunicarme.
+    - con una gente popo
+    - con una gente por
+    - con una gente por voz
+    - con una gente umano gracias
+    - Con una gente una no me hace el favor.
+    - Con una gente, por favor.
+    - Con una gente, porfa.
+    - con una gestión
+    - Con una gestión más mejor.
+    - con una hoja en tu mano
+    - con una lety malo por favor
+    - con una mano
+    - con una mano
+    - con una mano
+    - con una mano por favor
+    - Con una mano, gracias.
+    - con una mano, por favor
+    - con una mente humana
+    - con una persona
+    - con una simple humano por favor
+    - con una simple manos
+    - con unas en Tijuana por favor
+    - conacyt humano
+    - conagen tu mano
+    - conectarme con Argentina
+    - conejito humano
+    - conjunto humano
+    - conlagente humano por favor
+    - conlagente humanos por favor
+    - conoce tus manos
+    - Conocen su mano, por favor?
+    - conocer a comunicar con un agente
+    - conocer gente
+    - conragen tu mano, por favor
+    - contacta con un asesor humano por favor
+    - Coraline en tu mano, por favor
+    - Corona en Tijuana
+    - Corona gente humana
+    - Corona gente humano
+    - corona gt humano por favor
+    - coronas en tu mano
+    - coronas en tus manos me hace el favor
+    - coronavirus humano
+    - Correcto comunicarme con la gente humano.
+    - correcto con la gente humana
+    - Correcto con un asesor de ustedes.
+    - corriente humano
+    - cosas de humanos desde con un agente humano
+    - crear un agente humano
+    - cristiano hablar con una en tu mano
+    - cuando la gente humanos
+    - cuando la gente, por favor
+    - cuando un agente humano
+    - cuando un agente humano por favor
+    - cuando una gente más
+    - Cuándo?
+    - cuento de comunicar comunicarme con una gente, por favor
+    - cuna de tu mano, por favor
+    - cunas en tu mano es tan amable
+    - dale tu mano
+    - de comunicarme con un agente humano
+    - De cuánta gente por favor?
+    - de tu mano
+    - Debiendo un agente humano, por favor.
+    - decorada con un agente humano San Martín
+    - Define una agente humano por favor Gracias
+    - deja que la gente
+    - deseo comunicarme con 1 en tu mano
+    - deseo comunicarme con Altima
+    - deseo comunicarme con el agente humano
+    - deseo comunicarme con la gente humana
+    - Deseo comunicarme con la gente más.
+    - deseo comunicarme con la gente o mano
+    - deseo comunicarme con un agente
+    - deseo comunicarme con un agente humano
+    - deseo comunicarme con un agente humano Sin dar más vueltas
+    - Deseo comunicarme con un asesor.
+    - deseo comunicarme con un humano
+    - deseo comunicarme con una
+    - Deseo comunicarme con una enzima.
+    - deseo comunicarme con una gente humana
+    - Deseo comunicarme con una gente, por favor.
+    - Deseo comunicarme con una persona para que me informé el estado del seguro.
+    - deseo hablar con un agente
+    - deseo que un asesor de hacienda
+    - deseo un agente humano
+    - Diseñara prefiero una gente o mano, gracias.
+    - dzipona gente humana, por favor
+    - educatina comunica con la gente humano por favor
+    - ejemplo mano
+    - el cielo comunicarme con un agente humano
+    - el conocimiento humano, porfa
+    - el favor comunicarme con un agente humano
+    - el fiero comunicarme con una persona
+    - el médico un agente humano
+    - el mejor comunicarme con la gente humano
+    - el mejor con una gente, por favor
+    - el mejor un agente humano
+    - el perico donde comunicarme con la gente
+    - él quería comunicarte con una prefiero comunicarme con un agente humano
+    - el ser humano
+    - el ser humano cuál es el corán
+    - el tío mano
+    - Elsa comunicarme con una gente humana
+    - empero Comunícame con una gente Muchas gracias
+    - empleo quiero comunicar con una gente humana
+    - En qué mano
+    - en sus manos
+    - en tu mano en tu mano
+    - en un agente humano
+    - en un agente humano porfavor
+    - En un agente humano, gracias.
+    - en una gente humanos
+    - entonces como la gente humanos es tan amable
+    - Es mejor que me comuniqué con un agente humano.
+    - es mejor que me comuniqué con un agente y monografías
+    - es posible comunicarme con un agente humano
+    - Es posible hablar con un agente humano, gracias.
+    - Es tan amable Me comunica con un agente humano.
+    - Es tan amable Me puede comunicar con un agente humano?
+    - es un agente romano por favor
+    - este humano
+    - este mano
+    - Estoy comunicando con la gente mala.
+    - Estoy con la gente el favor.
+    - estúpido Comunícame con antímano
+    - Exactamente traerá comunicarme con Nacho manos, por favor.
+    - favor por con un agente humano
+    - feriado comunicarme con un humano
+    - fotos mejor regalo un agente humano
+    - frases tu mano por favor
+    - fruta gente humana
+    - Fue un agente humano, por favor.
+    - Gary tú no vas en tu mano
+    - gente
+    - gente humano por favor
+    - gente mal
+    - gente más
+    - goku mecánico un asesor
+    - Google Quiero comunicarme con un agente humano
+    - gp en argentina
+    - grúas agente humano
+    - grupos americanos en Argentina
+    - Hablar con la gente.
+    - hablar con un agente
+    - Hablar con un asesor.
+    - Haceme una gente o mal, por favor?
+    - Hacen su mano.
+    - hacer un agente humano
+    - haciendo la gente humanos
+    - Hágame un favor Pon un agente humanos y porque si no caemos mal.
+    - Hay de humano?
+    - Hay una gente mano, por favor.
+    - hermana mejor
+    - hiciera hablar con un asesor
+    - hicieron agente humano
+    - Hola gente
+    - hola gente falsa
+    - Hola gente humano mejor
+    - Hola gente humano, por favor
+    - Hola gente mala, por favor
+    - Hola gente o malo, por favor
+    - Hola gente, mami
+    - Hola Jesi humano por favor
+    - hola mi comunicas por favor con un asesor humano
+    - humana
+    - humanamente
+    - humano con un agente humano
+    - humano de una gente humana ganador
+    - humano por favor
+    - i con acento
+    - I con acento
+    - imagen de humano
+    - imagen de humano coco
+    - imagen de humano gracias
+    - imagen de mano
+    - imagen de una persona
+    - imagen que humano
+    - imagen tu Mac
+    - imagen tu mano agente humano
+    - imagen tu mano Comunícame con un agente humano, por favor
+    - imagen tu mano, por favor
+    - imágenes de humanos
+    - indemnizaciones agente humano
+    - Ir Me quiero comunicar con un agente humano.
+    - Isi Comunícame con una gente Gracias
+    - Ivana soy tu mano
+    - konaki manos por favor
+    - la en tu mano
+    - la gente
+    - la gente en mano por favor
+    - la gente guano
+    - la gente humana
+    - la gente humana gente humana
+    - la gente humana, por favor
+    - la gente mala, por favor
+    - la gente Maldonado
+    - la gente mano
+    - la gente más, por favor
+    - la gente me comunicó con una gente
+    - la gente por favor
+    - la hecho mano
+    - la primera comunicar con la gente humana
+    - la quiero comunicarme con una continua
+    - La quiero hablar con un agente humano.
+    - las en tu mano
+    - las quiero comunicarme con un agente humano
+    - le dieron comunicarme con la gente umán
+    - le quiero comunicarme con un agente humano
+    - leña comunicarme con un agente humano
+    - Leo con agente humana se oscurezca mes
+    - leonas en tu mano
+    - Libra Quiero comunicarme con lágrimas
+    - libro comunicarme con una gente humana
+    - ligando con una gente
+    - lili prefiero comunicarme con un agente humanos
+    - línea de comunicarme con un agente humano
+    - llegado comunicarme con un agente humano
+    - Llegó la gente humano.
+    - llora gestión humana, por favor
+    - Lo quiero como un ángel su mano porque es especial.
+    - lo quiero comunicarme con un agente humano
+    - logré comunicarme con un agente humano
+    - logró comunicarme con Dante humano
+    - logró comunicarme con un agente humano
+    - Mándame una Mándame una gente con una gente.
+    - manos que papá
+    - mari carmen con agente humano por favor
+    - Me como yo con la gente humana, por favor.
+    - Me comunica con la gente humano.
+    - Me comunica con un agente humano.
+    - Me comunicas a un agente humano por favor
+    - me comunicas con ajito mano por favor
+    - me comunicas con un agente humano gracias
+    - me comunicas con un agente humano por favor
+    - me comunicas por favor con un agente humano
+    - Me comunicas por favor con una gente
+    - me comunicas por favor con una gente muchas gracias
+    - Me comunicó con un agente humano.
+    - Me comuniqué con la gente humano, gracias.
+    - Me es tan amable para comunicarme con la gente humano.
+    - Me gustaría comunicarme con un agente humano, gracias.
+    - Me hubiera comunicarme con una gente humana.
+    - Me podría comunicar con un agente humano
+    - Me podría comunicar con un agente humano, por favor
+    - me podrías comunicar con un agente omán
+    - Me pongo en tu mano por favor
+    - Me prefiero comunicar con un agente humano, por favor.
+    - Me puede comunicar con otro agente?
+    - Me puede remitir a un agente humano, por favor?
+    - Me puedes comunicar con Mari humano?
+    - Me puedes comunicar con un agente humano?
+    - Me puedes escribir gente
+    - Me puedo comunicar con un agente humano en el favor?
+    - me quiero comunicar con un agente humana
+    - Me quiero comunicar con una ex.
+    - me quiero comunicarme con un agente humano
+    - Me tocó de Cali con un agente humano.
+    - Me tomo una gente por favor
+    - médico un agente humano agente humano
+    - medio comunicarme con animal
+    - mejor Comunícame con un agente humano
+    - mejor con un agente humano porfavor
+    - mejor con una gente humana
+    - mejor hablaría con la gente humana
+    - Mejor me comunicó con un agente humano.
+    - mejor que una gente humana
+    - mi argentina
+    - mi atienda un agente humano
+    - mi propiedad comunicarme con un agente humano
+    - micro comunicar con otra gente
+    - Mira Quiero comunicarme con la gente
+    - mis manos
+    - Mónica mecon con la gente quién?
+    - música para sanar tu mano
+    - Nada, en tu mano estoy en accidente.
+    - Nadie tus manos, por favor.
+    - Necesito comunicarme con alguien que me explique una duda que tengo.
+    - Necesito comunicarme con Ángel tu mano.
+    - Necesito comunicarme con el estómago.
+    - Necesito comunicarme con indemnizaciones.
+    - necesito comunicarme con la gente Gracias
+    - necesito comunicarme con la gente humano
+    - Necesito comunicarme con otra gente más.
+    - Necesito comunicarme con servicio al cliente.
+    - Necesito comunicarme con servicio al cliente.
+    - necesito comunicarme con un agente humano
+    - necesito comunicarme con un agente juan
+    - necesito comunicarme con un agente max
+    - necesito comunicarme con un agente max
+    - necesito comunicarme con un agente umán
+    - necesito comunicarme con un asesor de Tigo
+    - Necesito comunicarme con una gente más gracias.
+    - Necesito comunicarme con una gente, por favor.
+    - Necesito comunicarme con una pesa.
+    - Necesito con un agente mano, por favor.
+    - necesito contactarme con un asesor porfavor
+    - necesito hablar con un agente más por favor
+    - Necesito hablar con un asesor humano
+    - Necesito solucionar con la gente humano porque no me han solucionado nada del seguro de mi carro.
+    - Necesito un agente humano para que me digas si mi carro ya
+    - Necesito un agente un asesor humanos
+    - Necesito un asesor humano prefiero
+    - Necesito un asesor por colisión de autos
+    - Necesito un servicio de emergencia
+    - Necesito urgente humano comunicarme con un agente humano.
+    - nefero comunicarme con un agente humano
+    - negrito comunicarme con la gente humano
+    - nenito comunicado con gas entubado
+    - no con un agente entonces
+    - no entonces por favor con un agente humano
+    - No es de humano para asesoría.
+    - No hay con quién estoy comunicada.
+    - No mejor con una gente humana
+    - No necesito hablar con un asesor a clientes.
+    - No necesito hablar directamente con el agente humano.
+    - No necesito un asesor humano.
+    - No prefiero comunicarme con un ángel
+    - No, en tu mano mi asesor.
+    - No, no necesito la gente humana señorita.
+    - No, señora, necesito comunicarme con la gente.
+    - No, un agente humano.
+    - nola resolví necesito hablar con un agente humano
+    - O con un agente humano Mejor dicho para comunicarme con un agente humano, hágame el favor.
+    - o en tu mano
+    - O Me comunicas con esa en tu mano toda quitarle lo que necesito.
+    - objetivo mano
+    - Obvio Sí pero yo comunicarme con la gente humano.
+    - ojos de humano
+    - oración agente personal humano
+    - origen tu mano, por favor
+    - ornamento humano por favor
+    - para asesoría
+    - para atención al cliente
+    - para comunicarme con agentes humanos
+    - para comunicarme con la gente mano
+    - para comunicarme con un agente +
+    - para comunicarme con un agente humano para para hacer una diligencia sobre un accidente
+    - para comunicarme con un agente humanos
+    - para comunicarme con una semana
+    - para comunicarme porque fue negada única fastidiarte Registrada
+    - Para la gente mano, por favor.
+    - pedera comunicarles buena gente lápiz
+    - pedir un agente humano
+    - pedro comunicarme con la gente humana
+    - Pedro comunicarme con un agente humano
+    - pedro comunicarme con una gente humana
+    - pepero comunicarme con la gente humana
+    - perder o comunicarte con la gente
+    - periodo comunicarme con Adam shulman
+    - perjudicarme con agente humano
+    - Permíteme comunicarme con un agente humano.
+    - Pero conocen tu mano y tenía el favor.
+    - Pero déjame comunicarme con la gente humano.
+    - pero por favor comunicarme con agente omar
+    - Pero Quiero comunicarme con agente humano.
+    - Pero Quiero comunicarme con un agente humano.
+    - Pero si tú la gente humano
+    - personajes humano
+    - picona gente humano
+    - playera comunicarme con un agente humano
+    - podido comunicarme con un agente humanos
+    - poetas con la gente humano
+    - pon otra gente por favor
+    - Pon un agente humano
+    - Pon una gente más
+    - pon una gente por favor
+    - poner la gente humana
+    - Ponme la pregunta mía, que Quiero comunicarme con un agente humano.
+    - Por eso insisto con una gente humana.
+    - por favor comunicar con agente humano
+    - por favor comunicar con una gente
+    - por favor comunicarme con Argentina
+    - por favor comunicarme con un agente de mal
+    - por favor comunicarme con un agente humano
+    - por favor con agente bueno
+    - por favor con un agente humano
+    - por favor con una gente
+    - Por favor Deseo comunicarme con un agente mano, gracias.
+    - por favor deseo comunicarme con un agente romano
+    - por favor Me comunicas con una gente
+    - por favor me comunicas con una persona
+    - por favor me puede comunicar con una gente Gracias
+    - por favor que me comuniquen con una gente Gracias
+    - por favor soy un agente de financiar gmail
+    - por favor una gente
+    - por favor, agente humano
+    - Por favor, comunica camión con la gente humana.
+    - Por favor, comunícame con un agente humano.
+    - Por favor, comunícame con una gente humana.
+    - Por favor, comunícame con una gente.
+    - Por favor, comunicarme con la gente humano.
+    - Por favor, comunicarme con una gente.
+    - Por favor, comunícate con un agente humano.
+    - Por favor, con la gente humana comuníqueme con la gente humana, gracias.
+    - Por favor, hacen tus manos.
+    - por favor, me comunica con
+    - Por favor, me comunica con un asesor.
+    - por favor, me pasas por una gente con la gente porque Qué es verdad necesito esa persona Gracias
+    - Por favor, No sé en tu mano, gracias.
+    - Por favor, Para comunicarme con un agente humano.
+    - Por favor, ponga gente humano.
+    - Por favor, que no la gente humana.
+    - Por favor, Quiero comunicarme con agente humano.
+    - Por favor, quiero con un agente humano.
+    - por favor, un agente humano
+    - por favor, una gente
+    - por favor, una gente humana
+    - por favor, una gente humanos
+    - Por favor, uno con un agente humano, gracias.
+    - por un agente humano
+    - porfa me comunica con un agente humano
+    - Porfa me comunican con la gente humanos
+    - porfavor con un asesor
+    - porfavor hablar con un asesor
+    - Preciado Comunícame con Ángel prima
+    - precio argentino
+    - precio comunícame con ángel tu mano
+    - precio Comunícame con un agente humano
+    - precio de comunicarme con la gente
+    - precio de comunicarme con un agente humano
+    - precio de comunicarme con un agente humano
+    - prédicas de cómo la gente mamá
+    - prefería comunicarme con la gente humano
+    - preferible con un con una con un humano no con no con nadie virtual
+    - Prefiere Comunícame con la gente humano, por favor.
+    - Prefiere comunicarme con un agente humano.
+    - prefiere un agente humano
+    - Prefiero a comunicarme con un agente humano.
+    - Prefiero a comunicarme con una gente.
+    - Prefiero comunicadas en tu mano.
+    - prefiero Comunícame con Ángel
+    - Prefiero Comunícame con imagen de humano.
+    - Prefiero Comunícame con un agente humano.
+    - Prefiero comunicarme con agente humano.
+    - Prefiero comunicarme con aje.
+    - Prefiero comunicarme con Ángel tu mano, gracias.
+    - Prefiero comunicarme con Ángel tu mano.
+    - Prefiero comunicarme con Ángel tu mano.
+    - Prefiero comunicarme con gente humano.
+    - Prefiero comunicarme con la gente 4.
+    - prefiero comunicarme con la gente humana
+    - prefiero comunicarme con la gente humano
+    - Prefiero comunicarme con la gente humano si es tan amable, gracias.
+    - Prefiero comunicarme con la gente humanos.
+    - prefiero comunicarme con la gente juan
+    - Prefiero comunicarme con la gente malo.
+    - Prefiero comunicarme con masajes tu mano.
+    - Prefiero comunicarme con nadie más.
+    - Prefiero comunicarme con otra.
+    - prefiero comunicarme con un agente +
+    - prefiero comunicarme con un agente de cumaná gracias
+    - Prefiero comunicarme con un agente humano, por favor.
+    - Prefiero comunicarme con un agente imán.
+    - prefiero comunicarme con un agente más
+    - prefiero comunicarme con un agente omar
+    - Prefiero comunicarme con un agente umami.
+    - prefiero comunicarme con un agente Umán
+    - Prefiero comunicarme con un ángel yumanos.
+    - Prefiero comunicarme con un angelito humano, gracias.
+    - prefiero comunicarme con un asesor gratis
+    - Prefiero comunicarme con un asesor.
+    - Prefiero comunicarme con un gente.
+    - prefiero comunicarme con una agencia humano
+    - prefiero comunicarme con una estufa
+    - prefiero comunicarme con una g
+    - Prefiero comunicarme con una genio malo.
+    - Prefiero comunicarme con una gente humana.
+    - Prefiero comunicarme con una gente.
+    - Prefiero comunicarme con una persona.
+    - Prefiero comunicarme con unas en tu mano.
+    - prefiero comunicarme por favor con un agente umán
+    - Prefiero comunicarme.
+    - Prefiero comunicarse con una persona.
+    - prefiero comunicarte con prefiero comunicarme con un agente humano
+    - prefiero con la gente por favor
+    - Prefiero con manos.
+    - Prefiero con un agente humano.
+    - prefiero contactarme con un agente malo
+    - Prefiero el humano.
+    - Prefiero entonces cuando la gente, por favor.
+    - Prefiero juntarme con una gente.
+    - Prefiero la gente humana.
+    - Prefiero por favor, comunicarme con una gente, por favor.
+    - Prefiero ubicarme con agente humano.
+    - Prefiero un agente humano.
+    - Prefiero una gente humanos.
+    - prefiero una gente mala que sos
+    - prefiero una gente man
+    - presionados comunicarme con una gente, por favor
+    - prever comunicarme con un agente humano
+    - previendo comunicar
+    - primero comunicarme con una gente humana
+    - primero comunicarnos con un agente humano, por favor
+    - primero con un agente humano
+    - procura comunicarme con una gente humana
+    - prohibieron agente humano
+    - psicóloga gente humano por favor
+    - psiconanas en tu mano gracias
+    - Puedo comunicar con él?
+    - puedo comunicarme con un agente humano
+    - Pues sí me escucha o no güey, Es una grabación.
+    - Pulgarcito la gente, por favor
+    - pura gente humanos
+    - Qué celular es tu mano, gracias.
+    - Que con un agente humano para que me haga el favor.
+    - que con una ser humano
+    - que dieron con la gente humana
+    - Qué es mejor con un agente humano me hace el favor.
+    - Qué hay de bueno si agente humano.
+    - Qué prefiero comunicarme con la gente humano?
+    - Qué quiere comunicarse con un agente humano?
+    - que si con un agente humano
+    - Quedó re comunicado con una gente.
+    - quería comunicarme con la gente humana
+    - Quería comunicarme con la gente humano
+    - Quería comunicarme con Osito malo
+    - Quién es mejor con un agente mano, por favor.
+    - Quiero comunicar con la gente humano.
+    - Quiero comunicarme con acento mano
+    - Quiero comunicarme con acentúan
+    - quiero comunicarme con agente humano
+    - quiero comunicarme con alexis
+    - Quiero comunicarme con alguien
+    - Quiero comunicarme con alguien humano
+    - Quiero comunicarme con Argentina
+    - Quiero comunicarme con Ari tu mano
+    - quiero comunicarme con el agente humano
+    - Quiero comunicarme con el agente imán
+    - quiero comunicarme con el antimonio
+    - Quiero comunicarme con el estómago
+    - Quiero comunicarme con el tema
+    - Quiero comunicarme con imagen
+    - quiero comunicarme con la agencia humano
+    - Quiero comunicarme con la gente humana, por favor
+    - quiero comunicarme con la gente mala
+    - quiero comunicarme con la gente mano
+    - Quiero comunicarme con la gente mano, por favor
+    - Quiero comunicarme con más encima
+    - Quiero comunicarme con nadie
+    - Quiero comunicarme con tu vato
+    - quiero comunicarme con un agente
+    - quiero comunicarme con un agente comercial
+    - Quiero comunicarme con un agente directo
+    - Quiero comunicarme con un agente humano humano del abogado
+    - quiero comunicarme con un agente humano por favor
+    - Quiero comunicarme con un agente humano, gracias.
+    - Quiero comunicarme con un agente imán
+    - Quiero comunicarme con un agente mano
+    - Quiero comunicarme con un angelito
+    - Quiero comunicarme con un animal
+    - Quiero comunicarme con un argentino
+    - Quiero comunicarme con un asesor
+    - Quiero comunicarme con un asesor humano
+    - Quiero comunicarme con un asesor para obtener respuesta de una solicitud de un trámite
+    - Quiero comunicarme con un asistente humana
+    - quiero comunicarme con un estimado
+    - Quiero comunicarme con un humano
+    - Quiero comunicarme con una agencia
+    - Quiero comunicarme con una gente humana
+    - quiero comunicarme con una gente mala
+    - Quiero comunicarme con una gente muerta
+    - Quiero comunicarme con una mano
+    - Quiero comunicarme con una mano para aclarar una duda
+    - quiero comunicarme con una persona
+    - Quiero comunicarme con vos en tu mano
+    - Quiero hablar con un agente Omar
+    - quiero hablar con un asesor
+    - Quiero ser injusta.
+    - quisiera comunicarme con Argentina
+    - Quisiera comunicarme con un agente humano.
+    - Quisiera comunicarme con un asesor.
+    - Quisiera comunicarme con una centena.
+    - Quisiera hablar con un agente manos.
+    - Quisiera si es tan amable Con una gente es tan amable.
+    - rapero comunícame con una gente más
+    - recreo comunicarme con gas en tu mano
+    - refiero comunicarme con un agente humano
+    - refiero con un agente
+    - refiero con un agente humano
+    - refiero con una gente humana comunicarme
+    - regalar con un humano
+    - regresa con la gente Bueno gracias
+    - regresarme con Ángel Iván
+    - requiero comunicarme con agente humano
+    - requiero comunicarme con un asesor humanos
+    - requiero comunicarme con una gente y manos
+    - requiero con una gente mal
+    - Requiero que me comuniqué con una gente.
+    - requiero un agente mano
+    - respiro comunicarme comunicarme con una gente
+    - retiró comunicarme con un agente humano
+    - retiros comunicarnos con la gente humana
+    - ricardo con un asesor
+    - rojo agente
+    - Salvador para comunicarme con una gente humana
+    - se Me comunicas con Nancy humano, por favor
+    - Se puede comunicar con un asesor de cartera, por favor?
+    - Se quedó con mi casa con un agente humano.
+    - se una gente mala por favor
+    - seconline tu mano, por favor
+    - según agente
+    - señora con un agente humano
+    - señorita Necesito hablar con un agente humano
+    - señorita yo deseo comunicarme con agente humano para saber sobre mi seguro que tengo con ustedes, Gracias
+    - ser humano
+    - ser un agente agente fumar
+    - Sería mejor comunicarme con un agente humano.
+    - Sería preferible comunicarme con un agente humano.
+    - servicio al cliente
+    - sí agente humano
+    - si coma en tu mano
+    - si comes en tu mano, por favor
+    - sí comunicar con la gente ivana
+    - sí comunicarme con el chema
+    - si comunicarme con un asesor humano porfavor
+    - Sí con acento humana, por favor, para que me expliquen bien, Qué va a hacer.
+    - sí con acento mano por favor
+    - Sí con acento y mano, por favor
+    - Sí con la gente
+    - sí con la gente buena por favor
+    - sí con la gente humano mejor
+    - Sí con la gente humano, por favor
+    - Sí con otra gente por favor humano
+    - Sí con un agente en el trabajo
+    - Sí con un agente hermano, hágame el favor.
+    - Sí con un agente humano, gracias.
+    - Sí con un agente humano, por favor
+    - Sí con un asesor humano
+    - Sí con un asesor mito comunicarme
+    - Sí con un asesor se
+    - Si con una con el agente Erika Nieto es la persona que me atiende me para renovar el seguro del carro.
+    - si con una gente humana
+    - si con una gente mal
+    - sí con una gente mala por favor
+    - Si con una gente mala, gracias.
+    - si con una gente más
+    - si con una gente mejor
+    - si con una gente se
+    - si con una mano
+    - Sí con unas en tu mano
+    - si correcto la gente humano
+    - Sí cuando la gente humana
+    - Sí cuando un agente humano
+    - si deseo comunicarme con acento humanos
+    - si deseo comunicarme con un agente humano
+    - si deseo comunicarme con un agente humano
+    - si deseo comunicarme con una diente humano
+    - si en comunicarme con la gente humana
+    - si es tan amable Con un humano
+    - Si es un agente mano, por favor, es tan amable Muchas gracias, si estoy esperando.
+    - Si eso comunicarle que no la gente humana
+    - sí hágame el favor y me comunica con una persona
+    - si hay gente humana
+    - Si la gente humana
+    - Si me comunica como un agente mano, por favor.
+    - Si me dijo ahora y me comuniqué con una gente humana Muchas gracias.
+    - Si me puede comunicar con una esté mejor.
+    - si me quiero comunicar con un agente humano
+    - Si mejor con un asesor.
+    - Si mejor lo agente por favor
+    - si mejor me comunicó con un agente umán
+    - si mejor que una gente humana
+    - Si mejoro me pueden comunicar con unas encima no si es tan amable.
+    - si necesitan gente con mano
+    - Si necesito comunicarme con alguien más.
+    - Si necesito comunicarme con la gente humano Muchas gracias
+    - Si necesito comunicarme con un agente de contratos
+    - Si necesito comunicarme con un agente humano
+    - Si necesito persona humana
+    - si necesito un agente humano
+    - Si necesito un agente humano por favor un funcionario
+    - si necesito un asesor en tu mano
+    - Si para comunicarme con las manos.
+    - Si para comunicarme con un agente humano.
+    - sí pero comunicarme con la gente humana
+    - Sí pero comunicarme con nadie tío Man
+    - Sí pero neta hablar con un asesor
+    - Sí pero Quiero comunicarme con Argentina no
+    - Sí pero Quiero comunicarme con el agente humano
+    - sí pero quiero comunicarme con la gente humana
+    - sí pero quiero comunicarme con un agente
+    - Sí pero Quiero comunicarme con un agente humano
+    - si por favor 1 agente humano
+    - si por favor a un agente humano
+    - Si por favor comunicarías con un agente humano.
+    - si por favor con agente humano porfavor
+    - Si por favor con la gente humana.
+    - sí por favor con un agente humano
+    - sí por favor con un agente humano gracias
+    - Si por favor hablar con un agente humano.
+    - si por favor imágenes humanos
+    - Si por favor la gente no manos por favor
+    - Si por favor Me comunicas con un agente humano, por favor.
+    - si por favor me comunicas más bien con un agente humano
+    - si por favor para confirmar una póliza comunicarme con una gente humana
+    - si por favor que una gente humano
+    - Si por favor una gente que que que me pueda colaborar.
+    - Si por favor, comunícame con agente humano.
+    - Si por favor, comunícame con una gente humanos.
+    - Si por favor, Quiero comunicarme con un asesor.
+    - Si por favor, un agente humano, gracias.
+    - Si por favor, un agente humano, por favor, si es tan amable, gracias.
+    - Si prefiero comunicarme con la gente humana.
+    - Si prefiero comunicarme con la gente humano.
+    - si prefiero comunicarme con la gente uma
+    - Si prefiero comunicarme con la gente.
+    - si prefiero comunicarme con un agente humanas
+    - si prefiero comunicarme con un agente humano
+    - si prefiero comunicarme con un agente humano por favor
+    - si prefiero comunicarme con un agente humanos
+    - Si prefiero comunicarme con un agente un mal.
+    - si prefiero comunicarme con una gente humana, por favor, Gracias
+    - Si prefiero comunicarme con una gente o mano, gracias.
+    - Si prefiero comunicarme con una víctima.
+    - Si prefiero la comunicación con un agente humano, por favor.
+    - Si prefiero un agente humano, por favor.
+    - Si prefiero un agente mano.
+    - Si prefiero un agente un asesor humano mejor.
+    - Sí primero Comunícame con gente
+    - Sí pues porque me quemé con la gente humana
+    - Sí que me gustaron agente humanos.
+    - si Quiero comunicarme con imagen
+    - si Quiero comunicarme con la gente humana
+    - si Quiero comunicarme con un agente humano
+    - Si quiero un agente humano
+    - si quisiera comunicarme con una gente humana
+    - Sí señora con un agente humano, por favor
+    - sí señora prefiero comunicarme con un agente mac
+    - Sí señora, Por favor, necesito comunicarme con tu mano.
+    - sí sí llegué a comunicarme con una gente humanos
+    - Sí sí tú Maná
+    - Sí sí una gente humana.
+    - Si tan amable Con una gente humana
+    - Sí te creo Comunícame con un agente humano
+    - Si te espero comunicarme con un agente humano.
+    - si te espero comunicarme con un águila
+    - Si te quiero comunicarme con la gente mala.
+    - Si te quiero comunicarme con un asesor.
+    - si tengo con una gente mano por favor
+    - Si traté de comunicarme con una gente más.
+    - Si tu mano, por favor.
+    - Sí tuve Quiero comunicarme con un agente humano
+    - si un adulto humano
+    - si un agente humano a lo mejor
+    - Si un agente humano comunícame.
+    - Si un agente humano está bien.
+    - si un asesor de Tigo
+    - si un asesor, por favor
+    - si una gente
+    - si una gente humanos
+    - si una gente mal
+    - si una gente mala, por favor
+    - si una gente más
+    - si una mano por favor
+    - si una vez tu mano
+    - si unas antimano
+    - Sí, agente humano, por favor ti.
+    - sí, Argentina
+    - Sí, argentino manos.
+    - Sí, como una agente Ahumada humano.
+    - Sí, comunica Comunícame con un agente humano, por favor.
+    - Sí, comunicarme con agente humano.
+    - Sí, comunicarme con la gente humano.
+    - Sí, comunicarme con una gente mala.
+    - Sí, necesito como agente humano.
+    - Sí, necesito un agente humano.
+    - sia gente manos
+    - siempre humano
+    - siempre prefiero
+    - Significa un antímano?
+    - silla gente humana
+    - sin ser humano
+    - Siri Comunícame con alguien
+    - sise quiero comunicarme con un humano
+    - solicitar una gente normal
+    - Solicito comunicarme con Maggie tucumán
+    - solicito comunicarme con una gente
+    - Son un agente mano.
+    - Sonora gente con la gente mejor un humano
+    - soy el tercero comunicarme con un consultor humano
+    - soy tomarla se puede comunicar con argentina
+    - soy una gente humana
+    - talento humano
+    - tan amable un agente humano
+    - Te conocí tus manos.
+    - te deseo comunicarme con la gente y Maná
+    - Te dieron un agente humano?
+    - Te espero comunicarme con la gente humana.
+    - Te prefiero comunicarme con el agente humano, gracias.
+    - Te quiero comunicarme con el agente.
+    - Te quiero comunicarme con la gente.
+    - Te quiero comunicarme con makiman.
+    - Te quiero comunicarme con un agente humano.
+    - te quiero comunicarme con un agente mano
+    - te quiero comunicarme con un agente umán
+    - Te quiero con una codiendo humano para saber qué pasó.
+    - te viera comunicarme con un agente humanos
+    - tejido comunicarme con la gente más
+    - telares de mano
+    - telecomunicaciones en tu mano
+    - temas aquí con una gente mala
+    - Tengo cliente.
+    - tercero comunicarme con un agente humano
+    - Tevez comunicarme con un agente de chimba
+    - Thor humano
+    - tigres-américa gente humana
+    - tira cómica con un agente
+    - toda gente mala
+    - toda la gente
+    - toda la gente humana
+    - Todavía no comunicarme con un agente humano.
+    - tomar en tu mano
+    - trajes de Maná
+    - transferir agente humano, por favor
+    - triple cero con un agente humano
+    - tu mano
+    - tu mano, por favor
+    - Ubicarme con aceite.
+    - ubicarme con detergente mano
+    - ubicarme con un agente personal
+    - Umán
+    - un aceite humana
+    - un agente comunicarme con un agente
+    - un agente en mano humano
+    - un agente hermanos
+    - un agente humano agente humano
+    - Un agente humano gracias.
+    - un agente humano gratis
+    - un agente humano necesito
+    - un agente humano por fa
+    - un agente humano que por favor
+    - un agente humano quisiera comunicarme
+    - un agente humano un agente humano un agente humano una gente humana
+    - un agente humanos tan amable
+    - un agente mano, por favor
+    - un agente manos
+    - un agente más corto
+    - un agente mis ojos hacienda
+    - un agente un perrero comunicarme con una gente y manos
+    - un agente Vans
+    - un agente Vial
+    - un ambiente humano, por favor
+    - un ángel tu mano un agente humano
+    - un anuncio mano
+    - un asesor sin alcohol
+    - un ejemplo, por favor
+    - un humano
+    - un humano por favor
+    - un mano con un agente humano
+    - un mesecito comunicarme con un agente humano
+    - una agencia humano
+    - una de tu mano, por favor
+    - una en tu mano requiero comunicarme con un agente humano
+    - una esfera con
+    - una genio mano
+    - una gente de mano gracias
+    - una gente humana por el bruta
+    - una gente más una gente más
+    - una gente más, por favor
+    - una humana
+    - una imagen de humano
+    - una IP Man
+    - una junta humano por favor
+    - una mano
+    - una mente humana
+    - una mente humana porfa
+    - una vez tu mano, por favor
+    - unagi tu mano
+    - UNAM en tu mano, por favor
+    - uñas de humano
+    - unas dudas el agente humano un agente humano
+    - unas en tu mano
+    - única mano
+    - únicamente humano
+    - unicar agente humano
+    - unite humana
+    - urgente humano
+    - usar la comunicas con una gente humana
+    - Usted no entiende.
+    - Valente Man
+    - Vegeta comunicarme con la gente humanos
+    - vehículos del camino agente mano
+    - verificar mi con acento humano
+    - vestido comunes en tu mano
+    - vestido comunicando con una gente en persona
+    - vestido comunicarme con la gente
+    - vestido comunicarme con la gente humana
+    - vestido comunicarme con un animal
+    - Vicente humano
+    - video comunicarme con la gente igual
+    - video comunicarme con un agente humano
+    - video con una gente
+    - y agente
+    - y agente humano
+    - y cómo la gente se activan comunicación gracias
+    - y con agente humano
+    - y con la gente humano mejores
+    - y con un agente humano
+    - Y con una con una gente tan amable.
+    - y el hijo agente humano
+    - Y es mejor con una sentí humano, porfa.
+    - Y no me puedo comunicar con un agente humano.
+    - Y por favor, la gente mal.
+    - y por favor, un agente humano
+    - Y por favor, una gente.
+    - Y prefiero comunicarme con alguien tu mano.
+    - Y prefiero comunicarme con antihumano.
+    - Y prefiero comunicarme con gancho mano.
+    - Y prefiero comunicarme con más gente humano.
+    - Y prefiero comunicarme con un agente humano, por favor.
+    - Y prefiero comunicarme con un agente humano.
+    - Y prefiero con un agente humano
+    - Y qué pedo Por favor comunicarme con la gente humana, por favor
+    - Y Sí sería bueno por un agente humano, por favor.
+    - y te quiero comunicarme con una Argentina
+    - y un agente humano
+    - Ya acabé de accidentar con una moto, necesito asesoría, por favor, en el en el punto derecho y accidente.
+    - Ya le dije que un humano o quiere que cuelgue.
+    - Ya puedes comunicar, por favor con un agente humano.
+    - yo creo que es mejor comunicarme con un agente humano
+    - Yo creo que es mejor un agente humano
+    - Yo prefiero comunicarme con un agente humano.
+    - yo quiero comer muy tarde con el agente
+    - Yo quiero comunicarme con el aceite humano
+    - Yo quiero comunicarme con el agente humano
+    - Yo quiero comunicarme con una gente cubana
+    - Yo quiero con una persona.
+    - zona en tu mano
+    - Zona Gente humano
+    - Zona Gente más dulces
 
 - intent: 3_CONFIRMATION_NO
   examples: |
@@ -2326,8 +2265,6 @@ nlu:
     - 24 horas del día los 7 días de la semana
     - 5 céntimos en apagadores
     - 66 la barda
-    - A
-    - A dónde se
     - A Lo bueno, es que no están pidiendo la carátula de la póliza que le compramos el carro por la entidad y ustedes.
     - A qué correo electrónico se debe enviar o es en la página que se fundó todo?
     - A qué huevonada con una maricada?
@@ -2426,7 +2363,6 @@ nlu:
     - Chile
     - chip
     - chips
-    - cie
     - cine
     - cine hoy por favor
     - cine siniestro reporte
@@ -2473,7 +2409,6 @@ nlu:
     - comunicarnos
     - con alguien mano
     - Con quien habló.
-    - con una gente humana
     - Con una persona así con una gente para decirle que lo que necesito.
     - Con una persona que me atienda, por favor.
     - Con unas encima no lo mejor.
@@ -3024,7 +2959,6 @@ nlu:
     - prefiero
     - Prefiero complicando.
     - Prefiero complicarme con una persona.
-    - Prefiero comunicarme con la gente humana.
     - Prefiero comunicarme con una gente, por favor.
     - Prefiero comuníquese.
     - prefiero ser una persona
@@ -3395,7 +3329,6 @@ nlu:
     - afiliar una mascota
     - agente humano agente mano argentina no
     - agente humano cartera
-    - agente mano
     - ah que me resuelva una póliza
     - Ahora que me regale el correo Para enviarme en capacidad médica.
     - al adquirir un seguro de vehículo
@@ -3502,12 +3435,9 @@ nlu:
     - Comunícame con la canción
     - comunicar un agente humano
     - comunicarme con la gente
-    - comunicarme con la gente humana
     - comunicarme con la gente humano
     - comunicarme con la gente max
-    - comunicarme con un agente
     - comunicarme con un agente humano
-    - con un agente humano
     - con un agente Manatí
     - Condesa nosotros cruz para una reclamación
     - confirmación de cuenta
@@ -3579,7 +3509,6 @@ nlu:
     - en ausencia de un accidente
     - En el sur del seguro.
     - en información
-    - en tu mano
     - encuesta para averiguar por un seguro de vehículo
     - enserio
     - erika seguro
@@ -3635,14 +3564,11 @@ nlu:
     - frases oración asesorarme sobre la póliza RQT
     - fueron proceso de indemnización
     - generales
-    - gente humana
     - Gracias mira lo que pasa es que tengo con usted pendiente una autorización para una reputación de un vehículo quedaron de enviarla desde el viernes y no la han enviado todavía al taller Entonces no sé.
     - Gracias política
     - grúa ejército grúa
     - Habla.
     - Hablar con él.
-    - Hablar con la gente.
-    - hablar con un agente humano
     - hablar de un siniestro que tuve
     - hablar personalmente con el agente humano
     - Hace como mes y medio me quitará lo que me respondieron por lo de un arreglo de una moto.
@@ -3660,9 +3586,6 @@ nlu:
     - Hola que me solucionan conformidad que tengo con ustedes
     - Hola un accidente que envíen la grúa
     - hotel
-    - human
-    - humano
-    - humanos
     - hurto
     - icon matching bailan felices
     - incapacidad
@@ -4736,7 +4659,6 @@ nlu:
     - predicación de simios
     - predicación de siniestro
     - predicar una información de la empresa Rincón
-    - Prefiero comunicarme con un agente humano.
     - prefiero comunicarme con un agente humanos
     - Prefiero comunicarme Cuba en tu mano.
     - Pregunta, yo hablo con un robot habló con una un agente de servicios.
@@ -5096,19 +5018,13 @@ nlu:
     - automóvil automóvil
     - Ay
     - Chevrolet 44444
-    - comunicarme con un asesor
     - comunicarme con un asesor con un asesor
-    - con un agente humano porfavor
     - con un agente personal
-    - con un asesor humano
     - con un asesor personal
     - coraje tu mano, por favor
     - Es que necesito que por favor me colabora entrenamiento.
-    - Hablar con un asesor.
     - Ian Lucas
     - Me enviaste el mensaje a donde un mensaje de texto?
-    - Me puedes comunicar con un agente humano?
-    - Me puedes comunicar con un asesor humano?
     - Necesito hablar con alguien más
     - Necesito saber la fecha exacta de una consignación que me van a hacer
     - Necesito un asesor de servicio
@@ -5155,9 +5071,6 @@ nlu:
     - agente monte
     - asesor un asesor
     - como sea registrar Argentina
-    - comunicarme con un agente
-    - comunicarme con un agente humano
-    - con un humano
     - deseo comunicarme con la gente humana
     - deseo comunicarme con la gente manos
     - deseo comunicarme con un agente
