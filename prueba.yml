@@ -835,13 +835,11 @@ nlu:
     - tengo factura de falabella y RQT y para pagar el seguro de mi auto
     - Tengo una factura enviada por ustedes y no sé a qué póliza corresponde.
     - Tengo una inquietud
-    - tesorería
     - trámite vehicular
     - trámites
     - tranquilícese
     - transformación
     - Un ascensor humano gracias.
-    - una carta
     - una conversación un ser humano
     - una maldita distancia de un asesor
     - Vendí mi carro y Necesito traspasar la póliza.
@@ -910,7 +908,6 @@ nlu:
     - agencia mano
     - bolsa de transporte
     - motos
-    - sí
     - vehículos Quiero contacto con un asesor humano
 
 - intent: 2_SINIESTRO_TRANSFER
@@ -973,7 +970,6 @@ nlu:
     - 304 47 4509
     - asesora
     - cárcel
-    - Comunícame con un agente humano, por favor
     - de titular
     - el estado ingiriendo
     - el sobrado insignias
@@ -996,7 +992,6 @@ nlu:
     - No, no, no, no he tenido sexo con con aseguradora RQT.
     - nombre Carlos Andrés Medina balance
     - por aquí
-    - sí
     - si es un vehículo
     - si te juro con RQT
     - Si yo tengo carro y salvo
@@ -2603,7 +2598,6 @@ nlu:
     - Cómo vas hacer
     - comprar seguro de auto
     - comprar un seguro todo riesgo para un vehículo
-    - comprar una póliza
     - Compré mi mi seguro contra todo y me dijeron que podía reclamar un kit de carreteras de obsequio.
     - comunica
     - comunica en Tijuana
@@ -2625,7 +2619,6 @@ nlu:
     - conjuntiva
     - conlagente y bueno gracias
     - conocer el teléfono de la oficina de RQT acá en Pereira
-    - consulta
     - consulta siniestro
     - consultar costo factura seguro RQT
     - contactar el señor Julio César
@@ -2934,7 +2927,6 @@ nlu:
     - Necesito información sobre una indemnización por muerte
     - Necesito leer un mensaje de voz y no sé cómo
     - necesito plan del seguro del carro no está mascota del carro
-    - Necesito por favor.
     - Necesito que alguien pueda ir a resolverme
     - Necesito que me aclaren el estado de una factura
     - necesito que me conteste la llamada
@@ -3179,7 +3171,6 @@ nlu:
     - Prefiero complicando.
     - Prefiero complicarme con una persona.
     - Prefiero comunicarme con la gente humana.
-    - Prefiero comunicarme con la gente humanos.
     - Prefiero comunicarme con un agente humano.
     - Prefiero comunicarme con una gente, por favor.
     - Prefiero comunicarme con una gente.
@@ -3329,7 +3320,6 @@ nlu:
     - signo intranet humano
     - sigues con
     - sinceramente tú
-    - siniestro
     - sise
     - six
     - sobreseguro
@@ -3442,7 +3432,6 @@ nlu:
     - Y pues la verdad, estamos muy solos aquí y no aparece la grúa. Estamos expuestos Quisiera saber cuánto tiempo más se puede morar.
     - Ya cerraste la queja y no y no me han dado respuesta.
     - ya ya ya ya ya cumplió madero
-    - yo
     - Yo tengo un seguro con RQT y está próxima a vencerse.
     - Yo tengo un vehículo
     - yola a chupar
@@ -3678,7 +3667,6 @@ nlu:
     - compra de una póliza para vehículos nuevos
     - compra euro
     - comprar seguro
-    - comprar una póliza
     - compreseguros
     - comprobar una póliza
     - Comunícame con el agente humano Y le cuento
@@ -3725,7 +3713,6 @@ nlu:
     - cotizar
     - cotizar póliza todo riesgo
     - cotizar seguro
-    - cotizar un seguro
     - cotizar un seguro todo riesgo de vehículo
     - cristo respuesta a mi solicitud del día de ayer
     - cuando el transporte de la camioneta
@@ -4092,7 +4079,6 @@ nlu:
     - Necesito una consulta
     - Necesito una gente para que me la documentación del caso de colisión que tuve hace un mes
     - Necesito una guía por favor
-    - Necesito una información
     - Necesito una información urgente
     - Necesito una mente humana
     - Necesito una para una reclamación
@@ -4161,7 +4147,6 @@ nlu:
     - para actualizar correo electrónico
     - Para actualizar datos que me ayude.
     - Para actualizar unos datos Y para que me manden una grúa.
-    - para adquirir una póliza
     - para adquirir una póliza de seguro para vehículo tipo camión
     - para agilizar el proceso de la muerte
     - Para agilizar un problema que tengo.
@@ -4772,7 +4757,6 @@ nlu:
     - para un servicio de empleada
     - para un servicio de grúa
     - para un servicio de grúas
-    - para un siniestro
     - Para un siniestro de el carro que está asegurado 041.
     - para un siniestro que tuve acá en chía cundinamarca
     - para un siniestro que tuve para un siniestro que tuya
@@ -4946,7 +4930,6 @@ nlu:
     - Prefiero comunicarme con un agente humano.
     - prefiero comunicarme con un agente humanos
     - Prefiero comunicarme Cuba en tu mano.
-    - pregunta
     - Pregunta, yo hablo con un robot habló con una un agente de servicios.
     - Pregúntale por un seguro a ver si todavía está vigente.
     - preguntar por el saldo de cartera
@@ -5003,13 +4986,11 @@ nlu:
     - reenvío de un correo electrónico
     - renovación
     - renovación de factura de pago
-    - renovación de póliza
     - renovación de póliza de auto
     - renovación de seguro
     - renovar mi póliza de seguro
     - renovar mi seguro del auto
     - renovar mi seguro extracontractual
-    - renovar póliza
     - renovar seguro todo riesgo
     - reparación
     - reparaciones
@@ -5061,7 +5042,6 @@ nlu:
     - servicio de grúas
     - servicio doméstico
     - show me chocaron por detrás
-    - sí
     - Si el carro tiene RQT
     - si es para para
     - Si es que estoy interesada en saber en qué clínicas hospitales en caso de una urgencia emergencia podemos empezar el servicio.
@@ -5079,9 +5059,6 @@ nlu:
     - sideat
     - significado ahí en esa el momento
     - Simpson
-    - siniestro
-    - siniestro 2
-    - siniestros
     - sobre póliza de vehículo
     - solicitar chip de carretera
     - solicitar copia póliza
@@ -5303,7 +5280,6 @@ nlu:
     - C
     - jessie
     - SEP
-    - sí
     - Sí, señal.
     - Si llegó.
     - Sí, agente humano.
@@ -5319,12 +5295,6 @@ nlu:
     - por daño en mi carro
     - Por daño en mi vehículo.
     - por lesión.
-
-- intent: 5_QUOTES_CONFIRMATIONYES
-  examples: |
-    - sí
-    - Sí, confirmado.
-    - tyc
 
 - intent: 5_QUOTES_CONFIRMATIONYES_FALLBACK
   examples: |
@@ -5378,18 +5348,6 @@ nlu:
     - un agente humano por favor
     - Y otro tema.
 
-- intent: 5_QUOTES_CONFIRMATIONYESYES_REPEAT
-  examples: |
-    - allo
-    - No entiendo la pregunta.
-
-- intent: 5_QUOTESCAR_CONFIRMATIONYES
-  examples: |
-    - Es correcto.
-    - Está bien.
-    - sí.
-    - Sí.
-
 - intent: 6_CONFIRMATION_NO
   examples: |
     - no.
@@ -5404,14 +5362,6 @@ nlu:
     - juegos
     - Mi nombre es O
     - prueba de voz
-    - prueba de voz
-
-- intent: 8_USERPHONE_CONFIRMATION_YES
-  examples: |
-    - 10 correctos
-    - perfecto
-    - sí
-    - Sí, confirmo.
 
 - intent: DEFAULT_FALLBACK
   examples: |
@@ -5449,7 +5399,6 @@ nlu:
     - No respondes mi solicitud.
     - Queda cocinaban.
     - secop II
-    - sí
     - Si aún deseo comunicarme con un agente humano.
     - si deseo comunicarme con la gente humano
     - si necesito comunicarme con un agente humano
