@@ -1,14 +1,6 @@
-version: 2.0
+version: "2.0"
 
 nlu:
-- intent: _REPEAT
-  examples: |
-    - no soy la titular de la del seguro
-    - no no le entiendo no le entiendo ala pregunta
-    - Porfa, repetir la pregunta.
-    - Con quién?
-    - No me dicen que de la aseguradora RQT.
-    - No lo escuches dígame nuevo
 
 - intent: 1_HELLO_REPEAT
   examples: |
@@ -2770,7 +2762,6 @@ nlu:
     - Google
     - grabador
     - Gracias Necesito saber si ya corrigieron una placa de un vehículo nuevo
-    - Gracias.
     - grande que el otro coche
     - Grecia 500
     - grúa
@@ -2836,7 +2827,6 @@ nlu:
     - Jesus Christ
     - Joel
     - Jorge
-    - juegos
     - Karen semana
     - Kiko donas en Tecomán
     - kit de carreteras
@@ -3112,7 +3102,6 @@ nlu:
     - objetivo
     - objetivo no
     - organización de mi vehículo
-    - Outlook
     - oye nada
     - Oye Siri pero necesito para la carrera 94b número 566 a50
     - ozuna
@@ -3167,10 +3156,7 @@ nlu:
     - para un servicio de grúa para un vehículo de carga
     - para una aclaración
     - para una consulta de mi carro
-    - para una incapacidad
     - para una póliza
-    - para una queja
-    - para una reclamación
     - para verificar el valor de un seguro todo riesgo
     - para verificar la cobertura de mi auto
     - parábola
@@ -3191,8 +3177,6 @@ nlu:
     - plomería
     - política lo
     - póliza
-    - póliza de auto
-    - póliza de autos
     - póliza de seguro
     - póliza de seguro del carro
     - póliza del vehículo
@@ -3280,15 +3264,11 @@ nlu:
     - radio por allá por allá
     - razonable
     - realización de una seguridad para un vehículo
-    - reclamación
     - reclamación de siniestros
     - reclamación por incapacidad
-    - reclamación una reclamación
     - Recuérdame con el tema.
-    - renovación de seguro
     - renovar póliza seguro automóvil
     - renovar un seguro obligatorio
-    - reporte de siniestro
     - reporte siniestro
     - repuesto para herramienta
     - requiero
@@ -3325,8 +3305,6 @@ nlu:
     - servicio al cliente
     - servicio de cerrajería cambio de claves
     - servicio de chequeo vehicular para viaje
-    - servicio de grúa
-    - servicio de grúa
     - servicio de grúa y custodia
     - servicio de una bruja
     - servicios
@@ -3380,7 +3358,6 @@ nlu:
     - solicitó información
     - solicitó para un número telefónico de un analista
     - Solicitó vehículo de reemplazo.
-    - solicitud
     - solicitudes a través de nuestro número de WhatsApp 316 834 9339 y atenderemos las 24 horas del día los 7 días de la semana
     - sólo una póliza la póliza
     - somos
@@ -3407,7 +3384,6 @@ nlu:
     - Tengo doble facturación falabela y RQT y para el de las 2 Debo pagar
     - Tengo póliza con ustedes.
     - Tengo problema con un radicado.
-    - Tengo un siniestro.
     - Tengo una duda el día de ayer llegué a la casa, salimos y cuando llegué a la casa y notó que me juntaron unos pues unas cosas del inmueble quería que sabe.
     - Tengo unas un accidente, se llama mi asesor y me dijo que llamará aquí a la póliza mía para reportarlo.
     - tesorería
@@ -3424,9 +3400,7 @@ nlu:
     - turnos de anses
     - ue es que yo quiero que me mandaron un correo porque yo soy un afectado de un vehículo que está en esa aseguradora y entonces yo quiero que me mandaron una un papel diciendo se diciéndome en que me que me daban un un tanto de plata y yo quiero es que me
     - última gracias
-    - un accidente
     - un accidente con un carro de aseguradora RQT
-    - un animal
     - un asesor de póliza de seguro de automóvil
     - un carro
     - un robo de una ventana y un marco de una ventana
@@ -3458,7 +3432,6 @@ nlu:
     - Valentina
     - validar información
     - validar las fechas de cubrimiento de una póliza contra todo riesgo
-    - validar una póliza
     - Valores que yo quiero yo tengo un seguro de vida con ustedes yo quiero preguntar referente a eso.
     - vamos
     - varada de carros
@@ -3884,10 +3857,8 @@ nlu:
     - gente humana
     - Gracias mira lo que pasa es que tengo con usted pendiente una autorización para una reputación de un vehículo quedaron de enviarla desde el viernes y no la han enviado todavía al taller Entonces no sé.
     - Gracias política
-    - Gracias.
     - grúa
     - grúa ejército grúa
-    - grúas
     - Habla.
     - Hablar con él.
     - Hablar con la gente.
@@ -3918,7 +3889,6 @@ nlu:
     - incapacidad
     - inconformidad
     - inconsistencia en documentos
-    - indemnización
     - indemnización de Pérdida total
     - indemnización indemnización indemnización indemnización
     - indemnización interdicción
@@ -3926,7 +3896,6 @@ nlu:
     - información
     - información de cine
     - información de cines
-    - información de factura
     - información de indemnizaciones
     - información de la Pérdida total del vehículo
     - información de mi carro
@@ -3952,7 +3921,6 @@ nlu:
     - información sobre una reclamación
     - ingreso de vehículo
     - inocente mano, por favor
-    - inspección de motocicletas
     - intermediario de seguros
     - internaciones
     - interponer una queja
@@ -4073,7 +4041,6 @@ nlu:
     - Necesito hablar sobre la facturación por forma de comunicar con más gente humano.
     - Necesito hacer la consulta sobre un analista de un siniestro
     - Necesito hacer una pregunta personal
-    - Necesito hacer una reclamación
     - Necesito hacer una reclamación de un accidente
     - Necesito hacer una solicitud
     - Necesito hacer unas consultas
@@ -4141,7 +4108,6 @@ nlu:
     - Necesito un asesor para averiguar sobre los servicios de mi seguro
     - Necesito un asesor para averiguar un tema sobre un siniestro
     - Necesito un cerrajero
-    - Necesito un conductor elegido
     - Necesito un kit de carretera
     - Necesito un plomero
     - Necesito un root
@@ -4206,8 +4172,6 @@ nlu:
     - pagos en línea
     - palabras son siguiente que tú
     - Papi salgo siniestro
-    - para
-    - para 1
     - para abrir una cerradura de puerta
     - para acceder a la policía de RQT
     - para aclaración de una póliza
@@ -4303,7 +4267,6 @@ nlu:
     - para cancelar un seguro de vida
     - para carro reemplazo
     - Para celular reclamación del seguro de un vehículo que está asegurado ya entré yo.
-    - para colocar una queja
     - Para comentar el caso que que no estoy agusto.
     - para comentar una situación sobre la del vencimiento del seguro que tengo del cardo
     - Para comentarle lo que pasa es que necesito una grúa.
@@ -4950,7 +4913,6 @@ nlu:
     - paz y salvo de de un siniestro
     - películas de Mr información de una solicitud
     - Pérdida total
-    - perdón
     - Perdón seguro
     - persona de contacto en contabilidad
     - personal
@@ -4962,8 +4924,6 @@ nlu:
     - policía Buscando el ingeniero Jaime guaglianoni
     - polis el desempleo
     - polita
-    - póliza
-    - póliza de auto
     - póliza de mascotas
     - poliza de trayectos
     - póliza de vehículo
@@ -4974,7 +4934,6 @@ nlu:
     - polvo como adulto de mi carro
     - pon una factura que estoy recibiendo de parte de ustedes
     - Poner pqr.
-    - por favor
     - Por favor, necesito que me rectifiquen la dirección y número de teléfono de amino.
     - por qué es que quiero cancelar el seguro no no tengo con que seguir
     - por qué necesito consultar una duda que tengo con el seguro todo riesgo del vehiculo
@@ -5115,7 +5074,6 @@ nlu:
     - sabía
     - sacar un pago por incapacidad
     - sale viajar
-    - salvamentos
     - San Gerardo élite
     - sancionar
     - se pidió una carta del 3 de diciembre y hasta ahora no se ha llegado por parte de RQT
@@ -5125,7 +5083,6 @@ nlu:
     - seguro de mascotas
     - seguro del carro
     - Seguro seguro de carro
-    - Seguro todo riesgo.
     - seguros de autos
     - seguros vehículos
     - señorita tengo una incapacidad de mi esposo yo tengo un seguro con ustedes
@@ -5265,7 +5222,6 @@ nlu:
     - valor del seguro
     - varado
     - varados
-    - vehículo
     - vehículo de reemplazo
     - vehículo reemplazo
     - vehículos reemplazos
@@ -5298,7 +5254,6 @@ nlu:
     - Necesito conocer el siguiente de mi caso
     - para que el seguimiento de mi casa
     - seguimiento de mi caso
-    - solicitó
 
 - intent: 4_CONFIRMATION_NO
   examples: |
@@ -5387,10 +5342,9 @@ nlu:
   examples: |
     - correcto
     - Jessie
-    - si correcto
     - si es mi número de contacto
     - Sí señora
-    - Sí, confirmado.
+    - Sí, confirmado
 
 - intent: 5_CONFIRMATION_YES
   examples: |
@@ -5519,15 +5473,12 @@ nlu:
 
 - intent: DEFAULT_FALLBACK
   examples: |
-    - agente
-    - agente humano
     - agente humano agente humano
     - agente humano agente humano agente humano
     - agente humano correcto
     - agente humanos y
     - agente mano
     - agente monte
-    - amiga
     - Ángel humano
     - antemano
     - Argentina
@@ -5536,7 +5487,6 @@ nlu:
     - asesor un asesor
     - cancelación de póliza
     - cartera
-    - che gracias
     - como sea registrar Argentina
     - Comunícame con un agente humano
     - Comunícame.
@@ -5551,7 +5501,6 @@ nlu:
     - GTA
     - información
     - keno
-    - mejor
     - Necesito comunicarme con un agente humano.
     - necesito comunicarme con un agente más
     - necesito comunicarme con una gente mala que sos
@@ -5560,7 +5509,6 @@ nlu:
     - no
     - No respondes a mi solicitud.
     - No respondes mi solicitud.
-    - por favor
     - Queda cocinaban.
     - secop II
     - sí
