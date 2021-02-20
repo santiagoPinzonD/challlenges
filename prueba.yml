@@ -72,18 +72,13 @@ nlu:
     - accesorio mano
     - accesorios mano
     - aceite
-    - aceite humano
     - aceite humano por favor
     - aceite mano
-    - agencia mano
     - agente
     - agente agente
-    - agente agente humano
     - agente cubano
     - agente hermano
-    - agente humana
     - agente humana, por favor, sí
-    - agente humano
     - agente humano agente humano
     - agente humano agente humano agente humano
     - agente humano humano
@@ -525,7 +520,6 @@ nlu:
     - solicitó la gente humana
     - susana comunicar con la gente mano
     - tercera
-    - un
     - un agente
     - un agente asesor, por favor
     - un agente humano
@@ -538,7 +532,6 @@ nlu:
     - un asesor mano
     - un asesor un asesor un asesor
     - un seguro
-    - una
     - una asesoría
     - una gente
     - una gente humana
@@ -549,7 +542,6 @@ nlu:
     - una persona humana
     - una que está en tu mano
     - uñas de mano
-    - uno
     - Y prefiero comunicarme con un humano.
     - Yo quiero comunicarme con la gente
     - yo quiero comunicarme con la gente humano
@@ -565,20 +557,12 @@ nlu:
 - intent: 2_ASSISTS_TRANSFER
   examples: |
     - conductor elegido
-    - grúa
     - recoger
     - Estoy varado.
     - no asistencia en venta
     - Si necesito solicitar inspección
     - el me gustaría que hiciera un abogado aquí y ahorita para hacer el transbordo para una grúa para llevarle un taller autorizado Armenia
     - sin asistencia
-
-- intent: 2_ATENCION_CLIENTE
-  examples: |
-    - para hacer una reclamación
-    - Cómo hacer una reclamación
-    - para hacer un reclamo
-    - malo
 
 - intent: 2_CANCELACIONPOLIZA_TRANSFER
   examples: |
@@ -608,20 +592,11 @@ nlu:
     - una certificación de pólizas
     - ningún otro el certificado
     - Necesito averiguar un pago de una indemnización.
-    - agente humano
-    - asesor humano
     - CURP
     - hablar con un agente humano
     - Necesito copia de la de una póliza.
     - Necesito copia de la póliza.
     - si necesito copia de mi póliza de seguro
-    - un asesor
-
-- intent: 2_CERTIFICATIONS_REPEAT
-  examples: |
-    - Hola
-    - Aló?
-    - alok
 
 - intent: 2_CONFIRMATION_NO
   examples: |
@@ -634,9 +609,6 @@ nlu:
 - intent: 2_FAQ_B
   examples: |
     - Aclarar la manera de pago de mi seguro.
-    - agencia humano
-    - Argentina no
-    - argentum ano
     - asesoría penal
     - atención al cliente personalizada, por favor
     - atención presencial
@@ -666,15 +638,12 @@ nlu:
     - cancelación de seguro
     - cartel área de cartera
     - Carter
-    - cartera
     - chistes
     - comercial por favor
     - Cómo funciona una moto?
     - Cómo hago para conseguir un correo
     - Cómo me puede ayudar? Puedes ayudarme a informar sobre el seguro que tengo ahí?
     - como ser humano
-    - comunicación con la gente humana
-    - Comunícame con un agente humano
     - comunicarme con uber
     - con una genoma humano
     - confirmar número de póliza
@@ -687,12 +656,8 @@ nlu:
     - documentos a llevar
     - el Gracias para reclamar la indemnización de mi vehículo
     - el patito comunicarme con un agente de servicios
-    - el ser humano
     - elena me puedes comunicar con un asesor porfavor
-    - en
     - En la Ciudad de Cali hacen retención de ica?
-    - En qué mano
-    - era
     - es para averiguar sobre una incapacidad florida
     - Es que tengo una invitación a reclamar Pero entonces entre las cosas que me solicita me piden un certificado extrajuicio.
     - estado de mi póliza jjj444
@@ -724,10 +689,7 @@ nlu:
     - Hola Necesito una carta de no reclamación
     - í buenas tardes Elena Cómo ésta habla con la administradora del conjunto Residencial Balcones del de lo que pasa es que tengo problemas un apartamento de agua de filtración de agua y parece que fue el bajarse de áreas comunes entonces necesito, porfa.
     - iaca germania portería
-    - imagen de humano
-    - indemnizaciones
     - indicaciones
-    - información
     - información de placa de un vehículo nuevo
     - información de póliza por favor
     - información sobre
@@ -736,7 +698,6 @@ nlu:
     - la nación
     - la tarde amiga No quieres para pedir un servicio de grúa para camión
     - Llamar a D
-    - mami
     - mañana
     - me colaboras con un agente humano
     - Me comunica, por favor con un asesor humana.
@@ -752,7 +713,6 @@ nlu:
     - Muy buenos días, hágame un favor, lo que pasa es que necesito saber sobre el estado de mi vehículo con RQT seguros para ver en qué en qué va lo que la el concesionario le mando el reporte ya entonces están esperando.
     - Muy buenos días, hágame un favor, necesito saber en qué va el trámite de mi vehículo.
     - Muy buenos días, señora gentileza ayer Pues todo un siniestro estoy aquí en la clave Barranquilla llamo Consuelo con el pedido 4444
-    - necesito
     - Necesito asistencia de me está encendiendo el carro.
     - Necesito comunicarme con agente humano para que me pueda dar soluciones a unos problemas que tengo.
     - Necesito comunicarme con un asesor personal.
@@ -778,7 +738,6 @@ nlu:
     - necesito un servicio de plomería para mi casa
     - Necesito una certificación de cancelación de póliza
     - Necesito una certificación de no siniestralidad
-    - Necesito una mente humana
     - negrito validar el pago del auxilio de paralización
     - nito hablar personalmente con el agente humano
     - No deseo comunicarme con un asesor humano.
@@ -807,7 +766,6 @@ nlu:
     - Que alguien me conteste, gracias.
     - quejas
     - Quién tomó los seguros de generali?
-    - Quisiera comunicarme con un agente humano.
     - Quisiera saber el trámite de medicación por la póliza
     - Quisiera saber si tengo mi carro asegurado con ustedes
     - reposición de llave encendido
@@ -818,11 +776,8 @@ nlu:
     - Sale más barato.
     - se comunicas con un agente humano
     - Se comunique con una dientes, hágame el favor.
-    - seguro
     - seguro de vida chevyplan
     - señorita, cómo le cuento a Londres
-    - ser humano
-    - servicio al cliente
     - Servicio al Cliente por favor comercial
     - si estoy a la espera de una devolución del pago de un siniestro
     - Sí muchas gracias Quisiera pedir un favor Yo soy cliente de RQT
@@ -905,7 +860,6 @@ nlu:
 
 - intent: 2_QUOTES_FALLBACK
   examples: |
-    - agencia mano
     - bolsa de transporte
     - motos
     - vehículos Quiero contacto con un asesor humano
@@ -1001,7 +955,6 @@ nlu:
     - twitter0
     - un coche RQT seguros
     - Unite a la placa o qué?
-    - uno
     - Ver si si el vehículo cuenta con seguro todo riesgo Y usted, qué hace?
     - Yo soy la que pongo el seguro
     - zona segura bcp
@@ -1037,33 +990,27 @@ nlu:
       - agencia humanos
       - agencia mano
       - agencia manos
-      - agente
       - agente 1
       - agente a mano, por favor
       - agente agente humano
       - agente bueno
       - agente comal
-      - agente cubano
       - agente Homero
       - agente humana
       - agente humano
-      - agente humano agente humano
       - agente humano agente humano agente humano
       - agente humano comunicar con agente humano
       - agente humano comunicarme siente mal
       - agente humano con la gente mano Muchas gracias
       - Agente humano gracias.
-      - agente humano humano
       - agente humano llega covid
       - agente humano mejor servicio para un mejor servicio
-      - agente humano por favor
       - agente humano por favor acento humano
       - agente humano por favor agente humano
       - agente humano por favor comunicarme
       - agente humano prefiere la gente humano
       - Agente humano sí.
       - agente humano, porfa
-      - agente humanos
       - agente humanos y tan amable
       - agente iguano
       - Agente Juan
@@ -1071,8 +1018,6 @@ nlu:
       - agente Kidman
       - agente maga
       - agente Man
-      - agente Maná
-      - agente Maná
       - agente mano
       - agente mano, por favor
       - agente manos
@@ -1987,7 +1932,6 @@ nlu:
       - Quiero hablar con un agente Omar
       - quiero hablar con un asesor
       - Quiero ser injusta.
-      - Quiero un agente humano
       - quisiera comunicarme con Argentina
       - Quisiera comunicarme con un agente humano.
       - Quisiera comunicarme con un asesor.
@@ -2008,7 +1952,6 @@ nlu:
       - requiero comunicarme con una gente y manos
       - requiero con una gente mal
       - Requiero que me comuniqué con una gente.
-      - requiero un agente humano
       - requiero un agente mano
       - respiro comunicarme comunicarme con una gente
       - retiró comunicarme con un agente humano
@@ -2039,7 +1982,6 @@ nlu:
       - Sí con acento humana, por favor, para que me expliquen bien, Qué va a hacer.
       - sí con acento mano por favor
       - Sí con acento y mano, por favor
-      - Sí con agente humano
       - Sí con la gente
       - sí con la gente buena por favor
       - sí con la gente humano mejor
@@ -2047,14 +1989,12 @@ nlu:
       - Sí con otra gente por favor humano
       - Sí con un agente en el trabajo
       - Sí con un agente hermano, hágame el favor.
-      - Sí con un agente humano
       - Sí con un agente humano, gracias.
       - Sí con un agente humano, por favor
       - Sí con un asesor humano
       - Sí con un asesor mito comunicarme
       - Sí con un asesor se
       - Si con una con el agente Erika Nieto es la persona que me atiende me para renovar el seguro del carro.
-      - si con una gente
       - si con una gente humana
       - si con una gente mal
       - sí con una gente mala por favor
@@ -2068,7 +2008,6 @@ nlu:
       - Sí cuando la gente humana
       - Sí cuando un agente humano
       - si deseo comunicarme con acento humanos
-      - si deseo comunicarme con la gente humano
       - si deseo comunicarme con un agente humano
       - si deseo comunicarme con un agente humano
       - si deseo comunicarme con una diente humano
@@ -2079,7 +2018,6 @@ nlu:
       - sí hágame el favor y me comunica con una persona
       - si hay gente humana
       - Si la gente humana
-      - Si la gente humano
       - Si me comunica como un agente mano, por favor.
       - Si me dijo ahora y me comuniqué con una gente humana Muchas gracias.
       - Si me puede comunicar con una esté mejor.
@@ -2113,7 +2051,6 @@ nlu:
       - Si por favor comunicarías con un agente humano.
       - si por favor con agente humano porfavor
       - Si por favor con la gente humana.
-      - sí por favor con un agente
       - sí por favor con un agente humano
       - sí por favor con un agente humano gracias
       - Si por favor hablar con un agente humano.
@@ -2123,15 +2060,12 @@ nlu:
       - si por favor me comunicas más bien con un agente humano
       - si por favor para confirmar una póliza comunicarme con una gente humana
       - si por favor que una gente humano
-      - sí por favor una gente
       - Si por favor una gente que que que me pueda colaborar.
       - Si por favor, comunícame con agente humano.
       - Si por favor, comunícame con una gente humanos.
       - Si por favor, Quiero comunicarme con un asesor.
-      - si por favor, un agente humano
       - Si por favor, un agente humano, gracias.
       - Si por favor, un agente humano, por favor, si es tan amable, gracias.
-      - si prefieres comunicarme con un agente humano
       - Si prefiero comunicarme con la gente humana.
       - Si prefiero comunicarme con la gente humano.
       - si prefiero comunicarme con la gente uma
@@ -2176,7 +2110,6 @@ nlu:
       - si un agente humano a lo mejor
       - Si un agente humano comunícame.
       - Si un agente humano está bien.
-      - si un agente humano por favor
       - si un asesor de Tigo
       - si un asesor, por favor
       - si una gente
@@ -2188,8 +2121,6 @@ nlu:
       - si una vez tu mano
       - si unas antimano
       - Sí, agente humano, por favor ti.
-      - Sí, agente humano.
-      - Sí, agente.
       - sí, Argentina
       - Sí, argentino manos.
       - Sí, como una agente Ahumada humano.
@@ -2258,13 +2189,11 @@ nlu:
       - un agente comunicarme con un agente
       - un agente en mano humano
       - un agente hermanos
-      - un agente humano
       - un agente humano agente humano
       - Un agente humano gracias.
       - un agente humano gratis
       - un agente humano necesito
       - un agente humano por fa
-      - un agente humano por favor
       - un agente humano que por favor
       - un agente humano quisiera comunicarme
       - un agente humano un agente humano un agente humano una gente humana
@@ -2279,8 +2208,6 @@ nlu:
       - un ambiente humano, por favor
       - un ángel tu mano un agente humano
       - un anuncio mano
-      - un asesor
-      - un asesor humano
       - un asesor sin alcohol
       - un ejemplo, por favor
       - un humano
@@ -2292,13 +2219,10 @@ nlu:
       - una en tu mano requiero comunicarme con un agente humano
       - una esfera con
       - una genio mano
-      - una gente
       - una gente de mano gracias
       - una gente humana por el bruta
-      - una gente humanos
       - una gente más una gente más
       - una gente más, por favor
-      - una gente, por favor
       - una humana
       - una imagen de humano
       - una IP Man
@@ -2306,7 +2230,6 @@ nlu:
       - una mano
       - una mente humana
       - una mente humana porfa
-      - una persona
       - una vez tu mano, por favor
       - unagi tu mano
       - UNAM en tu mano, por favor
@@ -2366,7 +2289,6 @@ nlu:
       - yo quiero comer muy tarde con el agente
       - Yo quiero comunicarme con el aceite humano
       - Yo quiero comunicarme con el agente humano
-      - yo quiero comunicarme con un agente
       - Yo quiero comunicarme con una gente cubana
       - Yo quiero con una persona.
       - zona en tu mano
@@ -2484,7 +2406,6 @@ nlu:
     - Alguien dumont?
     - alignment
     - Allende
-    - Aló buenas.
     - altomaro
     - animal
     - antibalas
@@ -2521,7 +2442,6 @@ nlu:
     - bacanora
     - baladas un poquito para montarlo ahora
     - batería descargada
-    - buenas
     - Buenas tardes al entre barriga
     - Buenas tardes, Habla con los cacaos Caicedo
     - bueno
@@ -2535,8 +2455,6 @@ nlu:
     - bueno, él es que no iban a tragar ahorita y el carro lo golpearon en la puerta delantera de la parte donde va el chofer y le hicieron unos Rayones
     - bueno, específicamente la la que me coje el seguro si se llama omaira, Herrera
     - Bueno, seguro de RQT.
-    - Buenos días
-    - Buenos días
     - Buenos días Buenos días, señor, que tengo un accidente con mi vehículo me golpearon en la parte de atrás aquí con la vida turbaco.
     - Buenos días es para solicitar el proceso para una desafectación de póliza.
     - buenos días negrita enviar un correo para enviar una solicitud
@@ -2685,7 +2603,6 @@ nlu:
     - Eli por favor
     - Elías Calles
     - Elsa
-    - en
     - En dónde puedes dar la dirección?
     - en el club
     - en la ciudad de cali práctica retención de ica
@@ -2758,7 +2675,6 @@ nlu:
     - hiciste
     - hogar asistencia hogar
     - Hola buenas noches, lo que pasa es que necesitamos.
-    - Hola buenas tardes
     - Hola Mira es que tuve un accidente de tránsito
     - hora en Tijuana
     - hoy prefiero No gracias
@@ -2785,7 +2701,6 @@ nlu:
     - indemnización indemnización
     - indemnizaciones
     - infiltrado
-    - información
     - información de factura
     - información siniestro
     - ingrato
@@ -2894,7 +2809,6 @@ nlu:
     - nano puedo
     - Necesita asistencia.
     - necesitamos
-    - necesito
     - Necesito aclarar una cuestión de cartera.
     - Necesito apoyo de grúa.
     - Necesito apoyo Necesito un abogado en sitio.
@@ -3274,7 +3188,6 @@ nlu:
     - señorita seria tan amable para para solicitar el servicio al cliente para una KTM
     - Señorita, lo que pasa es que tengo una póliza con RQT y y necesito saber la fecha de vencimiento Mi nombre es Jorge Iván Cifuentes olaya.
     - sentémonos
-    - servicio al cliente
     - servicio de cerrajería cambio de claves
     - servicio de chequeo vehicular para viaje
     - servicio de grúa y custodia
@@ -3286,7 +3199,6 @@ nlu:
     - Sí claro, para adquirir el seguiré.
     - sí cómo nos necesito solicitar información acerca
     - Sí con un servicio al cliente
-    - si con una gente
     - si con una persona quiero comunicarme con un agente
     - si conectó mal
     - Sí el carro que chocó tiene RQT
@@ -3308,7 +3220,6 @@ nlu:
     - si te viola
     - si tengo un siniestro para la aseguradora dhl
     - si una en Tijuana por favor
-    - Sí, agente humano.
     - Sí, alma, lo siguiente a ti comer comunicándome con usted para que me envíen el valor de la cuota que yo pago mensualmente el carro que tengo que ir a ensayar con la financiera.
     - Sí, Comunícame con un asesino, hágame el favor.
     - Sí, conoce no, por favor.
@@ -3395,7 +3306,6 @@ nlu:
     - unasur sería tan amable
     - únicamente
     - único malo
-    - uno
     - urgente
     - Uruguay
     - uvita blanco dulce
@@ -3477,14 +3387,12 @@ nlu:
 
 - intent: 3_GETANY_QUOTES
   examples: |
-    - agente humano
     - póliza de seguros
     - póliza de transporte
     - seguro moto
 
 - intent: 3_GETINFO_CERTIFICATION_FALLBACK
   examples: |
-    - agente humano
     - alguien
     - in Texas
     - lunes que sacrificado
@@ -3552,7 +3460,6 @@ nlu:
     - adquirir servicio
     - adquirir un producto
     - afiliar una mascota
-    - agente humano
     - agente humano agente mano argentina no
     - agente humano cartera
     - agente mano
@@ -3565,8 +3472,6 @@ nlu:
     - alaba clarín argentina
     - Alex
     - algún
-    - allo
-    - Aló buenas tardes
     - Aló cartera
     - ana que me oriente sobre la salud de mi familia
     - Ángel tu mano
@@ -3644,12 +3549,9 @@ nlu:
     - carta de no reclamación
     - carta de reclamación
     - cartelera
-    - cartera
     - cartera financiación de póliza
     - carteras
     - cayeron
-    - certificación
-    - certificado de no reclamación
     - choque
     - Cinemex
     - cinépolis altaria
@@ -3659,7 +3561,6 @@ nlu:
     - cobertura
     - cobro de póliza pagada
     - colegio
-    - Cómo
     - Cómo retirar una mascota de la póliza
     - compra
     - compra de polis
@@ -3681,7 +3582,6 @@ nlu:
     - con un agente humano
     - con un agente Manatí
     - Condesa nosotros cruz para una reclamación
-    - conductor elegido
     - confirmación de cuenta
     - confirmación de facturas
     - confirmar conductor elegido
@@ -3692,7 +3592,6 @@ nlu:
     - Conocer detalladamente la policía que te dicen ustedes.
     - conocer el estado del trámite de la solicitud del certificado de no reclamación
     - conocimiento
-    - consulta
     - consulta consulta
     - consulta de beneficios de fincomercio
     - consulta de proceso de indemnización del carro y el 047
@@ -3704,8 +3603,6 @@ nlu:
     - consultas
     - Contract un seguro de RQT
     - convenio
-    - copia de la póliza
-    - copia de póliza
     - coro del robo del auto
     - cotización
     - cotización de polis
@@ -3795,7 +3692,6 @@ nlu:
     - estoy hablando con
     - Estoy haciendo una reclamación de la devolución de un dinero de chequia.
     - Estoy varado y necesito un servicio de grúa.
-    - Estoy varado.
     - explicación de póliza
     - explicación de unos números de pólizas
     - explicarle
@@ -3814,7 +3710,6 @@ nlu:
     - gente humana
     - Gracias mira lo que pasa es que tengo con usted pendiente una autorización para una reputación de un vehículo quedaron de enviarla desde el viernes y no la han enviado todavía al taller Entonces no sé.
     - Gracias política
-    - grúa
     - grúa ejército grúa
     - Habla.
     - Hablar con él.
@@ -3832,7 +3727,6 @@ nlu:
     - helenizacion
     - Hey buenos días fueras tan amable Mi nombre es Marta Hernández necesito averiguar sobre un caso de RQT
     - hijastro
-    - Hola
     - Hola facturación
     - Hola personalmente con el acento humano
     - Hola que me solucionan conformidad que tengo con ustedes
@@ -3849,8 +3743,6 @@ nlu:
     - indemnización de Pérdida total
     - indemnización indemnización indemnización indemnización
     - indemnización interdicción
-    - indemnizaciones
-    - información
     - información de cine
     - información de cines
     - información de indemnizaciones
@@ -3925,7 +3817,6 @@ nlu:
     - M Necesito una gente para hacer una pregunta tengo el carro con ustedes vencido en este momento del seguro pero ya mañana lo tengo activado.
     - mail erradicación
     - maino maya gracias
-    - mami
     - manicure
     - márgenes solución problema
     - Mariana yazbek
@@ -3954,7 +3845,6 @@ nlu:
     - Muchas gracias los servicios Haciendo mis hijos bien. Muchas gracias, que estés muy bien.
     - nación seguro
     - Necesitaría una copia de la póliza que tengo Solamente con ustedes de mi carro.
-    - necesito
     - Necesito aclarar unas dudas acerca de una póliza que me fue.
     - Necesito agregar una una por una póliza un Seguro para auto Nito algunas aclaraciones.
     - necesito algo igual si un vehículo estacionado el día
@@ -4044,7 +3934,6 @@ nlu:
     - Necesito saber el porqué me dijeron de una autorización que no la han hecho todavía y que ya y según ellos ya lo hicieron
     - Necesito saber el vencimiento de mi póliza
     - Necesito saber hasta cuándo qué fecha tengo mi seguro.
-    - Necesito saber qué pasó con mi vehículo
     - Necesito saber si cuento para mantenimiento preventivo para viaje
     - Necesito saber si el carro picanto de plata gj 882 encuentra asegurado
     - Necesito saber si hicieron algún tipo de descuento de las cuotas del seguro en tiempo de pandemia
@@ -4116,7 +4005,6 @@ nlu:
     - orto de mi vehículo
     - otra semana mi carro y no me respondió por la
     - pago de financiación de polis
-    - pago de indemnización
     - pago de la póliza
     - pago de póliza
     - Pagó indemnización.
@@ -4954,7 +4842,6 @@ nlu:
     - Quiero cambiar mi forma de pago.
     - Quiero comunicarme con la persona responsable del área de tecnología
     - Quiero confirmar la activación de dos pólizas todo riesgo de vehículos.
-    - Quiero hablar con un agente humano
     - quiero saber cómo detalladamente la policía de león con ustedes
     - Quiero saber detalladamente los beneficios de la col
     - Quiero saber si yo puedo hacer filiar a mi mascota.
@@ -5036,7 +4923,6 @@ nlu:
     - Señorita, lo que pasa es que tengo pendiente un paso vigente para una póliza todo riesgo.
     - separatidad aclamación de un deducible
     - Será que me resultara resetear unas dudas que tengo
-    - servicio al cliente
     - servicio al cliente de seguro
     - servicio de grúa
     - servicio de grúas
@@ -5130,13 +5016,11 @@ nlu:
     - Tuve un accidente y necesito que me guíen que debo hacer
     - tuvo una colisión de mi vehículo
     - un accidente
-    - un agente humano
     - un animal
     - un carro asegurado al RQTMI seguro
     - un estrellón
     - un incidente de tránsito
     - un siniestro
-    - una
     - una consulta
     - una consulta sobre una grúa
     - una incompatibilidad
@@ -5226,24 +5110,17 @@ nlu:
 
 - intent: 4_CONFIRMATION_YES_REPEAT
   examples: |
-    - allo
     - Aló con quien habló.
     - Aló, aló.
     - Aló, es que no entiendo O sea yo le hablo y usted me escucha.
-    - Aló?
-    - Alone
     - Bueno me pasan a alguien que me pueda atender.
-    - Cómo
     - como que ya
     - como un romano
     - Con quién? Perdón?
     - conquian
     - Gracias, No sé que anoche quebraron un vidrio en la calle 0000000 quebraron hundió y se robaron el marco de la ventana, lo dañaron.
-    - Hola
     - Hola estimado, por favor
-    - Hola hola hola.
     - infonavit como eres tan amable
-    - la canción
     - mérito complicada que una vez
     - mi cuarto que sea pechuga asada
     - mi pregunta es que yo cancele
@@ -5257,10 +5134,7 @@ nlu:
     - perdón
     - Pero tampoco de la unidad porque no tienes ticketera la unidad.
     - por favor, cuando una estimado
-    - Qué?
     - Quién apagó?
-    - salou
-    - salou
     - Si yo no se lo comunicó.
     - asd
     - Ya le dije que no era la gente humana.
@@ -5276,14 +5150,11 @@ nlu:
 
 - intent: 5_CONFIRMATION_YES
   examples: |
-    - agente humano
     - C
     - jessie
     - SEP
     - Sí, señal.
     - Si llegó.
-    - Sí, agente humano.
-    - un agente humano
 
 - intent: 5_GET_REPORTINGTYPE
   examples: |
@@ -5300,8 +5171,6 @@ nlu:
   examples: |
     - agente humano para cartera
     - amiga
-    - asesor
-    - asesor humano
     - asesoría
     - automóvil automóvil
     - Ay
@@ -5344,8 +5213,6 @@ nlu:
     - sin especificación
     - soat el soat también
     - sólo para póliza de vehículo
-    - un agente humano
-    - un agente humano por favor
     - Y otro tema.
 
 - intent: 6_CONFIRMATION_NO
@@ -5365,20 +5232,13 @@ nlu:
 
 - intent: DEFAULT_FALLBACK
   examples: |
-    - agente humano agente humano
-    - agente humano agente humano agente humano
     - agente humano correcto
     - agente humanos y
-    - agente mano
     - agente monte
     - antemano
-    - Argentina
-    - Argentina no
     - asesor
     - asesor un asesor
-    - cartera
     - como sea registrar Argentina
-    - Comunícame con un agente humano
     - comunicarme con un agente
     - comunicarme con un agente humano
     - con un humano
@@ -5388,7 +5248,6 @@ nlu:
     - Dígame ahorita, me hace favor señorita.
     - Face
     - GTA
-    - información
     - keno
     - Necesito comunicarme con un agente humano.
     - necesito comunicarme con un agente más
@@ -5400,9 +5259,7 @@ nlu:
     - Queda cocinaban.
     - secop II
     - Si aún deseo comunicarme con un agente humano.
-    - si deseo comunicarme con la gente humano
     - si necesito comunicarme con un agente humano
-    - Sí, agente humano.
     - Sí, Comunícame con un agente humano.
     - Siri como un humano es tan amable
     - tdcs
