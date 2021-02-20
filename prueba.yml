@@ -587,6 +587,7 @@ nlu:
     - Quiero cancelar el seguro.
     - cancelar seguro
     - cancelar poliza
+    - cancelación de póliza
     
 - intent: 2_CERTIFICATIONS
   examples: |
@@ -986,7 +987,6 @@ nlu:
     - Necesito que me hagas el favor y me comuniqué con un asesor
     - Ninguno de los dos.
     - Ninguno, no.
-    - no
     - No afiliado.
     - no soy soy afiliado RQT
     - No tenemos aceite.
@@ -996,8 +996,6 @@ nlu:
     - No, no, no, no he tenido sexo con con aseguradora RQT.
     - nombre Carlos Andrés Medina balance
     - por aquí
-    - se
-    - señora
     - sí
     - si es un vehículo
     - si te juro con RQT
@@ -2417,7 +2415,6 @@ nlu:
     - Eso me está diciendo otra chica.
     - figuras en tijuana por favor
     - gimnasia en tijuana por favor
-    - Hablar con él.
     - hay en Tijuana
     - imagen Tijuana por favor
     - Izzi
@@ -2456,7 +2453,6 @@ nlu:
     - tengo un problema
     - Tengo un problema de tránsito
     - una iguana
-    - y
 
 - intent: 3_FAQ_A
   examples: |
@@ -2476,8 +2472,6 @@ nlu:
     - A qué huevonada con una maricada?
     - A ver si ya raíz y ya quedó radicado los documentos.
     - accesorios el carro que yo tengo pendiente con la aseguradora
-    - accidente
-    - accidente accidente
     - actiman
     - actualización
     - además
@@ -2560,19 +2554,13 @@ nlu:
     - camas
     - cambiar el correo electrónico
     - Canarios
-    - cancelación de póliza
-    - cancelación de póliza
     - cancelación de seguro todo riesgo
     - Cancelar un servicio.
     - carro varado
-    - cartelera
     - cartera
     - cartera cancelación póliza
     - cartera también
-    - carteras
     - Caso cerrado en la autopista
-    - cayeron
-    - centenera
     - cerca del mar
     - cerrajería cerrajería
     - cex
@@ -2582,13 +2570,10 @@ nlu:
     - Chile
     - chip
     - chips
-    - choque
     - cie
     - cine
     - cine hoy por favor
     - cine siniestro reporte
-    - Cinemex
-    - cinépolis altaria
     - cinetop
     - cinetux
     - circundante
@@ -2622,14 +2607,12 @@ nlu:
     - Compré mi mi seguro contra todo y me dijeron que podía reclamar un kit de carreteras de obsequio.
     - comunica
     - comunica en Tijuana
-    - Comunícame con
     - Comunícame con Ángel kimonos
     - Comunícame con imagen tucumán
     - Comunícame con tu marcador
     - Comunícame con una
     - Comunícame con una persona
     - Comunícame.
-    - comunicarme
     - comunicarme con un ángel humano para reportar el daño de un carro
     - comunicarme de mami tu mami
     - comunicarnos
@@ -2687,7 +2670,6 @@ nlu:
     - ejemplos
     - ejército argentino
     - ejército una reclamación hacer una reclamación de una indemnización
-    - el
     - el clima
     - el cobro del seguro
     - el conejito
@@ -3201,7 +3183,6 @@ nlu:
     - Prefiero comunicarme con un agente humano.
     - Prefiero comunicarme con una gente, por favor.
     - Prefiero comunicarme con una gente.
-    - Prefiero comunicarme.
     - Prefiero comuníquese.
     - prefiero ser una persona
     - prefiero una
@@ -3320,7 +3301,6 @@ nlu:
     - Sí el carro que chocó tiene RQT
     - si es tan amable gracias y
     - Si estoy mal.
-    - Si la gente humana
     - si lo haces
     - si me sirve el Renault 2015
     - si necesita consultar una póliza de con humberto ortiz yo soy anto
@@ -3517,7 +3497,6 @@ nlu:
   examples: |
     - agente humano
     - alguien
-    - el
     - in Texas
     - lunes que sacrificado
     - Outlook
@@ -3608,7 +3587,6 @@ nlu:
     - Apronta le varias cosas de contacto no lo puede solucionar.
     - Argentina
     - Argentina human
-    - Argentina no por favor
     - arte humano
     - artera
     - asesor
@@ -3632,7 +3610,6 @@ nlu:
     - asesoría sobre reclamación de póliza
     - asesorías
     - Así es que me han llamado para como yo tengo la casa asegurada, entonces me arreglaran un daño que tenía en mi contador.
-    - asignación de taller
     - autómata
     - autorización
     - autorización de cartera
@@ -3665,8 +3642,6 @@ nlu:
     - cambio de factura
     - campeonato Italika
     - canales equio de extintor
-    - cancelación de póliza
-    - cancelación póliza
     - cancelación póliza vehículo
     - Cancelar hacer una reclamación
     - Cancelar Hollywood
@@ -3692,7 +3667,6 @@ nlu:
     - cita inspección de motocicleta
     - civilización
     - Claro que sí para consultar sobre mi cirio
-    - clima
     - cobertura
     - cobro de póliza pagada
     - colegio
@@ -3709,10 +3683,7 @@ nlu:
     - comprobar una póliza
     - Comunícame con el agente humano Y le cuento
     - Comunícame con la canción
-    - Comunícame con majito humano
-    - comunicar con un agente
     - comunicar un agente humano
-    - comunicarme con agente humano
     - comunicarme con la gente
     - comunicarme con la gente humana
     - comunicarme con la gente humano
@@ -3844,7 +3815,6 @@ nlu:
     - Explique por qué cancelaron seguro.
     - factura electrónica
     - factura maya
-    - facturación
     - facturas
     - falta de autorización de mantenimiento
     - farmacia
@@ -3977,7 +3947,6 @@ nlu:
     - Me acabo de estrellar.
     - me comunica con un agente humano por favor
     - me comunicas por favor con gente humanos
-    - me comunicas por favor con un agente humano
     - Me comunicas por favor con un agente humano
     - Me dice que sí, que sí, necesito sea que no me entiende Entonces esto.
     - Me enviaron una póliza de seguro contra carro, pero no sé porque van a enviar ya, yo tengo una.
@@ -4133,7 +4102,6 @@ nlu:
     - negociar virgen
     - nesecito sobre la cancelación de una póliza
     - Nito habla personalmente con el agente humano
-    - no
     - No hablé Necesito un agente humano, no una máquina.
     - no hacer bullying
     - No he podido pagar una póliza por el banco.
@@ -4201,13 +4169,11 @@ nlu:
     - para arreglo del carro
     - para asegurar el carro
     - para asesores sobre un accidente
-    - para asesoría
     - para asesoría e información
     - para asesoría sobre un shopping
     - para asignación de taller para revisión de viajero
     - para asignación de una cita en el día de hoy
     - para asistencia en viajes que me brinda mi aseguradora
-    - para atención al cliente
     - para averiguar
     - Para averiguar Cómo puedo adquirir una póliza con ustedes.
     - Para averiguar Cuándo se me vence mi seguro de mi carro.
@@ -5181,7 +5147,6 @@ nlu:
     - trataría sobre la póliza
     - trayectos
     - tú
-    - tu mano
     - tuve Chucky
     - Tuve un accidente
     - Tuve un accidente de tránsito
@@ -5257,8 +5222,6 @@ nlu:
 
 - intent: 4_CONFIRMATION_NO
   examples: |
-    - no
-    - no, no
     - no, no sale Banco de Bogotá
     - No, señora.
     - nononono megacable cheque
@@ -5277,12 +5240,9 @@ nlu:
     - Okay Sí muchas gracias
     - no, señora, es que necesito
     - quiniela
-    - señora
     - Señorita, muchas gracias.
     - Sí
     - si gracias
-    - Sí señora
-    - Sí claro.
     - si correcto
     - Sí señora, no, señora no señora.
     - Sí señora, yo yo creo que está dentro del casco urbano casco urbano no es final ya nosotros Yo estoy en Pereira le estoy hablando de Pereira
@@ -5328,22 +5288,13 @@ nlu:
     - asd
     - Ya le dije que no era la gente humana.
 
-- intent: 5_ANYQUOTES_CONFIRMATIONYES
-  examples: |
-    - Es correcto, es correcto.
-    - correcto
-    - sí
-
 - intent: 5_CERTIFICATION_CONFIRMATIONNO
   examples: |
     - incorrecta
 
 - intent: 5_CERTIFICATION_CONFIRMATIONYES
   examples: |
-    - correcto
-    - Jessie
     - si es mi número de contacto
-    - Sí señora
     - Sí, confirmado
 
 - intent: 5_CONFIRMATION_YES
@@ -5351,17 +5302,12 @@ nlu:
     - agente humano
     - C
     - jessie
-    - Por favor, sí.
     - SEP
-    - se
-    - Sí señora
     - sí
     - Sí, señal.
     - Si llegó.
-    - Si por favor.
     - Sí, agente humano.
     - un agente humano
-    - y
 
 - intent: 5_GET_REPORTINGTYPE
   examples: |
@@ -5439,7 +5385,6 @@ nlu:
 
 - intent: 5_QUOTESCAR_CONFIRMATIONYES
   examples: |
-    - correcto
     - Es correcto.
     - Está bien.
     - sí.
@@ -5464,11 +5409,8 @@ nlu:
 - intent: 8_USERPHONE_CONFIRMATION_YES
   examples: |
     - 10 correctos
-    - correcto
     - perfecto
-    - señora
     - sí
-    - Sí señora
     - Sí, confirmo.
 
 - intent: DEFAULT_FALLBACK
@@ -5479,17 +5421,14 @@ nlu:
     - agente humanos y
     - agente mano
     - agente monte
-    - Ángel humano
     - antemano
     - Argentina
     - Argentina no
     - asesor
     - asesor un asesor
-    - cancelación de póliza
     - cartera
     - como sea registrar Argentina
     - Comunícame con un agente humano
-    - Comunícame.
     - comunicarme con un agente
     - comunicarme con un agente humano
     - con un humano
@@ -5506,7 +5445,6 @@ nlu:
     - necesito comunicarme con una gente mala que sos
     - Necesito hablar con un asesor
     - Necesito hablar con un asesor maquinita desgraciada
-    - no
     - No respondes a mi solicitud.
     - No respondes mi solicitud.
     - Queda cocinaban.
