@@ -592,8 +592,8 @@ nlu:
     - Buenos días Necesito saber si ya solucionaron la placa de un vehículo nuevo
     - Buenos días señorita la mejor persona
     - Buenos días un favor necesito
-    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del 12 12 09 283 a nombre de Francisco
-    - Buenos días, señorita, Mira es para preguntar cómo radicó unos papeles para el seguro de vida, es que pueden incapacidad del 31 de octubre al 21 de noviembre y me dijeron que me comunicara con este número de
+    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del [12 12 09 283](number_id) a nombre de [Francisco](name)
+    - Buenos días, señorita, Mira es para preguntar cómo radicó unos papeles para el seguro de vida, es que pueden incapacidad del [31 de octubre](date) al [21 de noviembre](date) y me dijeron que me comunicara con este número de
     - cancelación de seguro
     - cartel área de cartera
     - Carter
@@ -619,7 +619,7 @@ nlu:
     - En la Ciudad de Cali hacen retención de ica?
     - es para averiguar sobre una incapacidad florida
     - Es que tengo una invitación a reclamar Pero entonces entre las cosas que me solicita me piden un certificado extrajuicio.
-    - estado de mi póliza jjj444
+    - estado de mi póliza [jjj444](pid)
     - estado del cimiento
     - estado del tiempo
     - Estoy en el proceso de hominización
@@ -638,7 +638,7 @@ nlu:
     - Hágame un favor, quisiera conocer el estado de mi póliza.
     - Hayas hecho mal.
     - Hice una solicitud para para un recibo de pago que no me llegó el recibo este mes.
-    - Hola Buenas Cómo está Muchas gracias mi nombre es L y quería saber sobre la indemnización de mi vehículo de placas de xxx222
+    - Hola Buenas Cómo está Muchas gracias mi nombre es [L](name) y quería saber sobre la indemnización de mi vehículo de placas de [xxx222](plate_car)
     - Hola buenas tardes se mueve en Colombia somos una empresa que ofrecemos soluciones de tecnología como controles de acceso sistemas de registro de visitantes para edificios corporativos
     - Hola buenas, hágame el favor y me comunica con un asesor humano.
     - Hola buenos días Mucho gusto con F Me gustaría saber sobre el caso de un vehículo
@@ -671,7 +671,7 @@ nlu:
     - Muy buenos días, como tú me puede regalar una cosita de un certificado de continuidad de mi vehículo o la copia de la póliza porque realmente no la tengo, gracias.
     - Muy buenos días, hágame un favor, lo que pasa es que necesito saber sobre el estado de mi vehículo con RQT seguros para ver en qué en qué va lo que la el concesionario le mando el reporte ya entonces están esperando.
     - Muy buenos días, hágame un favor, necesito saber en qué va el trámite de mi vehículo.
-    - Muy buenos días, señora gentileza ayer Pues todo un siniestro estoy aquí en la clave Barranquilla llamo Consuelo con el pedido 4444
+    - Muy buenos días, señora gentileza ayer Pues todo un siniestro estoy aquí en la clave [Barranquilla](city) llamo [Consuelo](name) con el pedido [4444](pid)
     - Necesito asistencia de me está encendiendo el carro.
     - Necesito comunicarme con agente humano para que me pueda dar soluciones a unos problemas que tengo.
     - Necesito comunicarme con un asesor personal.
@@ -761,7 +761,7 @@ nlu:
     - vigencia de póliza
     - Y puede recortar el un suceso una camioneta?
     - Y también.
-    - Yo tengo un seguro de un vehículo de placas Dora María kilo 132
+    - Yo tengo un seguro de un vehículo de placas [Dora María kilo 132](plate_car)
 
 - intent: 2_INFORMACION
   examples: |
@@ -879,8 +879,7 @@ nlu:
 
 - intent: 2_SINIESTROS_FALLBACK
   examples: |
-    - 1
-    - 304 47 4509
+    - [304 47 4509](cel_number)
     - asesora
     - cárcel
     - de titular
@@ -890,7 +889,7 @@ nlu:
     - fiyi
     - kahlo
     - logo para películas
-    - mazda 6
+    - [mazda 6](model_car)
     - milo
     - Necesito que me hagas el favor y me comuniqué con un asesor
     - Ninguno de los dos.
@@ -902,7 +901,7 @@ nlu:
     - No, no no, no, yo soy el el asegurado.
     - no, no, no soy directamente está la camioneta asegurada con ustedes RQT
     - No, no, no, no he tenido sexo con con aseguradora RQT.
-    - nombre Carlos Andrés Medina balance
+    - nombre [Carlos Andrés Medina balance](name)
     - por aquí
     - si es un vehículo
     - si te juro con RQT
@@ -920,7 +919,7 @@ nlu:
 - intent: 3_AGGRIEVED_THIRD_PARTY
   examples: |
     - Yo soy el conductor del camión de la empresa líquidos Max Pero entonces y yo soy un tercero, sí.
-    - si soy un tercero que tuvo un accidente con la figura Chávez
+    - si soy un tercero que tuvo un accidente con la figura [Chávez](name)
     - tercero
     - un tercero que ha tenido un choque con un asegurado RQT
 
@@ -2213,7 +2212,7 @@ nlu:
     - Sí claro.
     - Sí con acento
     - si conoces kimono
-    - si deseo hablar con Tatiana Bustamante
+    - si deseo hablar con [Tatiana Bustamante](name)
     - Si hacemos gracias.
     - si me lastima no por favor si es tan amable muchas gracias
     - si mejor
@@ -2235,10 +2234,10 @@ nlu:
 
 - intent: 3_FAQ_A
   examples: |
-    - 1 Juan
+    - 1 [Juan](name)
     - 10 Bueno gracias
     - 100 semanas
-    - 16834 9339 que atendemos las 24 horas del día los 7 días de la semana
+    - [16834 9339](cel_number) que atendemos las 24 horas del día los 7 días de la semana
     - 191 hágame el favor
     - 21 años
     - 24 horas del día los 7 días de la semana
@@ -2393,15 +2392,15 @@ nlu:
     - Con unas encima no lo mejor.
     - conjuntiva
     - conlagente y bueno gracias
-    - conocer el teléfono de la oficina de RQT acá en Pereira
+    - conocer el teléfono de la oficina de RQT acá en [Pereira](city)
     - consulta siniestro
     - consultar costo factura seguro RQT
-    - contactar el señor Julio César
+    - contactar el señor [Julio César](name)
     - convergente
     - copa
     - coronación tu mami, por favor
     - coronavirus
-    - correo es 2980 180 arroba hotmail.com
+    - correo es [2980 180 arroba hotmail.com](e_mail)
     - cosas
     - cosas íntimas
     - cotizar todo riesgo
@@ -2443,30 +2442,30 @@ nlu:
     - el conejito
     - el culo de res
     - el gracias
-    - el modelo 2013
+    - el [modelo 2013](model_car)
     - El motivo de mi llamada Es que me llegó una factura que no había autorizado Quiero saber por qué es esa factura.
-    - el número de WhatsApp 316 834 9339 que atendemos las 24 horas del día los 7 días de la semana
-    - El número de WhatsApp 316 834 9339 sí atenderemos las 24 horas del día los 7 días de la semana.
-    - el número de WhatsApp 316 834 9339 te atenderemos las 24 horas del día los 7 días de la semana
+    - el número de WhatsApp [316 834 9339](cel_number) que atendemos las 24 horas del día los 7 días de la semana
+    - El número de WhatsApp [316 834 9339](cel_number) sí atenderemos las 24 horas del día los 7 días de la semana.
+    - el número de WhatsApp [316 834 9339](cel_number) te atenderemos las 24 horas del día los 7 días de la semana
     - el oso llamando desde un seguro propio
     - el pago de una póliza de hogar
     - El Puma
     - el Quiero hablar con un agente humano
     - el seguro del carro
-    - El seguro del carro se me venció en agosto y yo quisiera saber que automáticamente.
+    - El seguro del carro se me venció en [agosto](date) y yo quisiera saber que automáticamente.
     - el tema
     - el trabajo
     - elena responde
     - Eli por favor
-    - Elías Calles
-    - Elsa
+    - [Elías Calles](name)
+    - Elsa Pato
     - En dónde puedes dar la dirección?
     - en el club
-    - en la ciudad de cali práctica retención de ica
+    - en la ciudad de [cali](city) práctica retención de ica
     - En los servicios de hogar.
     - En mi casa, por favor.
     - En qué salón
-    - en tucumán
+    - en [tucumán](city)
     - en una lente
     - encimado
     - encuesta
@@ -2476,12 +2475,12 @@ nlu:
     - es
     - Es de acá de germania, germania, Conjunto armonía.
     - Es el banco sudameris.
-    - Es la información que le envió Sí pues sí, sí llegó el radicado número 69 244.
-    - Es para llevar el carro que está por siniestro de anzoátegui tolima a ibagué en grúa.
+    - Es la información que le envió Sí pues sí, sí llegó el radicado número [69 244](number_doc).
+    - Es para llevar el carro que está por siniestro de [anzoátegui](city) tolima a [ibagué](city) en grúa.
     - Es para reclamar el obsequio por la compra del seguro.
     - Es para reportar el daño a un vehículo.
     - es que necesito
-    - Es que necesito saber si el carro está asegurado de placas G de gato j y 882.
+    - Es que necesito saber si el carro está asegurado de placas [G de gato j y 882](address).
     - es que yo soy para acá en él
     - Es tan amable necesito, por favor, Qué requisitos Necesito enviarle por un tercero afectado.
     - escuchar
@@ -2572,9 +2571,9 @@ nlu:
     - Itam, alguna reclamación de automóvil, en qué taller está el vehículo que hace el sodio tiene si está autorizado?
     - Jajaja
     - Jesus Christ
-    - Joel
-    - Jorge
-    - Karen semana
+    - [Joel](name)
+    - [Jorge](name)
+    - [Karen](name) semana
     - Kiko donas en Tecomán
     - kit de carreteras
     - la
@@ -2604,7 +2603,7 @@ nlu:
     - Lo que pasa es que yo le pago a mi carro una póliza contra todo riesgo en todo bien pequeño accidente de tránsito.
     - Lo que pasa que yo te di
     - lol
-    - Londres 226
+    - [Londres](city) 226
     - los
     - los 7 días de la
     - los carnavales
@@ -2628,8 +2627,8 @@ nlu:
     - más o menos
     - masaje sumado
     - mascota
-    - Mauricio de Jesús Betancourt Álvarez
-    - Maximiliano Sierra
+    - [Mauricio de Jesús Betancourt Álvarez](name)
+    - [Maximiliano Sierra](name)
     - me
     - Me acabo de estrellado.
     - me comunica con una persona Gracias
@@ -2638,7 +2637,7 @@ nlu:
     - me podrías
     - Me puedes confirmar una póliza de un vehículo con placa
     - Me puedes decir, por favor las direcciones de las veterinarias cerca de suba
-    - Me puedes indicar el correo electrónico del señor Julio César Uribe forero
+    - Me puedes indicar el correo electrónico del señor [Julio César Uribe forero](name)
     - Me puedes me puedes comunicar con un agente humano?
     - me regalas el correo para
     - Me repite la dirección, pues por favor.
@@ -2651,7 +2650,7 @@ nlu:
     - mi papá
     - Mi pregunta es con respecto a la interiorización de un daño que me hicieron a mi vehículo.
     - migrañas
-    - Miguel
+    - [Miguel](name)
     - mira
     - Mira lo que pasa es que tuve un accidente y lo estoy reportando.
     - mitómano
@@ -2680,7 +2679,7 @@ nlu:
     - necesito cotizar el seguro para una camioneta Frontier
     - necesito desvarar un vehículo
     - Necesito el número de expediente
-    - Necesito el número de un expediente de una audiencia que tuvo en bello el 2 de diciembre
+    - Necesito el número de un expediente de una audiencia que tuvo en [bello](city) el [2 de diciembre](date)
     - Necesito estado de cuenta sobre accidente para control de cita médica.
     - Necesito hablar con un asesor a para ver cómo va un estudio de una indemnización que presente
     - Necesito hablar sobre una indemnización de un vehículo dañado.
@@ -2708,7 +2707,7 @@ nlu:
     - Necesito saber el defensor del asegurado de RQT
     - Necesito saber el pago del seguro
     - Necesito saber la documentación tengo que autenticar
-    - Necesito saber la fecha del cierre de facturación para el mes de diciembre
+    - Necesito saber la fecha del cierre de facturación para el mes de [diciembre](date)
     - Necesito saber si este mes tengo que pagar mi cuota
     - Necesito saber si una póliza de seguro de automóviles está vigente
     - Necesito saber si ya aprobaron sobre una documentación que se diligenció
@@ -2719,7 +2718,7 @@ nlu:
     - Necesito un aspersor
     - Necesito un auto nuevo
     - Necesito un conductor elegido
-    - Necesito un conductor elegido para la Ciudad de Cali
+    - Necesito un conductor elegido para la Ciudad de [Cali](city)
     - Necesito un correo para enviar una solicitud de información
     - Necesito un servicio de grúa
     - Necesito una agencia humanos
@@ -2806,7 +2805,7 @@ nlu:
     - No, como hago la reclamación Ya tengo los documentos es para que me paguen la los arreglos del vehículo.
     - No, en tu mano.
     - No, es que la necesito al correo que usted me haga el favor y me la envíen al correo.
-    - No, es que necesito que me vuelvan a gestionar la factura de que el banco no la Lee yo tengo la factura, sé que puedo pagar en bancolombia, davivienda giro tanto a bancolombia cómoda vivienda y la factura que me dieron no no reconoce el número.
+    - No, es que necesito que me vuelvan a gestionar la factura de que el banco no la Lee yo tengo la factura, sé que puedo pagar en [bancolombia](bank), [davivienda](bank) giro tanto a [bancolombia](bank) cómoda vivienda y la factura que me dieron no no reconoce el número.
     - No, no daré survio.
     - No, no me podían atender personalmente chica mente, porfa.
     - no, no pude resolver la
@@ -2821,7 +2820,7 @@ nlu:
     - No, porque quiero averiguar sobre otro seguro no es de no es de automóvil. Entonces por eso quiero un agente humano.
     - No, señora es para reportar un siniestro que le pegué a otra mula y le Dale por ahí el conjunto entonces.
     - No, señora no es de que yo no no, no tengo acceso a esa página.
-    - No, señora, hágame el favor Pablo esperas para saber si me pueden pagar la moto Necesito hablar con un asesor mano.
+    - No, señora, hágame el favor [Pablo](name) esperas para saber si me pueden pagar la moto Necesito hablar con un asesor mano.
     - No, señora, necesito atención personalizada.
     - No, señora, no puedo pagar en línea.
     - No, señora, ya envié correo y no me han contestado.
@@ -2837,15 +2836,15 @@ nlu:
     - numerarse
     - número de contacto en cercano
     - número de siniestro
-    - número de WhatsApp 316 824 9339 te atenderemos las 24 horas del día los 7 días de la semana
-    - número de WhatsApp 316 834 9339 sí atendemos las 24 horas del día los 7 días de la semana
+    - número de WhatsApp [316 824 9339](cel_number) te atenderemos las 24 horas del día los 7 días de la semana
+    - número de WhatsApp [316 834 9339](cel_number) sí atendemos las 24 horas del día los 7 días de la semana
     - o
     - o sea
     - objetivo
     - objetivo no
     - organización de mi vehículo
     - oye nada
-    - Oye Siri pero necesito para la carrera 94b número 566 a50
+    - Oye Siri pero necesito para la [carrera 94b número 566 a50](address)
     - ozuna
     - pagar la cuota del seguro
     - página
@@ -2877,8 +2876,8 @@ nlu:
     - Para qué es bueno?
     - Para que me ayude con una política.
     - Para que me den solución de un problema que tengo con un auto.
-    - Para que me haga el favor y me diga En qué estado el proceso 21843.
-    - Para que me haga el favor y me digan En qué estado está el proceso 21843.
+    - Para que me haga el favor y me diga En qué estado el proceso [21843](pid).
+    - Para que me haga el favor y me digan En qué estado está el proceso [21843](pid).
     - Para que mi información sobre la póliza de mi vehículo.
     - para reclamar el botiquín
     - Para renovación de la póliza.
@@ -2951,7 +2950,7 @@ nlu:
     - psicodélica letra
     - psicólogo para solicitarlo
     - publicado
-    - Puedes realizar tus solicitudes a través de nuestro número de WhatsApp 316 834 9339 sí, atenderemos las 24 horas del día los 7 días de la semana.
+    - Puedes realizar tus solicitudes a través de nuestro número de WhatsApp [316 834 9339](cel_number) sí, atenderemos las 24 horas del día los 7 días de la semana.
     - Pues sí es la verdad con la jefa, no, pero no hemos podido hacerlo.
     - Puro dRQT. Ivonne seguro de RQT
     - qué buena
@@ -2993,8 +2992,8 @@ nlu:
     - Quisiera reclamar mi kit de carretera.
     - Quisiera saber cómo hago para la radicación de documentos para la preparación de un vehículo que tuve un choque el día de ayer Quisiera saber cómo hago para solicitar cita en algún taller?
     - Quisiera saber cómo puedo adquirir la póliza
-    - Quisiera saber el valor del seguro todo riesgo para un vehículo ónix modelo 2020
-    - Quitar tu solicitudes a través de nuestro número de WhatsApp 316 834 9339 y atenderemos las 24 horas del día los 7 días de la semana.
+    - Quisiera saber el valor del seguro todo riesgo para un vehículo ónix [modelo 2020](model_car)
+    - Quitar tu solicitudes a través de nuestro número de WhatsApp [316 834 9339](cel_number) y atenderemos las 24 horas del día los 7 días de la semana.
     - quitar un servicio
     - r
     - radicando siniestro
@@ -3012,10 +3011,10 @@ nlu:
     - requiero comunicarme con la gente humano
     - resolver solitamente
     - respuesta de petición
-    - resulta que le hicieron un robo de los dos espejos tengo una camioneta Qashqai 2019
+    - resulta que le hicieron un robo de los dos espejos tengo una camioneta [Qashqai 2019](model_car)
     - retirar un seguro
-    - Ricardo
-    - Ricky Martin
+    - [Ricardo](name)
+    - [Ricky Martin](name)
     - ritual Elena o ingresando al link correspondiente que encontrará la página web
     - Saber si la póliza está vigente.
     - salarios del ISSSTE
@@ -3037,7 +3036,7 @@ nlu:
     - seguro de auto Necesito un asesor humano
     - Seguro todo riesgo.
     - señorita seria tan amable para para solicitar el servicio al cliente para una KTM
-    - Señorita, lo que pasa es que tengo una póliza con RQT y y necesito saber la fecha de vencimiento Mi nombre es Jorge Iván Cifuentes olaya.
+    - Señorita, lo que pasa es que tengo una póliza con RQT y y necesito saber la fecha de vencimiento Mi nombre es [Jorge Iván Cifuentes olaya](name).
     - sentémonos
     - servicio de cerrajería cambio de claves
     - servicio de chequeo vehicular para viaje
@@ -3045,7 +3044,7 @@ nlu:
     - servicio de una bruja
     - servicios
     - sexagesimal
-    - Sí ahorita estoy accidente acá, 3 o 3 kilómetros arriba de manizales estoy en la villa, necesito que vengan los de la aseguradora los abogados de la aseguradora.
+    - Sí ahorita estoy accidente acá, 3 o 3 kilómetros arriba de [manizales](city) estoy en la villa, necesito que vengan los de la aseguradora los abogados de la aseguradora.
     - sí argentina
     - Sí claro, para adquirir el seguiré.
     - sí cómo nos necesito solicitar información acerca
@@ -3056,7 +3055,7 @@ nlu:
     - si es tan amable gracias y
     - Si estoy mal.
     - si lo haces
-    - si me sirve el Renault 2015
+    - si me sirve el [Renault 2015](model_car)
     - si necesita consultar una póliza de con humberto ortiz yo soy anto
     - Si necesito comunicarme con alguien que me escuche.
     - Sí pero cómo hago para solicitar los
@@ -3066,11 +3065,11 @@ nlu:
     - Sí porque es que yo tuve una mucho que Antier un carro y los míos.
     - si prefiero comunicarme con una persona Gracias
     - sí sí me deja comunicación
-    - Sí sí, sí, Carlos inocente.
+    - Sí sí, sí, [Carlos](name) inocente.
     - si son argentinos
     - si te viola
     - si tengo un siniestro para la aseguradora dhl
-    - si una en Tijuana por favor
+    - si una en [Tijuana](city) por favor
     - Sí, alma, lo siguiente a ti comer comunicándome con usted para que me envíen el valor de la cuota que yo pago mensualmente el carro que tengo que ir a ensayar con la financiera.
     - Sí, Comunícame con un asesino, hágame el favor.
     - Sí, conoce no, por favor.
@@ -3090,12 +3089,12 @@ nlu:
     - solicitó información
     - solicitó para un número telefónico de un analista
     - Solicitó vehículo de reemplazo.
-    - solicitudes a través de nuestro número de WhatsApp 316 834 9339 y atenderemos las 24 horas del día los 7 días de la semana
+    - solicitudes a través de nuestro número de WhatsApp [316 834 9339](cel_number) y atenderemos las 24 horas del día los 7 días de la semana
     - sólo una póliza la póliza
     - somos
     - son de los
     - soporte de pago
-    - soy 3a afectada de un accidente que ocurrió el diecinueve de diciembre del 2020
+    - soy 3a afectada de un accidente que ocurrió el [diecinueve de diciembre del 2020](date)
     - Soy el propietario de la póliza.
     - Soy el propietario del vehículo.
     - Stitch
@@ -3158,9 +3157,9 @@ nlu:
     - únicamente
     - único malo
     - urgente
-    - Uruguay
+    - [Uruguay](city)
     - uvita blanco dulce
-    - Valentina
+    - [Valentina](name)
     - validar información
     - validar las fechas de cubrimiento de una póliza contra todo riesgo
     - Valores que yo quiero yo tengo un seguro de vida con ustedes yo quiero preguntar referente a eso.
@@ -3245,11 +3244,11 @@ nlu:
 - intent: 3_GETINFO_CERTIFICATION_FALLBACK
   examples: |
     - alguien
-    - in Texas
+    - in [Texas](city)
     - lunes que sacrificado
     - Outlook
     - Te puedes comunicar con un asesor humano, por favor?
-    - Wilmer norbey canción roomba
+    - [Wilmer norbey](name) canción roomba
 
 - intent: 3_GETINFO_QUOTES
   examples: |
@@ -3426,7 +3425,7 @@ nlu:
     - conocimiento
     - consulta consulta
     - consulta de beneficios de fincomercio
-    - consulta de proceso de indemnización del carro y el 047
+    - consulta de proceso de indemnización del carro [y el 047](plate_car)
     - consulta de siniestro
     - consulta sobre el servicio de chef en casa
     - consulta sobre servicio de empleada
@@ -3462,7 +3461,7 @@ nlu:
     - Dime.
     - Dios mío.
     - dirección donde puedo realizar documentos de correo electrónico
-    - dirección Medellín
+    - dirección [Medellín](city)
     - Directamente con Ángel tu mano, por favor.
     - directamente con un agente humano
     - docum
@@ -3471,7 +3470,7 @@ nlu:
     - ejército averiguar
     - El agente virtual no me des de ayuda.
     - el caso de accidente
-    - el estado de la certificación de no reclamación que realice el 15 de diciembre de este año
+    - el estado de la certificación de no reclamación que realice el [15 de diciembre](date) de este año
     - el mejor servicio
     - el número de un expediente
     - el pago de una indemnización
@@ -3550,9 +3549,9 @@ nlu:
     - hacer una consulta sobre un seguro un seguro a todo riesgo
     - hacer una solicitud de un Auxilio
     - Hay otra vez necesito saber cuándo me hacen el pago de la indemnización.
-    - Hay una fuga en el conjunto en la torre 2 del edificio 202?
+    - Hay una fuga en el conjunto en la [torre 2 del edificio 202](address)?
     - helenizacion
-    - Hey buenos días fueras tan amable Mi nombre es Marta Hernández necesito averiguar sobre un caso de RQT
+    - Hey buenos días fueras tan amable Mi nombre es [Marta Hernández](name) necesito averiguar sobre un caso de RQT
     - hijastro
     - Hola facturación
     - Hola personalmente con el acento humano
@@ -3622,7 +3621,7 @@ nlu:
     - Lo necesito para que me solucione un problema porque no tengo forma de otra manera.
     - Lo necesito para un reclamo.
     - Lo necesito para verificar una información.
-    - Lo que pasa es que de seguro con fincomercio hace 14 meses y me accidenté el 10 de noviembre, me quebré el dorso del pie izquierdo, Yo quiero saber si el seguro me cubre o no y la incapacidad.
+    - Lo que pasa es que de seguro con [fincomercio](bank) hace 14 meses y me accidenté el [10 de noviembre](date), me quebré el dorso del pie izquierdo, Yo quiero saber si el seguro me cubre o no y la incapacidad.
     - Lo que pasa es que estoy pagando seguro con fincomercio de vida y yo me dañó un pie.
     - Lo que pasa es que la aseguradora la compañía por parte de ustedes me respondió que no me podían podían hacerse cargo del accidente porque era por menor cuantía.
     - Lo que pasa es que me estaban atracando y el carro lo rayaron en la puerta delantera, Dónde va el conductor.
@@ -3682,7 +3681,7 @@ nlu:
     - Necesito averiguar sobre un auxilio quedan.
     - Necesito averiguar una vez Cómo está la situación de mi seguro.
     - Necesito cancelar una cuota del seguro todo riesgo.
-    - necesito comunicarme con ángel mamani
+    - necesito comunicarme con [ángel](name) mamani
     - Necesito comunicarme con antimano para hablar personalmente.
     - Necesito comunicarme con cartera.
     - Necesito comunicarme con Movistar me haces el favor.
@@ -3691,7 +3690,7 @@ nlu:
     - Necesito confirmar si ya se consiguió un dinero y la fecha de la consignación.
     - Necesito confirmar una referencia laboral.
     - Necesito conocer el con el el procedimiento para para validar una póliza de seguro por un choque que tuvo un carro que está asegurado con RQT seguros conmigo
-    - Necesito conocer En qué estado está el siniestro que reporte el día 17 de diciembre?
+    - Necesito conocer En qué estado está el siniestro que reporte el día [17 de diciembre](date)?
     - Necesito conocer la cobertura de mi seguro
     - Necesito consultarle porque me Ayer me gustaron unas cosas en la casa y elementos que había comprado.
     - necesito copiar en hipólito
@@ -3713,10 +3712,10 @@ nlu:
     - Necesito información acerca de un seguro que tengo y necesito Claridad haber sido ejercida para el cliente elaborado accidente de tránsito
     - Necesito información acerca de una factura
     - Necesito información de horario para radicar los papeles
-    - Necesito información de la camioneta mks 122
+    - Necesito información de la camioneta [mks 122](plate_car)
     - Necesito información para una reclamación por deducible
     - Necesito información sobre la empleada doméstica
-    - Necesito información sobre la radicación en él en la oficina que tienen en la calle 72
+    - Necesito información sobre la radicación en él en la oficina que tienen en la [calle 72](address)
     - Necesito información sobre la reparación de mi camioneta Quiero saber acerca del proceso en el que va
     - Necesito la expedición de mi póliza
     - Necesito pagar la póliza de seguros, pero no tiene código de barras en lo que le enviaron al correo de mi esposo.
@@ -3753,7 +3752,7 @@ nlu:
     - Necesito saber el vencimiento de mi póliza
     - Necesito saber hasta cuándo qué fecha tengo mi seguro.
     - Necesito saber si cuento para mantenimiento preventivo para viaje
-    - Necesito saber si el carro picanto de plata gj 882 encuentra asegurado
+    - Necesito saber si el carro picanto de plata [gj 882](plate_car) encuentra asegurado
     - Necesito saber si hicieron algún tipo de descuento de las cuotas del seguro en tiempo de pandemia
     - Necesito saber si la póliza de seguro de mi auto está vigente o no
     - Necesito saber si tengo tiroides
@@ -3777,7 +3776,7 @@ nlu:
     - Necesito un vehículo de asistencia
     - Necesito una aclaración sobre un certificado de pago
     - Necesito una asesoría
-    - Necesito una autorización para el arreglo de mi vehículo que ya las fotos Están en la plataforma de RQT y necesito la autorización para el arreglo del panorámico de mi vehículo FM 910
+    - Necesito una autorización para el arreglo de mi vehículo que ya las fotos Están en la plataforma de RQT y necesito la autorización para el arreglo del panorámico de mi vehículo [FM 910](plate_car)
     - Necesito una carta de reclamación
     - Necesito una certificación de no reclamación
     - Necesito una constancia donde diga que yo No utilice mi seguro para que el seguro del otro vehículo cubra con los vales de mi vehículo
@@ -3874,7 +3873,7 @@ nlu:
     - para averiguar información
     - para averiguar la
     - Para averiguar la fecha exacta de una consignación si ya me consignaron.
-    - para averiguar le por una reclamación que ingrese en noviembre
+    - para averiguar le por una reclamación que ingrese en [noviembre](date)
     - para averiguar para una renovación de póliza
     - para averiguar personalmente sobre un seguro
     - Para averiguar por un carro que me van a entregar y no me han dado información.
@@ -4147,7 +4146,7 @@ nlu:
     - Para preguntarle muchas cosas.
     - Para preguntarle por un poco tu cuenta para pagar un seguro.
     - Para preguntarle por una reclamación que ya está ingresada en el sistema.
-    - Para preguntarle si mi cédula elimine número para hoy Oye me atienden en la calle 72.
+    - Para preguntarle si mi cédula elimine número para hoy Oye me atienden en la [calle 72](address).
     - para preguntarle sobre la incapacidad de coby
     - para preguntarle sobre una colisión de un choque
     - Para preguntarle unas cosas porque porque no sé qué es lo que está pasando.
@@ -4234,7 +4233,7 @@ nlu:
     - Para que me explique todo este enredo que hay acá con facturas y notas crédito que no entiendo.
     - Para que me facilite un formulario.
     - Para que me genere una certificación.
-    - Para que me hable sobre la factura que yo pago 1 al 15 y ahora me llega, que debo pagó una hora el 5 de El 5 del mes 1 del 2021.
+    - Para que me hable sobre la factura que yo pago 1 al 15 y ahora me llega, que debo pagó una hora el 5 de El [5 del mes 1 del 2021](date).
     - Para qué me haces?
     - Para que me haga el favor, me asesore sobre un accidente que fuiste ser aceptada.
     - Para que me hagan el favor y me envíen la póliza del seguro.
@@ -4267,7 +4266,7 @@ nlu:
     - Para que me saqué de una inquietud.
     - para que me solucione un problema de una reclamación a terceros
     - Para que me un dato sobre una un taller que me arreglo el vehículo porque no me dan garantías de algo.
-    - Para que me verifiquen que va el proceso de una solicitud que realice el 8 de diciembre.
+    - Para que me verifiquen que va el proceso de una solicitud que realice el [8 de diciembre](date).
     - Para que mi formación sobre el seguro que tengo con por medio sin comercio con h.
     - para que mi información de un siniestro
     - para que mi respuesta de un reclamación planea tercero
@@ -4278,7 +4277,7 @@ nlu:
     - para que no resuelva una inquietud acerca de una reclamación
     - Para que pasa es que tengo una factura atrasada.
     - para que por ventura película ción de la póliza de mi carro
-    - Para que puedan enviar los repuestos del vehículo que desde el 12 de diciembre estado pendiente y no han enviado los repuestos del vehículo de un cimiento.
+    - Para que puedan enviar los repuestos del vehículo que desde el [12 de diciembre](date) estado pendiente y no han enviado los repuestos del vehículo de un cimiento.
     - Para Que responda mi solicitud del día de ayer.
     - para que se comunique con indicaciones
     - Para qué sirve una póliza para una mascota?
@@ -4342,7 +4341,7 @@ nlu:
     - para saber acerca de iniciación de una incapacidad
     - Para saber cómo me pueden responder por los daños de una moto.
     - para saber cómo se se radican los mexicas facilidades
-    - Para saber cómo va el proceso de indemnización del vehículo y el 047.
+    - Para saber cómo va el proceso de indemnización del vehículo [y el 047](plate_car).
     - Para saber cómo va la gestión de mi seguro, gracias.
     - para saber cuando se hace efectivo el pago de un segundo
     - Para saber cuánto debo del seguro contra todo riesgo de mi automóvil.
@@ -4369,7 +4368,7 @@ nlu:
     - Para saber si tengo mi servicio de seguro todo riesgo activo.
     - Para saber si un número de cédula tiene póliza vigente de autos.
     - Para saber si ya está el carro que traían de Bogotá al taller.
-    - Para saber si ya está en el sistema el vehículo de placas D.F 789.
+    - Para saber si ya está en el sistema el vehículo de placas [D.F 789](plate_car).
     - Para saber si ya llegaron unos locos de un carro.
     - para sacar el permiso
     - Para sacar la llave del carro que se quedó cerrado ya cargo de mi seguro que estoy afiliada.
@@ -4461,7 +4460,7 @@ nlu:
     - para un servicio de empleada
     - para un servicio de grúa
     - para un servicio de grúas
-    - Para un siniestro de el carro que está asegurado 041.
+    - Para un siniestro de el carro que está asegurado [041](pid).
     - para un siniestro que tuve acá en chía cundinamarca
     - para un siniestro que tuve para un siniestro que tuya
     - para un siniestro un siniestro
@@ -4535,7 +4534,7 @@ nlu:
     - para verificar la póliza exequial gratis
     - para verificar la renovación
     - Para verificar la vigencia de mi póliza.
-    - para verificar si el carro de placas gj 182 se encuentra asegurado en este momento
+    - para verificar si el carro de placas [gj 182](plate_car) se encuentra asegurado en este momento
     - Para verificar si el vehículo llegó a su destino por medio de asistencia de grúa.
     - Para verificar si estoy asegurado con esa aseguradora si mi carro está asegurado con aseguradora.
     - Para verificar si ya se aprobó.
@@ -4593,7 +4592,7 @@ nlu:
     - por qué necesito consultar una duda que tengo con el seguro todo riesgo del vehiculo
     - por qué tuve un accidente
     - por una indemnización
-    - Porque el día miércoles en la noche Se me la tarde me se me varo el carro en San Gil y no tuve a quien acudir hasta que llegue esta mañana hay que mi plan para que me dieran información, a dónde me puedo comunicar.
+    - Porque el día miércoles en la noche Se me la tarde me se me varo el carro en [San Gil](city) y no tuve a quien acudir hasta que llegue esta mañana hay que mi plan para que me dieran información, a dónde me puedo comunicar.
     - Porque el médico me lo chocaron.
     - Porque en este momentico estoy varado Hace media hora, ya me me quedaron de llamar de la grúa y esta es la hora de que no me ha llamado nadie.
     - Porque es que me está llegando una póliza que yo nunca le he comprado ni no sé, no sé ni porque me está llegando esa polis.
@@ -4725,7 +4724,7 @@ nlu:
     - sale viajar
     - San Gerardo élite
     - sancionar
-    - se pidió una carta del 3 de diciembre y hasta ahora no se ha llegado por parte de RQT
+    - se pidió una carta del [3 de diciembre](date) y hasta ahora no se ha llegado por parte de RQT
     - sección de pagos
     - secreto para que me asesores sobre un seguro
     - seguro de autos
@@ -4800,7 +4799,7 @@ nlu:
     - temas de pago
     - Tenga nizaciones.
     - Tengo el carro accidentado.
-    - Tengo el vehículo de placas y 436.
+    - Tengo el vehículo de placas [y 436](plate_car).
     - Tengo inconformidad con la incapacidad médica.
     - Tengo preguntas sobre un tema de una póliza que adquirí con ustedes.
     - Tengo un cambio polis.
@@ -4898,7 +4897,7 @@ nlu:
 
 - intent: 4_CONFIRMATION_NO
   examples: |
-    - no, no sale Banco de Bogotá
+    - no, no sale [Banco de Bogotá](bank)
     - No, señora.
     - nononono megacable cheque
     - nos
@@ -4933,7 +4932,7 @@ nlu:
     - como un romano
     - Con quién? Perdón?
     - conquian
-    - Gracias, No sé que anoche quebraron un vidrio en la calle 0000000 quebraron hundió y se robaron el marco de la ventana, lo dañaron.
+    - Gracias, No sé que anoche quebraron un vidrio en la [calle 0000000](address) quebraron hundió y se robaron el marco de la ventana, lo dañaron.
     - Hola estimado, por favor
     - infonavit como eres tan amable
     - mérito complicada que una vez
@@ -4957,11 +4956,22 @@ nlu:
 - intent: 5_CERTIFICATION_CONFIRMATIONNO
   examples: |
     - incorrecta
+    - mi numero es privado
+    - no me escuchaste
+    - esta malo
+    - no es asi
+    - No se puede
+    - no señora
+    - no se como hacerlo
 
 - intent: 5_CERTIFICATION_CONFIRMATIONYES
   examples: |
     - si es mi número de contacto
     - Sí, confirmado
+    - efectivamente
+    - asi es
+    - sí señora
+    - correcto
 
 - intent: 5_CONFIRMATION_YES
   examples: |
@@ -4988,7 +4998,7 @@ nlu:
     - amiga
     - automóvil automóvil
     - Ay
-    - Chevrolet 44444
+    - [Chevrolet 44444](model_car)
     - comunicarme con un asesor con un asesor
     - con un agente personal
     - con un asesor personal
@@ -5032,7 +5042,7 @@ nlu:
 - intent: 6_GET_THIRDPARTYNAME_ANY
   examples: |
     - juegos
-    - Mi nombre es O
+    - Mi nombre es [O](name)
     - prueba de voz
 
 - intent: DEFAULT_FALLBACK
