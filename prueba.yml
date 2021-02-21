@@ -2,6 +2,46 @@ version: "2.0"
 
 nlu:
 
+- regex: pid
+  examples: |
+    - \d{5,10}
+
+- regex: cel_number
+  examples: |
+    - [0-9 ]{7,12}
+
+- regex: number_id
+  examples: |
+    - [0-9.]{10,15}
+
+- regex: name
+  examples: |
+    - [A-Za-zÁÉÍÓÚáéíóúñÑ ]+
+
+- regex: address
+  examples: |
+    - [A-Za-zÁÉÍÓÚáéíóúñÑ0-9 ]+
+
+- regex: date
+  examples: |
+    - [A-Za-zñÑ0-9 ]+
+
+- regex: plate_car
+  examples: |
+    - [A-Za-z0-9\-]{6,7}
+
+- regex: city
+  examples: |
+    - [A-Za-zÁÉÍÓÚáéíóúñÑ]+
+
+- regex: bank
+  examples: |
+    - [B-b]anco [A-Za-z]+
+
+- regex: bank
+  examples: |
+    - [A-Za-z]+ [0-9]{4}
+
 - intent: 1_HELLO_REPEAT
   examples: |
     - Aló buenas noches
@@ -559,6 +599,7 @@ nlu:
 
 - intent: 2_CONFIRMATION_NO
   examples: |
+    - No puedo, pero mi cédula es [1904432876](number_id)
     - No más gracias.
     - no, no no no
     - no señoras
@@ -567,6 +608,7 @@ nlu:
 
 - intent: 2_FAQ_B
   examples: |
+    - Por favor me puedes ayudar con mi poliza, mi numero de cédula es [456221436](number_id)
     - Aclarar la manera de pago de mi seguro.
     - asesoría penal
     - atención al cliente personalizada, por favor
@@ -592,7 +634,7 @@ nlu:
     - Buenos días Necesito saber si ya solucionaron la placa de un vehículo nuevo
     - Buenos días señorita la mejor persona
     - Buenos días un favor necesito
-    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del 12 12 09 283 a nombre de [Francisco](name)
+    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del [12 12 09 283](number_id) a nombre de [Francisco](name)
     - Buenos días, señorita, Mira es para preguntar cómo radicó unos papeles para el seguro de vida, es que pueden incapacidad del [31 de octubre](date) al [21 de noviembre](date) y me dijeron que me comunicara con este número de
     - cancelación de seguro
     - cartel área de cartera
@@ -619,7 +661,7 @@ nlu:
     - En la Ciudad de [Cali](city) hacen retención de ica?
     - es para averiguar sobre una incapacidad florida
     - Es que tengo una invitación a reclamar Pero entonces entre las cosas que me solicita me piden un certificado extrajuicio.
-    - estado de mi póliza [jjj444](pid)
+    - estado de mi póliza [12444](pid)
     - estado del cimiento
     - estado del tiempo
     - Estoy en el proceso de hominización
@@ -655,6 +697,7 @@ nlu:
     - la gritona un asesor
     - La muralla y está el correo
     - la nación
+    - Estoy esperando que me respondan con mi poliza con numero de cédula [1123415290](number_id)
     - la tarde amiga No quieres para pedir un servicio de grúa para camión
     - Llamar a D
     - mañana
@@ -889,7 +932,7 @@ nlu:
     - fiyi
     - kahlo
     - logo para películas
-    - [mazda 6](model_car)
+    - [mazda 2010](model_car)
     - milo
     - Necesito que me hagas el favor y me comuniqué con un asesor
     - Ninguno de los dos.
@@ -2475,7 +2518,7 @@ nlu:
     - es
     - Es de acá de germania, germania, Conjunto armonía.
     - Es el banco [sudameris.](bank)
-    - Es la información que le envió Sí pues sí, sí llegó el radicado número [69 244](pid).
+    - Es la información que le envió Sí pues sí, sí llegó el radicado número [69244](pid).
     - Es para llevar el carro que está por siniestro de [anzoátegui](city) tolima a [ibagué](city) en grúa.
     - Es para reclamar el obsequio por la compra del seguro.
     - Es para reportar el daño a un vehículo.
@@ -3756,7 +3799,7 @@ nlu:
     - Necesito saber si hicieron algún tipo de descuento de las cuotas del seguro en tiempo de pandemia
     - Necesito saber si la póliza de seguro de mi auto está vigente o no
     - Necesito saber si tengo tiroides
-    - Necesito saber si un número de cédula tiene una póliza de autos vigente
+    - Necesito saber si el número de cédula [567890230](number_id) tiene una póliza de autos vigente
     - Necesito saber si ya está autorizado la entrega de un vehículo de Pérdida total al asegurado
     - Necesito saber sobre un pago
     - Necesito solicitar documentación legal de RQT y seguros.
@@ -4460,7 +4503,7 @@ nlu:
     - para un servicio de empleada
     - para un servicio de grúa
     - para un servicio de grúas
-    - Para un siniestro de el carro que está asegurado [041](pid).
+    - Para un siniestro de el carro que está asegurado [04100](pid).
     - para un siniestro que tuve acá en chía cundinamarca
     - para un siniestro que tuve para un siniestro que tuya
     - para un siniestro un siniestro
@@ -4998,7 +5041,7 @@ nlu:
     - amiga
     - automóvil automóvil
     - Ay
-    - [Chevrolet 44444](model_car)
+    - [Chevrolet 4444](model_car)
     - comunicarme con un asesor con un asesor
     - con un agente personal
     - con un asesor personal
