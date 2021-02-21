@@ -38,7 +38,7 @@ nlu:
   examples: |
     - [B-b]anco [A-Za-z]+
 
-- regex: bank
+- regex: model_car
   examples: |
     - [A-Za-z]+ [0-9]{4}
 
@@ -764,7 +764,7 @@ nlu:
     - precio Comunícame con en tucumán
     - Prefiero comunicarme con las personas.
     - Prefiero comunicarme con una de tu mano.
-    - Puedo estar ahorita del banco [sudameris?](bank)
+    - Puedo estar ahorita del [banco sudameris](bank)
     - Que alguien me conteste, gracias.
     - quejas
     - Quién tomó los seguros de generali?
@@ -2517,7 +2517,7 @@ nlu:
     - Eres el conductor.
     - es
     - Es de acá de germania, germania, Conjunto armonía.
-    - Es el banco [sudameris.](bank)
+    - Es el banco [banco sudameris](bank)
     - Es la información que le envió Sí pues sí, sí llegó el radicado número [69244](pid).
     - Es para llevar el carro que está por siniestro de [anzoátegui](city) tolima a [ibagué](city) en grúa.
     - Es para reclamar el obsequio por la compra del seguro.
