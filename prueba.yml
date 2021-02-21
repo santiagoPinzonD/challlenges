@@ -592,7 +592,7 @@ nlu:
     - Buenos días Necesito saber si ya solucionaron la placa de un vehículo nuevo
     - Buenos días señorita la mejor persona
     - Buenos días un favor necesito
-    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del [12 12 09 283](number_id) a nombre de [Francisco](name)
+    - buenos días, mira, estoy tratando de cancelar un seguro y no me lo reciben en promedio que le he pagado Pues siempre que es por baloto número de cédula del 12 12 09 283 a nombre de [Francisco](name)
     - Buenos días, señorita, Mira es para preguntar cómo radicó unos papeles para el seguro de vida, es que pueden incapacidad del [31 de octubre](date) al [21 de noviembre](date) y me dijeron que me comunicara con este número de
     - cancelación de seguro
     - cartel área de cartera
@@ -3212,7 +3212,7 @@ nlu:
   examples: |
     - Dólares al día porque no me ha dicho porque el alcohol es la causa que no autorizado.
     - El favor me la puedes repetir?
-    - Hola Pepe cómo lo hago
+    - Hola [Pepe](name) cómo lo hago
     - lo
     - Me puede repetir, por favor la página?
     - Me repite, por favor.
